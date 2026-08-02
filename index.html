@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FlashLingo — İngilizce Öğren">
+  <title>FlashLingo — İngilizce Öğren</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="header-content">
+      <div class="logo">⚡ FlashLingo</div>
+      <nav id="breadcrumb"></nav>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Tema Değiştir">
+        <span class="theme-icon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="app">
+    <!-- Dashboard View -->
+    <section id="dashboard-view" class="view active">
+      <div class="dashboard-header">
+        <h1>Kategoriler</h1>
+        <p class="subtitle">Öğrenmeye başlamak için bir kategori seçin</p>
+        <div id="global-stats" class="global-stats"></div>
+      </div>
+      <div id="category-grid" class="category-grid"></div>
+    </section>
+
+    <!-- Category Detail View -->
+    <section id="category-view" class="view">
+      <button id="back-to-dashboard" class="btn btn-back">← Kategoriler</button>
+      <div class="category-header">
+        <span id="category-icon" class="category-view-icon"></span>
+        <h2 id="category-title"></h2>
+        <p id="category-description"></p>
+      </div>
+      <div id="sets-grid" class="sets-grid"></div>
+    </section>
+
+    <!-- Study View -->
+    <section id="study-view" class="view">
+      <div class="study-header">
+        <button id="back-to-category" class="btn btn-back">← Setler</button>
+        <div class="study-info">
+          <h3 id="study-category-title"></h3>
+          <span id="study-set-title" class="set-badge"></span>
+        </div>
+      </div>
+
+      <!-- Progress Bar -->
+      <div id="progress-bar" class="progress-bar">
+        <div id="progress-fill" class="progress-fill"></div>
+        <span id="progress-text" class="progress-text"></span>
+      </div>
+
+      <!-- Flashcard -->
+      <div id="flashcard-container" class="flashcard-container">
+        <div id="flashcard" class="flashcard">
+          <div class="flashcard-inner">
+            <div class="flashcard-front">
+              <span id="card-type" class="badge"></span>
+              <h2 id="card-expression" class="card-expression"></h2>
+              <p id="card-pronunciation" class="card-pronunciation"></p>
+              <div class="card-example">
+                <span class="example-label">Example</span>
+                <p id="card-example-en"></p>
+              </div>
+              <button id="speak-btn" class="btn btn-icon speak-btn" aria-label="Sesli Oku">🔊</button>
+              <p class="flip-hint">Çevirmek için tıklayın</p>
+            </div>
+            <div class="flashcard-back">
+              <span class="back-label">Türkçe Anlam</span>
+              <h2 id="card-meaning" class="card-meaning"></h2>
+              <div id="card-keyword" class="card-keyword"></div>
+              <div class="card-example">
+                <span class="example-label">Çeviri</span>
+                <p id="card-example-tr"></p>
+              </div>
+              <p class="flip-hint">Geri dönmek için tıklayın</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Control Buttons -->
+      <div class="controls">
+        <button id="prev-btn" class="btn btn-nav">⬅ Önceki</button>
+        <button id="repeat-btn" class="btn btn-danger">🔄 Tekrar Et</button>
+        <button id="learned-btn" class="btn btn-success">✅ Öğrendim</button>
+        <button id="next-btn" class="btn btn-nav">Sonraki ➡</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Completion Modal -->
+  <div id="completion-modal" class="modal">
+    <div class="modal-content glass">
+      <h2>🎉 Tebrikler!</h2>
+      <p id="completion-message"></p>
+      <div id="completion-stats" class="completion-stats"></div>
+      <div class="modal-actions">
+        <button id="modal-retry" class="btn btn-nav">🔄 Tekrar Çalış</button>
+        <button id="modal-next" class="btn btn-success">➡ Sonraki Set</button>
+        <button id="modal-home" class="btn btn-nav">🏠 Ana Sayfa</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confetti Canvas -->
+  <canvas id="confetti-canvas"></canvas>
+</body>
+</html>
