@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="FlashLingo — İngilizce Öğren">
-  <title>FlashLingo — İngilizce Öğren</title>
+  <meta name="description" content="FlashLingo — Chunking ve Shadowing ile Hızlı İngilizce Öğren">
+  <title>FlashLingo — Hızlı İngilizce Öğren (Chunking & Shadowing)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="data.js" defer></script>
   <script src="app.js" defer></script>
@@ -16,7 +16,7 @@
   <!-- Header -->
   <header id="header">
     <div class="header-content">
-      <div class="logo">⚡ FlashLingo</div>
+      <div class="logo">⚡ FlashLingo <span class="method-badge">Chunking Method</span></div>
       <nav id="breadcrumb"></nav>
       <button id="theme-toggle" class="theme-toggle" aria-label="Tema Değiştir">
         <span class="theme-icon">🌙</span>
@@ -28,8 +28,11 @@
     <!-- Dashboard View -->
     <section id="dashboard-view" class="view active">
       <div class="dashboard-header">
-        <h1>Kategoriler</h1>
-        <p class="subtitle">Öğrenmeye başlamak için bir kategori seçin</p>
+        <h1>Hızlı İngilizce Öğrenme Paneli</h1>
+        <p class="subtitle">550 Kalıp (Chunking) & 55 Set (10'ar Kartlık Yapı)</p>
+        <div class="pedagogy-banner">
+          🚀 <strong>Bilimsel Metot:</strong> Kelimeleri tek tek ezberlemek yerine <em>Chunking (Kalıplaştırma)</em> ve <em>Shadowing (Gölge Konuşması)</em> yaparak dili aktif öğrenin!
+        </div>
         <div id="global-stats" class="global-stats"></div>
       </div>
       <div id="category-grid" class="category-grid"></div>
@@ -62,6 +65,11 @@
         <span id="progress-text" class="progress-text"></span>
       </div>
 
+      <!-- Shadowing Tip -->
+      <div class="shadowing-tip">
+        🔊 <strong>Gölge Tekrar (Shadowing):</strong> Hoparlör ikonuna basıp kelimeyi/cümleyi dinleyin ve arkasından hemen yüksek sesle taklit edin!
+      </div>
+
       <!-- Flashcard -->
       <div id="flashcard-container" class="flashcard-container">
         <div id="flashcard" class="flashcard">
@@ -71,10 +79,10 @@
               <h2 id="card-expression" class="card-expression"></h2>
               <p id="card-pronunciation" class="card-pronunciation"></p>
               <div class="card-example">
-                <span class="example-label">Example</span>
+                <span class="example-label">Örnek Cümle</span>
                 <p id="card-example-en"></p>
               </div>
-              <button id="speak-btn" class="btn btn-icon speak-btn" aria-label="Sesli Oku">🔊</button>
+              <button id="speak-btn" class="btn btn-icon speak-btn" aria-label="Sesli Oku & Shadowing">🔊</button>
               <p class="flip-hint">Çevirmek için tıklayın</p>
             </div>
             <div class="flashcard-back">
