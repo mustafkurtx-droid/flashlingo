@@ -24,6 +24,38 @@ const CATEGORIES = [
     "description": "Liderlik, kriz müdahalesi, yönetim ve stratejik karar kalıpları"
   },
   {
+    "id": "budget_ops",
+    "name": "Bütçe, Operasyon & Proje Kontrolü",
+    "icon": "📉",
+    "totalItems": 50,
+    "totalSets": 5,
+    "description": "Bütçe yönetimi, operasyonel verimlilik, maliyet ve proje takibi kalıpları"
+  },
+  {
+    "id": "crisis_mgmt",
+    "name": "Kriz Çözümü & Problem Yönetimi",
+    "icon": "🛠️",
+    "totalItems": 50,
+    "totalSets": 5,
+    "description": "Acil durum aksiyonları, kriz müdahalesi ve kök neden analiz kalıpları"
+  },
+  {
+    "id": "innovation",
+    "name": "Gelecek Vizyonu & İnovasyon",
+    "icon": "🚀",
+    "totalItems": 50,
+    "totalSets": 5,
+    "description": "Stratejik büyüme, pazar inovasyonu, vizyoner dönüşüm ve ölçekleme kalıpları"
+  },
+  {
+    "id": "global_biz",
+    "name": "Küresel İş Dünyası & Dünya Politikası",
+    "icon": "🌍",
+    "totalItems": 50,
+    "totalSets": 5,
+    "description": "Uluslararası ticaret, jeopolitik analiz, küresel ekonomi ve diplomasi kalıpları"
+  },
+  {
     "id": "psychology",
     "name": "Psikoloji & Sosyal Dinamikler",
     "icon": "🧠",
@@ -75,8 +107,8 @@ const CATEGORIES = [
     "id": "analytical",
     "name": "Analitik & Temel Çıkarım",
     "icon": "📊",
-    "totalItems": 30,
-    "totalSets": 3,
+    "totalItems": 50,
+    "totalSets": 5,
     "description": "Fikir belirtme, tartışma ve temel mantıksal bağlantı kalıpları"
   }
 ];
@@ -4284,1206 +4316,3606 @@ const FLASHCARD_DATA = [
   },
   {
     "id": 351,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 1,
-    "target_expression": "Social dynamics",
-    "key_word": "Dynamics (Dinamikler)",
+    "target_expression": "Cost overrun",
+    "key_word": "Overrun (Aşım)",
     "type": "chunk",
-    "pronunciation": "/ˈsəʊ.ʃəl daɪˈnæm.ɪks/",
-    "turkish_meaning": "Sosyal dinamikler",
-    "example_en": "Understanding social dynamics helps in group teamwork.",
-    "example_tr": "Sosyal dinamikleri anlamak grup takım çalışmasında yardımcı olur."
+    "pronunciation": "/kɒst ˈəʊ.və.rʌn/",
+    "turkish_meaning": "Bütçe aşımı / Maliyet artışı",
+    "example_en": "We must prevent cost overrun on this project.",
+    "example_tr": "Bu projede bütçe aşımını önlemeliyiz."
   },
   {
     "id": 352,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 1,
-    "target_expression": "Emotional intelligence",
-    "key_word": "Intelligence (Zeka)",
+    "target_expression": "Under budget",
+    "key_word": "Budget (Bütçe)",
     "type": "chunk",
-    "pronunciation": "/ɪˈməʊ.ʃən.əl ɪnˈtel.ɪ.dʒəns/",
-    "turkish_meaning": "Duygusal zeka",
-    "example_en": "High emotional intelligence is key for great leadership.",
-    "example_tr": "Yüksek duygusal zeka harika bir liderlik için anahtardır."
+    "pronunciation": "/ˈʌn.dər ˈbʌdʒ.ɪt/",
+    "turkish_meaning": "Bütçenin altında",
+    "example_en": "The project was completed under budget.",
+    "example_tr": "Proje bütçenin altında tamamlandı."
   },
   {
     "id": 353,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 1,
-    "target_expression": "Build rapport",
-    "key_word": "Rapport (Güven bağı)",
+    "target_expression": "Over budget",
+    "key_word": "Budget (Bütçe)",
     "type": "chunk",
-    "pronunciation": "/bɪld ræˈpɔːr/",
-    "turkish_meaning": "Sıcak ilişki / Güven bağı kurmak",
-    "example_en": "Sales professionals aim to build rapport quickly.",
-    "example_tr": "Satış profesyonelleri hızlıca güven bağı kurmayı hedefler."
+    "pronunciation": "/ˈəʊ.vər ˈbʌdʒ.ɪt/",
+    "turkish_meaning": "Bütçenin üzerinde",
+    "example_en": "Unexpected expenses caused us to go over budget.",
+    "example_tr": "Beklenmeyen giderler bütçeyi aşmamıza sebep oldu."
   },
   {
     "id": 354,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 1,
-    "target_expression": "Peer pressure",
-    "key_word": "Pressure (Baskı)",
+    "target_expression": "Financial projection",
+    "key_word": "Projection (Tahmin)",
     "type": "chunk",
-    "pronunciation": "/pɪər ˈpreʃ.ər/",
-    "turkish_meaning": "Akran baskısı",
-    "example_en": "Teenagers often experience strong peer pressure.",
-    "example_tr": "Gençler sıklıkla güçlü akran baskısı yaşarlar."
+    "pronunciation": "/faɪˈnæn.ʃəl prəˈdʒek.ʃən/",
+    "turkish_meaning": "Finansal projeksiyon",
+    "example_en": "The Q4 financial projection shows 15% growth.",
+    "example_tr": "4. çeyrek finansal projeksiyonu %15 büyüme gösteriyor."
   },
   {
     "id": 355,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 1,
-    "target_expression": "Set boundaries",
-    "key_word": "Boundaries (Sınırlar)",
+    "target_expression": "Revenue stream",
+    "key_word": "Revenue (Gelir)",
     "type": "chunk",
-    "pronunciation": "/set ˈbaʊn.dər.iz/",
-    "turkish_meaning": "Sınırlar koymak",
-    "example_en": "It is healthy to set personal boundaries at work.",
-    "example_tr": "İşte kişisel sınırlar koymak sağlıklıdır."
+    "pronunciation": "/ˈrev.ən.juː striːm/",
+    "turkish_meaning": "Gelir akışı",
+    "example_en": "SaaS subscriptions created a steady revenue stream.",
+    "example_tr": "SaaS abonelikleri düzenli bir gelir akışı yarattı."
   },
   {
     "id": 356,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 1,
-    "target_expression": "Emotional support",
-    "key_word": "Support (Destek)",
+    "target_expression": "Operating expenses (OpEx)",
+    "key_word": "OpEx (Giderler)",
     "type": "chunk",
-    "pronunciation": "/ɪˈməʊ.ʃən.əl səˈpɔːt/",
-    "turkish_meaning": "Duygusal destek",
-    "example_en": "Friends provide crucial emotional support in tough times.",
-    "example_tr": "Arkadaş zor zamanlarda kritik duygusal destek sağlar."
+    "pronunciation": "/ˈɒp.ər.eɪ.tɪŋ ɪkˈspen.sɪz/",
+    "turkish_meaning": "Operasyonel giderler",
+    "example_en": "Reducing operating expenses improves profit margin.",
+    "example_tr": "Operasyonel giderleri azaltmak kar marjını artırır."
   },
   {
     "id": 357,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 1,
-    "target_expression": "Sense of belonging",
-    "key_word": "Belonging (Aidiyet)",
+    "target_expression": "Capital expenditures (CapEx)",
+    "key_word": "CapEx (Yatırım)",
     "type": "chunk",
-    "pronunciation": "/sens ɒv bɪˈlɒŋ.ɪŋ/",
-    "turkish_meaning": "Aidiyet duygusu",
-    "example_en": "A strong community creates a sense of belonging.",
-    "example_tr": "Güçlü bir topluluk aidiyet duygusu yaratır."
+    "pronunciation": "/ˈkæp.ɪ.təl ɪkˈspen.dɪ.tʃəz/",
+    "turkish_meaning": "Sermaye / Yatırım harcamaları",
+    "example_en": "CapEx includes buying new machinery.",
+    "example_tr": "CapEx yeni makine satın almayı kapsar."
   },
   {
     "id": 358,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 1,
-    "target_expression": "Social anxiety",
-    "key_word": "Anxiety (Kaygı/Anksiyete)",
+    "target_expression": "Cost-efficiency",
+    "key_word": "Efficiency (Verimlilik)",
     "type": "chunk",
-    "pronunciation": "/ˈsəʊ.ʃəl æŋˈzaɪ.ə.ti/",
-    "turkish_meaning": "Sosyal anksiyete / Kaygı",
-    "example_en": "Public speaking can trigger social anxiety.",
-    "example_tr": "Topluluk önünde konuşmak sosyal kaygıyı tetikleyebilir."
+    "pronunciation": "/kɒst ɪˈfɪʃ.ən.si/",
+    "turkish_meaning": "Maliyet verimliliği",
+    "example_en": "Automation boosts overall cost-efficiency.",
+    "example_tr": "Otomasyon genel maliyet verimliliğini artırır."
   },
   {
     "id": 359,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 1,
-    "target_expression": "Personal space",
-    "key_word": "Space (Alan)",
+    "target_expression": "Financial audit",
+    "key_word": "Audit (Denetim)",
     "type": "chunk",
-    "pronunciation": "/ˈpɜː.sən.əl speɪs/",
-    "turkish_meaning": "Kişisel alan",
-    "example_en": "Respecting someone's personal space is polite.",
-    "example_tr": "Birinin kişisel alanına saygı duymak nazikçedir."
+    "pronunciation": "/faɪˈnæn.ʃəl ˈɔː.dɪt/",
+    "turkish_meaning": "Finansal denetim",
+    "example_en": "The company passed its annual financial audit.",
+    "example_tr": "Şirket yıllık finansal denetimden geçti."
   },
   {
     "id": 360,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 1,
-    "target_expression": "Active listening",
-    "key_word": "Listening (Dinleme)",
+    "target_expression": "Fiscal year",
+    "key_word": "Fiscal (Mali)",
     "type": "chunk",
-    "pronunciation": "/ˈæk.tɪv ˈlɪs.ən.ɪŋ/",
-    "turkish_meaning": "Etkin / Aktif dinleme",
-    "example_en": "Active listening improves relationships and trust.",
-    "example_tr": "Etkin dinleme ilişkileri ve güveni geliştirir."
+    "pronunciation": "/ˈfɪs.kəl jɪər/",
+    "turkish_meaning": "Mali yıl",
+    "example_en": "Our fiscal year ends in December.",
+    "example_tr": "Mali yılımız Aralık ayında sona erer."
   },
   {
     "id": 361,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 2,
-    "target_expression": "Non-verbal communication",
-    "key_word": "Communication (İletişim)",
+    "target_expression": "Profit margin expansion",
+    "key_word": "Margin (Marj)",
     "type": "chunk",
-    "pronunciation": "/nɒn ˈvɜː.bəl kəˌmjuː.nɪˈkeɪ.ʃən/",
-    "turkish_meaning": "Sözsüz iletişim / Beden dili",
-    "example_en": "Non-verbal communication conveys strong emotions.",
-    "example_tr": "Sözsüz iletişim güçlü duyguları aktarır."
+    "pronunciation": "/ˈprɒf.ɪt ˈmɑː.dʒɪn ɪkˈspæn.ʃən/",
+    "turkish_meaning": "Kâr marjının büyümesi",
+    "example_en": "New pricing led to profit margin expansion.",
+    "example_tr": "Yeni fiyatlandırma kâr marjının büyümesini sağladı."
   },
   {
     "id": 362,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 2,
-    "target_expression": "Conflict resolution",
-    "key_word": "Resolution (Çözüm)",
+    "target_expression": "Resource management",
+    "key_word": "Resource (Kaynak)",
     "type": "chunk",
-    "pronunciation": "/ˈkɒn.flɪkt ˌrez.əˈluː.ʃən/",
-    "turkish_meaning": "Çatışma çözümü",
-    "example_en": "Constructive feedback aids in conflict resolution.",
-    "example_tr": "Yapıcı geri bildirim çatışma çözümüne yardımcı olur."
+    "pronunciation": "/rɪˈzɔːs ˈmæn.ɪdʒ.mənt/",
+    "turkish_meaning": "Kaynak yönetimi",
+    "example_en": "Proper resource management prevents burnout.",
+    "example_tr": "Doğru kaynak yönetimi tükenmişliği önler."
   },
   {
     "id": 363,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 2,
-    "target_expression": "Empathy gap",
-    "key_word": "Gap (Eksiklik/Kopukluk)",
+    "target_expression": "Operational bottleneck",
+    "key_word": "Bottleneck (Darboğaz)",
     "type": "chunk",
-    "pronunciation": "/ˈem.pə.θi ɡæp/",
-    "turkish_meaning": "Empati eksikliği / Kopukluğu",
-    "example_en": "An empathy gap can lead to misunderstandings.",
-    "example_tr": "Empati eksikliği yanlış anlaşılmalara yol açabilir."
+    "pronunciation": "/ˌɒp.ərˈeɪ.ʃən.əl ˈbɒt.əl.nek/",
+    "turkish_meaning": "Operasyonel darboğaz",
+    "example_en": "Identify and resolve the operational bottleneck.",
+    "example_tr": "Operasyonel darboğazı tespit edin ve çözün."
   },
   {
     "id": 364,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 2,
-    "target_expression": "Social stigma",
-    "key_word": "Stigma (Damgalama)",
+    "target_expression": "Capacity planning",
+    "key_word": "Capacity (Kapasite)",
     "type": "chunk",
-    "pronunciation": "/ˈsəʊ.ʃəl ˈstɪɡ.mə/",
-    "turkish_meaning": "Toplumsal damgalama / Önyargı",
-    "example_en": "Campaigns aim to reduce social stigma around therapy.",
-    "example_tr": "Kampanyalar terapi etrafındaki toplumsal damgalamayı azaltmayı hedefler."
+    "pronunciation": "/kəˈpæs.ə.ti ˈplæn.ɪŋ/",
+    "turkish_meaning": "Kapasite planlaması",
+    "example_en": "Capacity planning handles high user volume.",
+    "example_tr": "Kapasite planlaması yüksek kullanıcı hacmini yönetir."
   },
   {
     "id": 365,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 2,
-    "target_expression": "Moral support",
-    "key_word": "Moral (Moral)",
+    "target_expression": "Inventory control",
+    "key_word": "Inventory (Stok)",
     "type": "chunk",
-    "pronunciation": "/ˈmɒr.əl səˈpɔːt/",
-    "turkish_meaning": "Moral desteği",
-    "example_en": "Her family gave her moral support during exams.",
-    "example_tr": "Sınavlar sırasında ailesi ona moral desteği verdi."
+    "pronunciation": "/ˈɪn.vən.trɪ kənˈtrəʊl/",
+    "turkish_meaning": "Stok kontrolü",
+    "example_en": "Inventory control reduces holding costs.",
+    "example_tr": "Stok kontrolü elde tutma maliyetlerini azaltır."
   },
   {
     "id": 366,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 2,
-    "target_expression": "Toxic behavior",
-    "key_word": "Toxic (Zararlı/Toksik)",
+    "target_expression": "Vendor management",
+    "key_word": "Vendor (Tedarikçi)",
     "type": "chunk",
-    "pronunciation": "/ˈtɒk.sɪk bɪˈheɪ.vjər/",
-    "turkish_meaning": "Toksik / Zararlı davranış",
-    "example_en": "Address toxic behavior in the team immediately.",
-    "example_tr": "Ekipteki zararlı davranışı derhal ele alın."
+    "pronunciation": "/ˈven.dər ˈmæn.ɪdʒ.mənt/",
+    "turkish_meaning": "Tedarikçi yönetimi",
+    "example_en": "Effective vendor management ensures quality.",
+    "example_tr": "Etkili tedarikçi yönetimi kaliteyi garanti eder."
   },
   {
     "id": 367,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 2,
-    "target_expression": "Self-esteem",
-    "key_word": "Self-esteem (Özsaygı)",
+    "target_expression": "Service level agreement (SLA)",
+    "key_word": "SLA (Sözleşme)",
     "type": "chunk",
-    "pronunciation": "/ˌself.ɪˈstiːm/",
-    "turkish_meaning": "Özsaygı",
-    "example_en": "Positive encouragement boosts self-esteem.",
-    "example_tr": "Olumlu teşvik özsaygıyı artırır."
+    "pronunciation": "/ˈsɜː.vɪs ˈlev.əl əˈɡriː.mənt/",
+    "turkish_meaning": "Hizmet seviyesi sözleşmesi (SLA)",
+    "example_en": "The SLA guarantees 99.9% uptime.",
+    "example_tr": "SLA %99.9 çalışma süresi garantisi verir."
   },
   {
     "id": 368,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 2,
-    "target_expression": "Self-awareness",
-    "key_word": "Awareness (Özfarkındalık)",
+    "target_expression": "Performance tracking",
+    "key_word": "Performance (Performans)",
     "type": "chunk",
-    "pronunciation": "/ˌself.əˈweə.nəs/",
-    "turkish_meaning": "Özfarkındalık",
-    "example_en": "Self-awareness is the first step to self-improvement.",
-    "example_tr": "Özfarkındalık kişisel gelişimin ilk adımıdır."
+    "pronunciation": "/pəˈfɔː.məns ˈtræk.ɪŋ/",
+    "turkish_meaning": "Performans takibi",
+    "example_en": "Real-time dashboards allow performance tracking.",
+    "example_tr": "Gerçek zamanlı paneller performans takibi sağlar."
   },
   {
     "id": 369,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 2,
-    "target_expression": "Defensive attitude",
-    "key_word": "Defensive (Savunmacı)",
+    "target_expression": "Quality control",
+    "key_word": "Quality (Kalite)",
     "type": "chunk",
-    "pronunciation": "/dɪˈfen.sɪv ˈæt.ɪ.tʃuːd/",
-    "turkish_meaning": "Savunmacı tutum",
-    "example_en": "Try to avoid a defensive attitude when criticized.",
-    "example_tr": "Eleştirildiğinizde savunmacı bir tutumdan kaçınmaya çalışın."
+    "pronunciation": "/ˈkwɒl.ə.ti kənˈtrəʊl/",
+    "turkish_meaning": "Kalite kontrol",
+    "example_en": "Quality control rejects defective products.",
+    "example_tr": "Kalite kontrol kusurlu ürünleri reddeder."
   },
   {
     "id": 370,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 2,
-    "target_expression": "Group dynamics",
-    "key_word": "Group (Grup)",
+    "target_expression": "Supply chain disruption",
+    "key_word": "Supply chain (Tedarik)",
     "type": "chunk",
-    "pronunciation": "/ɡruːp daɪˈnæm.ɪks/",
-    "turkish_meaning": "Grup dinamikleri",
-    "example_en": "Good group dynamics enhance creative productivity.",
-    "example_tr": "İyi grup dinamikleri yaratıcı verimliliği artırır."
+    "pronunciation": "/səˈplaɪ tʃeɪn dɪsˈrʌp.ʃən/",
+    "turkish_meaning": "Tedarik zinciri aksaması",
+    "example_en": "Geopolitical events caused supply chain disruption.",
+    "example_tr": "Jeopolitik olaylar tedarik zinciri aksamasına yol açtı."
   },
   {
     "id": 371,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 3,
-    "target_expression": "Mutual understanding",
-    "key_word": "Understanding (Anlayış)",
+    "target_expression": "Asset allocation",
+    "key_word": "Asset (Varlık)",
     "type": "chunk",
-    "pronunciation": "/ˈmjuː.tʃu.əl ˌʌn.dəˈstæn.dɪŋ/",
-    "turkish_meaning": "Karşılıklı anlayış",
-    "example_en": "Diplomacy relies on mutual understanding.",
-    "example_tr": "Diplomasi karşılıklı anlayışa dayanır."
+    "pronunciation": "/ˈæs.et æl.əˈkeɪ.ʃən/",
+    "turkish_meaning": "Varlık dağılımı / Tahsisi",
+    "example_en": "Diversified asset allocation minimizes market risk.",
+    "example_tr": "Çeşitlendirilmiş varlık dağılımı piyasa riskini en aza indirir."
   },
   {
     "id": 372,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 3,
-    "target_expression": "Cultural nuances",
-    "key_word": "Nuances (Nüanslar)",
+    "target_expression": "Cash flow projection",
+    "key_word": "Cash flow (Nakit akışı)",
     "type": "chunk",
-    "pronunciation": "/ˈkʌl.tʃər.əl njuːˈɑːn.sɪz/",
-    "turkish_meaning": "Kültürel nüanslar",
-    "example_en": "Pay attention to cultural nuances when traveling.",
-    "example_tr": "Seyahat ederken kültürel nüanslara dikkat edin."
+    "pronunciation": "/kæʃ fləʊ prəˈdʒek.ʃən/",
+    "turkish_meaning": "Nakit akış tahmini",
+    "example_en": "Review the monthly cash flow projection.",
+    "example_tr": "Aylık nakit akış tahminini inceleyin."
   },
   {
     "id": 373,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 3,
-    "target_expression": "Unconscious bias",
-    "key_word": "Bias (Önyargı)",
+    "target_expression": "Break-even analysis",
+    "key_word": "Break-even (Başa baş)",
     "type": "chunk",
-    "pronunciation": "/ʌnˈkɒn.ʃəs ˈbaɪ.əs/",
-    "turkish_meaning": "Bilinçaltı / Örtük önyargı",
-    "example_en": "Training helps overcome unconscious bias.",
-    "example_tr": "Eğitim örtük önyargının üstesinden gelmeye yardımcı olur."
+    "pronunciation": "/breɪk ˈiː.vən əˈnæl.ə.sɪs/",
+    "turkish_meaning": "Başa baş noktası analizi",
+    "example_en": "The break-even analysis guides product pricing.",
+    "example_tr": "Başa baş noktası analizi ürün fiyatlandırmasına rehberlik eder."
   },
   {
     "id": 374,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 3,
-    "target_expression": "Body language",
-    "key_word": "Language (Dil/Beden)",
+    "target_expression": "Return on equity (ROE)",
+    "key_word": "ROE (Özkaynak getirisi)",
     "type": "chunk",
-    "pronunciation": "/ˈbɒd.i ˈlæŋ.ɡwɪdʒ/",
-    "turkish_meaning": "Beden dili",
-    "example_en": "Confident body language leaves a positive impression.",
-    "example_tr": "Özgüvenli beden dili olumlu bir izlenim bırakır."
+    "pronunciation": "/rɪˈtɜːn ɒn ˈek.wɪ.ti/",
+    "turkish_meaning": "Özkaynak kârlılığı / Getirisi",
+    "example_en": "Investors look for a high return on equity.",
+    "example_tr": "Yatırımcılar yüksek bir özkaynak getirisi ararlar."
   },
   {
     "id": 375,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 3,
-    "target_expression": "Emotional triggers",
-    "key_word": "Triggers (Tetikleyiciler)",
+    "target_expression": "Value chain",
+    "key_word": "Value (Değer)",
     "type": "chunk",
-    "pronunciation": "/ɪˈməʊ.ʃən.əl ˈtrɪɡ.əz/",
-    "turkish_meaning": "Duygusal tetikleyiciler",
-    "example_en": "Recognizing your emotional triggers builds patience.",
-    "example_tr": "Duygusal tetikleyicilerinizi fark etmek sabrı artırır."
+    "pronunciation": "/ˈvæl.juː tʃeɪn/",
+    "turkish_meaning": "Değer zinciri",
+    "example_en": "Optimize each stage of the value chain.",
+    "example_tr": "Değer zincirinin her aşamasını optimize edin."
   },
   {
     "id": 376,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 3,
-    "target_expression": "Coping mechanism",
-    "key_word": "Coping (Başa çıkma)",
+    "target_expression": "Operational risk",
+    "key_word": "Risk (Operasyonel)",
     "type": "chunk",
-    "pronunciation": "/ˈkəʊ.pɪŋ ˈmek.ə.nɪz.əm/",
-    "turkish_meaning": "Başa çıkma mekanizması",
-    "example_en": "Exercise is a healthy coping mechanism for stress.",
-    "example_tr": "Egzersiz stresle başa çıkmada sağlıklı bir mekanizmadır."
+    "pronunciation": "/ˌɒp.ərˈeɪ.ʃən.əl rɪsk/",
+    "turkish_meaning": "Operasyonel risk",
+    "example_en": "Compliance protocols mitigate operational risk.",
+    "example_tr": "Uyum protokolleri operasyonel riski azaltır."
   },
   {
     "id": 377,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 3,
-    "target_expression": "Mental wellbeing",
-    "key_word": "Wellbeing (Ruhsal sağlık)",
+    "target_expression": "Financial liability",
+    "key_word": "Liability (Yükümlülük)",
     "type": "chunk",
-    "pronunciation": "/ˈmen.təl ˌwelˈbiː.ɪŋ/",
-    "turkish_meaning": "Zihinsel / Ruhsal sağlık",
-    "example_en": "Prioritize mental wellbeing in busy schedules.",
-    "example_tr": "Yoğun günlerde zihinsel sağlığınıza öncelik verin."
+    "pronunciation": "/faɪˈnæn.ʃəl ˌlaɪ.əˈbɪl.ə.ti/",
+    "turkish_meaning": "Finansal yükümlülük / Borç",
+    "example_en": "Clear all outstanding financial liability.",
+    "example_tr": "Tüm ödenmemiş finansal yükümlülükleri kapatın."
   },
   {
     "id": 378,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 3,
-    "target_expression": "Social circle",
-    "key_word": "Circle (Çevre)",
+    "target_expression": "Cost containment",
+    "key_word": "Containment (Kontrol)",
     "type": "chunk",
-    "pronunciation": "/ˈsəʊ.ʃəl ˈsɜː.kəl/",
-    "turkish_meaning": "Sosyal çevre",
-    "example_en": "She expanded her social circle through sports.",
-    "example_tr": "Spor yoluyla sosyal çevresini genişletti."
+    "pronunciation": "/kɒst kənˈteɪn.mənt/",
+    "turkish_meaning": "Maliyetleri sınırlandırma",
+    "example_en": "Strict cost containment preserved our margin.",
+    "example_tr": "Sıkı maliyet sınırlandırması marjımızı korudu."
   },
   {
     "id": 379,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 3,
-    "target_expression": "First impression",
-    "key_word": "Impression (İzlenim)",
+    "target_expression": "Budget reallocation",
+    "key_word": "Reallocation (Yeniden tahsis)",
     "type": "chunk",
-    "pronunciation": "/fɜːst ɪmˈpreʃ.ən/",
-    "turkish_meaning": "İlk izlenim",
-    "example_en": "Punctuality makes a great first impression.",
-    "example_tr": "Zamanında olmak harika bir ilk izlenim bırakır."
+    "pronunciation": "/ˈbʌdʒ.ɪt ˌriː.æl.əˈkeɪ.ʃən/",
+    "turkish_meaning": "Bütçenin yeniden tahsisi",
+    "example_en": "Budget reallocation funded urgent marketing.",
+    "example_tr": "Bütçenin yeniden tahsisi acil pazarlamayı finanse etti."
   },
   {
     "id": 380,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 3,
-    "target_expression": "Shared values",
-    "key_word": "Values (Değerler)",
+    "target_expression": "Economies of scale",
+    "key_word": "Scale (Ölçek)",
     "type": "chunk",
-    "pronunciation": "/ʃeəd ˈvæl.juːz/",
-    "turkish_meaning": "Ortak değerler",
-    "example_en": "Strong friendships are based on shared values.",
-    "example_tr": "Güçlü dostluklar ortak değerlere dayanır."
+    "pronunciation": "/ɪˈkɒn.ə.miz ɒv skeɪl/",
+    "turkish_meaning": "Ölçek ekonomisi",
+    "example_en": "Bulk manufacturing achieves economies of scale.",
+    "example_tr": "Toplu üretim ölçek ekonomisi sağlar."
   },
   {
     "id": 381,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 4,
-    "target_expression": "Interpersonal skills",
-    "key_word": "Skills (Beceriler)",
+    "target_expression": "Project lifecycle",
+    "key_word": "Lifecycle (Yaşam döngüsü)",
     "type": "chunk",
-    "pronunciation": "/ˌɪn.təˈpɜː.sən.əl skɪlz/",
-    "turkish_meaning": "Kişilerarası iletişim becerileri",
-    "example_en": "Interpersonal skills are vital for customer service.",
-    "example_tr": "Kişilerarası iletişim becerileri müşteri hizmetleri için hayatidir."
+    "pronunciation": "/ˈprɒdʒ.ekt ˈlaɪfˌsaɪ.kəl/",
+    "turkish_meaning": "Proje yaşam döngüsü",
+    "example_en": "Manage tasks across the whole project lifecycle.",
+    "example_tr": "Tüm proje yaşam döngüsü boyunca görevleri yönetin."
   },
   {
     "id": 382,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 4,
-    "target_expression": "Behavioral pattern",
-    "key_word": "Pattern (Örüntü)",
+    "target_expression": "Milestone tracking",
+    "key_word": "Milestone (Dönüm noktası)",
     "type": "chunk",
-    "pronunciation": "/bɪˈheɪ.vjər.əl ˈpæt.ən/",
-    "turkish_meaning": "Davranışsal örüntü / Kalıp",
-    "example_en": "Psychologists analyze recurring behavioral patterns.",
-    "example_tr": "Psikologlar tekrarlayan davranışsal örüntüleri analiz eder."
+    "pronunciation": "/ˈmaɪl.stəʊn ˈtræk.ɪŋ/",
+    "turkish_meaning": "Aşama / Dönüm noktası takibi",
+    "example_en": "Milestone tracking keeps the team on schedule.",
+    "example_tr": "Aşama takibi ekibin takvimde kalmasını sağlar."
   },
   {
     "id": 383,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 4,
-    "target_expression": "Moral obligation",
-    "key_word": "Obligation (Yükümlülük)",
+    "target_expression": "Change request",
+    "key_word": "Change (Değişiklik)",
     "type": "chunk",
-    "pronunciation": "/ˈmɒr.əl ˌɒb.lɪˈɡeɪ.ʃən/",
-    "turkish_meaning": "Ahlaki yükümlülük",
-    "example_en": "We have a moral obligation to protect nature.",
-    "example_tr": "Doğayı koruma konusunda ahlaki bir yükümlülüğümüz var."
+    "pronunciation": "/tʃeɪndʒ rɪˈkwest/",
+    "turkish_meaning": "Değişiklik talebi",
+    "example_en": "Submit a formal change request for new features.",
+    "example_tr": "Yeni özellikler için resmi bir değişiklik talebi sunun."
   },
   {
     "id": 384,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 4,
-    "target_expression": "Social cohesion",
-    "key_word": "Cohesion (Bağlılık/Uyum)",
+    "target_expression": "Scope creep",
+    "key_word": "Scope (Kapsam)",
     "type": "chunk",
-    "pronunciation": "/ˈsəʊ.ʃəl kəʊˈhiː.ʒən/",
-    "turkish_meaning": "Toplumsal uyum / Bağlılık",
-    "example_en": "Inclusive policies strengthen social cohesion.",
-    "example_tr": "Kapsayıcı politikalar toplumsal uyumu güçlendirir."
+    "pronunciation": "/skəʊp kriːp/",
+    "turkish_meaning": "Kapsamın kontrolsüz genişlemesi",
+    "example_en": "Prevent scope creep to avoid budget delays.",
+    "example_tr": "Bütçe gecikmelerini önlemek için kapsamın genişlemesini engelleyin."
   },
   {
     "id": 385,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 4,
-    "target_expression": "Public perception",
-    "key_word": "Perception (Algı)",
+    "target_expression": "Deliverable deadline",
+    "key_word": "Deadline (Son tarih)",
     "type": "chunk",
-    "pronunciation": "/ˈpʌb.lɪk pəˈsep.ʃən/",
-    "turkish_meaning": "Kamuoyu algısı",
-    "example_en": "Marketing campaigns shape public perception.",
-    "example_tr": "Pazarlama kampanyaları kamuoyu algısını şekillendirir."
+    "pronunciation": "/dɪˈlɪv.ər.ə.bəl ˈded.laɪn/",
+    "turkish_meaning": "Teslim edilecek işin son tarihi",
+    "example_en": "Meet every deliverable deadline consistently.",
+    "example_tr": "Teslim edilecek her işin son tarihine tutarlı şekilde uyun."
   },
   {
     "id": 386,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 4,
-    "target_expression": "Sense of identity",
-    "key_word": "Identity (Kimlik)",
+    "target_expression": "Risk mitigation plan",
+    "key_word": "Mitigation (Risk önleme)",
     "type": "chunk",
-    "pronunciation": "/sens ɒv aɪˈden.tə.ti/",
-    "turkish_meaning": "Kimlik duygusu",
-    "example_en": "Culture influences one's sense of identity.",
-    "example_tr": "Kültür kişinin kimlik duygusunu etkiler."
+    "pronunciation": "/rɪsk ˌmɪt.ɪˈɡeɪ.ʃən plæn/",
+    "turkish_meaning": "Risk azaltma / Önleme planı",
+    "example_en": "A solid risk mitigation plan protects investments.",
+    "example_tr": "Sağlam bir risk önleme planı yatırımları korur."
   },
   {
     "id": 387,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 4,
-    "target_expression": "Emotional resilience",
-    "key_word": "Resilience (Dayanıklılık)",
+    "target_expression": "Resource constraints",
+    "key_word": "Constraints (Kısıtlamalar)",
     "type": "chunk",
-    "pronunciation": "/ɪˈməʊ.ʃən.əl rɪˈzɪl.i.əns/",
-    "turkish_meaning": "Duygusal dayanıklılık",
-    "example_en": "Overcoming hardships builds emotional resilience.",
-    "example_tr": "Zorlukları aşmak duygusal dayanıklılık kazandırır."
+    "pronunciation": "/rɪˈzɔːs kənˈstreɪnts/",
+    "turkish_meaning": "Kaynak kısıtlamaları",
+    "example_en": "Work effectively despite resource constraints.",
+    "example_tr": "Kaynak kısıtlamalarına rağmen etkili çalışın."
   },
   {
     "id": 388,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 4,
-    "target_expression": "Constructive dialogue",
-    "key_word": "Dialogue (Diyalog)",
+    "target_expression": "Time-to-market",
+    "key_word": "Time-to-market (Pazara sunma)",
     "type": "chunk",
-    "pronunciation": "/kənˈstrʌk.tɪv ˈdaɪ.ə.lɒɡ/",
-    "turkish_meaning": "Yapıcı diyalog",
-    "example_en": "Engage in constructive dialogue to solve problems.",
-    "example_tr": "Sorunları çözmek için yapıcı diyaloğa girin."
+    "pronunciation": "/taɪm tuː ˈmɑː.kɪt/",
+    "turkish_meaning": "Ürünün pazara sunulma süresi",
+    "example_en": "Reducing time-to-market gives a competitive edge.",
+    "example_tr": "Pazara sunulma süresini kısaltmak rekabet avantajı sağlar."
   },
   {
     "id": 389,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 4,
-    "target_expression": "Trust issue",
-    "key_word": "Trust (Güven)",
+    "target_expression": "Quality assurance check",
+    "key_word": "QA (Kalite güvence)",
     "type": "chunk",
-    "pronunciation": "/trʌst ˈɪʃ.uː/",
-    "turkish_meaning": "Güven sorunu",
-    "example_en": "Betrayal often creates deep trust issues.",
-    "example_tr": "İhanet sıklıkla derin güven sorunları yaratır."
+    "pronunciation": "/ˈkwɒl.ə.ti əˈʃɔː.rəns tʃek/",
+    "turkish_meaning": "Kalite güvence kontrolü",
+    "example_en": "Pass the final quality assurance check.",
+    "example_tr": "Son kalite güvence kontrolünden geçin."
   },
   {
     "id": 390,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 4,
-    "target_expression": "Overcome barrier",
-    "key_word": "Barrier (Engel)",
+    "target_expression": "Process optimization",
+    "key_word": "Optimization (Optimizasyon)",
     "type": "chunk",
-    "pronunciation": "/ˌəʊ.vəˈkʌm ˈbær.i.ər/",
-    "turkish_meaning": "Engelleri aşmak",
-    "example_en": "Education helps overcome social barriers.",
-    "example_tr": "Eğitim sosyal engelleri aşmaya yardımcı olur."
+    "pronunciation": "/ˈprəʊ.ses ˌɒp.tɪ.maɪˈzeɪ.ʃən/",
+    "turkish_meaning": "Süreç optimizasyonu",
+    "example_en": "Continuous process optimization increases output.",
+    "example_tr": "Sürekli süreç optimizasyonu çıktıyı artırır."
   },
   {
     "id": 391,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 5,
-    "target_expression": "Social inclusion",
-    "key_word": "Inclusion (Kapsayıcılık)",
+    "target_expression": "Performance variance",
+    "key_word": "Variance (Sapma)",
     "type": "chunk",
-    "pronunciation": "/ˈsəʊ.ʃəl ɪnˈkluː.ʒən/",
-    "turkish_meaning": "Sosyal kapsayıcılık",
-    "example_en": "Governments promote policies for social inclusion.",
-    "example_tr": "Hükümetler sosyal kapsayıcılık politikalarını destekler."
+    "pronunciation": "/pəˈfɔː.məns ˈveə.ri.əns/",
+    "turkish_meaning": "Performans sapması",
+    "example_en": "Analyze performance variance against baseline goals.",
+    "example_tr": "Temel hedeflere göre performans sapmasını analiz edin."
   },
   {
     "id": 392,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 5,
-    "target_expression": "Personal growth",
-    "key_word": "Growth (Gelişim)",
+    "target_expression": "Procurement process",
+    "key_word": "Procurement (Tedarik)",
     "type": "chunk",
-    "pronunciation": "/ˈpɜː.sən.əl ɡrəʊθ/",
-    "turkish_meaning": "Kişisel gelişim",
-    "example_en": "Stepping out of your comfort zone leads to personal growth.",
-    "example_tr": "Konfor alanınızın dışına çıkmak kişisel gelişime yol açar."
+    "pronunciation": "/prəˈkjʊə.mənt ˈprəʊ.ses/",
+    "turkish_meaning": "Satın alma / Tedarik süreci",
+    "example_en": "The procurement process requires three supplier quotes.",
+    "example_tr": "Tedarik süreci üç tedarikçi teklifi gerektirir."
   },
   {
     "id": 393,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 5,
-    "target_expression": "Self-reflection",
-    "key_word": "Reflection (İçe bakış)",
+    "target_expression": "Audit trail",
+    "key_word": "Trail (İz)",
     "type": "chunk",
-    "pronunciation": "/ˌself.rɪˈflek.ʃən/",
-    "turkish_meaning": "Özdeğerlendirme / İçe bakış",
-    "example_en": "Daily self-reflection helps you learn from mistakes.",
-    "example_tr": "Günlük özdeğerlendirme hatalardan ders çıkarmanıza yardımcı olur."
+    "pronunciation": "/ˈɔː.dɪt treɪl/",
+    "turkish_meaning": "Denetim izi / Kayıt geçmişi",
+    "example_en": "Maintain a complete audit trail for transactions.",
+    "example_tr": "İşlemler için eksiksiz bir denetim izi tutun."
   },
   {
     "id": 394,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 5,
-    "target_expression": "Behavioral change",
-    "key_word": "Behavioral (Davranışsal)",
+    "target_expression": "Contingency reserve",
+    "key_word": "Reserve (İhtiyat)",
     "type": "chunk",
-    "pronunciation": "/bɪˈheɪ.vjər.əl tʃeɪndʒ/",
-    "turkish_meaning": "Davranışsal değişim",
-    "example_en": "Habit tracking encourages long-term behavioral change.",
-    "example_tr": "Alışkanlık takibi uzun vadeli davranışsal değişimi teşvik eder."
+    "pronunciation": "/kənˈtɪn.dʒən.si rɪˈzɜːv/",
+    "turkish_meaning": "Acil durum / İhtiyat akçesi",
+    "example_en": "Set aside a 10% contingency reserve.",
+    "example_tr": "%10 acil durum ihtiyat akçesi ayırın."
   },
   {
     "id": 395,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 5,
-    "target_expression": "Psychological safety",
-    "key_word": "Safety (Güvenlik)",
+    "target_expression": "Cost-benefit ratio",
+    "key_word": "Ratio (Oran)",
     "type": "chunk",
-    "pronunciation": "/ˌsaɪ.kəˈlɒdʒ.ɪ.kəl ˈseɪf.ti/",
-    "turkish_meaning": "Psikolojik güvenlik alanı",
-    "example_en": "Teams thrive when there is psychological safety.",
-    "example_tr": "Psikolojik güvenlik alanı olduğunda ekipler gelişir."
+    "pronunciation": "/kɒst ˈben.ɪ.fɪt ˈreɪ.ʃi.əʊ/",
+    "turkish_meaning": "Maliyet-fayda oranı",
+    "example_en": "A high cost-benefit ratio justifies investment.",
+    "example_tr": "Yüksek maliyet-fayda oranı yatırımı haklı çıkarır."
   },
   {
     "id": 396,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 5,
-    "target_expression": "Cultural identity",
-    "key_word": "Identity (Kimlik)",
+    "target_expression": "Operating margin",
+    "key_word": "Margin (Kâr marjı)",
     "type": "chunk",
-    "pronunciation": "/ˈkʌl.tʃər.əl aɪˈden.tə.ti/",
-    "turkish_meaning": "Kültürel kimlik",
-    "example_en": "Language plays a key role in cultural identity.",
-    "example_tr": "Dil kültürel kimlikte kilit bir rol oynar."
+    "pronunciation": "/ˈɒp.ər.eɪ.tɪŋ ˈmɑː.dʒɪn/",
+    "turkish_meaning": "Faaliyet kâr marjı",
+    "example_en": "Our operating margin improved to 18%.",
+    "example_tr": "Faaliyet kâr marjımız %18'e yükseldi."
   },
   {
     "id": 397,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 5,
-    "target_expression": "Unspoken rule",
-    "key_word": "Unspoken (Yazısız)",
+    "target_expression": "Financial sustainability",
+    "key_word": "Sustainability (Sürdürülebilirlik)",
     "type": "chunk",
-    "pronunciation": "/ʌnˈspəʊ.kən ruːl/",
-    "turkish_meaning": "Yazısız / Sözsüz kural",
-    "example_en": "Queueing politely is an unspoken rule here.",
-    "example_tr": "Kibarca sıraya girmek burada sözsüz bir kuraldır."
+    "pronunciation": "/faɪˈnæn.ʃəl səˈsteɪ.nə.bɪl.ə.ti/",
+    "turkish_meaning": "Finansal sürdürülebilirlik",
+    "example_en": "Focus on long-term financial sustainability.",
+    "example_tr": "Uzun vadeli finansal sürdürülebilirliğe odaklanın."
   },
   {
     "id": 398,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 5,
-    "target_expression": "Emotional distance",
-    "key_word": "Distance (Mesafe)",
+    "target_expression": "Benchmark score",
+    "key_word": "Benchmark (Kıyaslama)",
     "type": "chunk",
-    "pronunciation": "/ɪˈməʊ.ʃən.əl ˈdɪs.təns/",
-    "turkish_meaning": "Duygusal mesafe",
-    "example_en": "Lack of communication creates emotional distance.",
-    "example_tr": "İletişim eksikliği duygusal mesafe yaratır."
+    "pronunciation": "/ˈbentʃ.mɑːk skɔːr/",
+    "turkish_meaning": "Kıyaslama / Referans puanı",
+    "example_en": "Our product achieved a top benchmark score.",
+    "example_tr": "Ürünümüz en yüksek kıyaslama puanını elde etti."
   },
   {
     "id": 399,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 5,
-    "target_expression": "Social norm",
-    "key_word": "Norm (Norm/Kural)",
+    "target_expression": "Strategic alignment",
+    "key_word": "Alignment (Uyum)",
     "type": "chunk",
-    "pronunciation": "/ˈsəʊ.ʃəl nɔːm/",
-    "turkish_meaning": "Sosyal norm / Toplumsal kural",
-    "example_en": "Greeting neighbors is a common social norm.",
-    "example_tr": "Komşularla selamlaşmak yaygın bir sosyal normdur."
+    "pronunciation": "/strəˈtiː.dʒɪk əˈlaɪn.mənt/",
+    "turkish_meaning": "Stratejik uyum",
+    "example_en": "Strategic alignment unifies company divisions.",
+    "example_tr": "Stratejik uyum şirket bölümlerini birleştirir."
   },
   {
     "id": 400,
-    "category": "psychology",
+    "category": "budget_ops",
     "deck": 5,
-    "target_expression": "Foster empathy",
-    "key_word": "Empathy (Empati)",
+    "target_expression": "Core operations",
+    "key_word": "Core (Temel)",
     "type": "chunk",
-    "pronunciation": "/ˈfɒs.tər ˈem.pə.θi/",
-    "turkish_meaning": "Empatiyi teşvik etmek",
-    "example_en": "Reading fiction helps foster empathy for others.",
-    "example_tr": "Kurgu okumak başkalarına karşı empatiyi teşvik eder."
+    "pronunciation": "/kɔːr ˌɒp.ərˈeɪ.ʃənz/",
+    "turkish_meaning": "Temel operasyonlar",
+    "example_en": "Protect core operations during system updates.",
+    "example_tr": "Sistem güncellemeleri sırasında temel operasyonları koruyun."
   },
   {
     "id": 401,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 1,
-    "target_expression": "Social media presence",
-    "key_word": "Presence (Görünürlük)",
+    "target_expression": "Damage control",
+    "key_word": "Damage (Hasar)",
     "type": "chunk",
-    "pronunciation": "/ˈsəʊ.ʃəl ˈmiː.di.ə ˈprez.əns/",
-    "turkish_meaning": "Sosyal medya varlığı / Görünürlüğü",
-    "example_en": "Brands maintain a strong social media presence.",
-    "example_tr": "Markalar güçlü bir sosyal medya görünürlüğü sürdürür."
+    "pronunciation": "/ˈdæm.ɪdʒ kənˈtrəʊl/",
+    "turkish_meaning": "Hasar tespiti ve kontrolü",
+    "example_en": "PR initiated damage control after the leak.",
+    "example_tr": "PR sızıntıdan sonra hasar kontrolü başlattı."
   },
   {
     "id": 402,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 1,
-    "target_expression": "Viral content",
-    "key_word": "Viral (Hızla yayılan)",
+    "target_expression": "Take immediate action",
+    "key_word": "Immediate (Derhal)",
     "type": "chunk",
-    "pronunciation": "/ˈvaɪ.rəl ˈkɒn.tent/",
-    "turkish_meaning": "Viral / Hızla yayılan içerik",
-    "example_en": "Short video clips often turn into viral content.",
-    "example_tr": "Kısa video klipler sıklıkla viral içeriğe dönüşür."
+    "pronunciation": "/teɪk ɪˈmiː.di.ət ˈæk.ʃən/",
+    "turkish_meaning": "Derhal harekete geçmek",
+    "example_en": "Take immediate action to contain the data leak.",
+    "example_tr": "Veri sızıntısını önlemek için derhal harekete geçin."
   },
   {
     "id": 403,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 1,
-    "target_expression": "Content creator",
-    "key_word": "Creator (Üretici)",
+    "target_expression": "Contain the situation",
+    "key_word": "Contain (Kontrol altına almak)",
     "type": "chunk",
-    "pronunciation": "/ˈkɒn.tent kriˈeɪ.tər/",
-    "turkish_meaning": "İçerik üreticisi",
-    "example_en": "Successful content creators produce daily posts.",
-    "example_tr": "Başarılı içerik üreticileri günlük gönderiler yayınlar."
+    "pronunciation": "/kənˈteɪn ðə ˌsɪtʃ.uˈeɪ.ʃən/",
+    "turkish_meaning": "Durumu kontrol altına almak",
+    "example_en": "Security officers contained the situation quickly.",
+    "example_tr": "Güvenlik görevlileri durumu hızla kontrol altına aldı."
   },
   {
     "id": 404,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 1,
-    "target_expression": "Digital footprint",
-    "key_word": "Footprint (Ayak izi)",
+    "target_expression": "Root cause identification",
+    "key_word": "Root cause (Kök neden)",
     "type": "chunk",
-    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈfʊt.prɪnt/",
-    "turkish_meaning": "Dijital ayak izi",
-    "example_en": "Be careful about what you share to manage your digital footprint.",
-    "example_tr": "Dijital ayak izinizi yönetmek için paylaştıklarınıza dikkat edin."
+    "pronunciation": "/ruːt kɔːz aɪˌden.tɪ.fɪˈkeɪ.ʃən/",
+    "turkish_meaning": "Kök nedenin tespiti",
+    "example_en": "Root cause identification prevents recurring bugs.",
+    "example_tr": "Kök nedenin tespiti tekrarlayan hataları önler."
   },
   {
     "id": 405,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 1,
-    "target_expression": "User engagement",
-    "key_word": "Engagement (Etkileşim)",
+    "target_expression": "Corrective measures",
+    "key_word": "Corrective (Düzeltici)",
     "type": "chunk",
-    "pronunciation": "/ˈjuː.zər ɪnˈɡeɪdʒ.mənt/",
-    "turkish_meaning": "Kullanıcı etkileşimi",
-    "example_en": "Interactive polls boost online user engagement.",
-    "example_tr": "İnteraktif anketler çevrim içi kullanıcı etkileşimini artırır."
+    "pronunciation": "/kəˈrek.tɪv ˈmeʒ.əz/",
+    "turkish_meaning": "Düzeltici önlemler",
+    "example_en": "Apply corrective measures to fix quality gaps.",
+    "example_tr": "Kalite eksikliklerini gidermek için düzeltici önlemler uygulayın."
   },
   {
     "id": 406,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 1,
-    "target_expression": "Information overload",
-    "key_word": "Overload (Aşırı yüklenme)",
+    "target_expression": "Preventive action",
+    "key_word": "Preventive (Önleyici)",
     "type": "chunk",
-    "pronunciation": "/ˌɪn.fəˈmeɪ.ʃən ˈəʊ.və.ləʊd/",
-    "turkish_meaning": "Bilgi yüklemesi / Kirliliği",
-    "example_en": "Constant notifications cause information overload.",
-    "example_tr": "Sürekli bildirimler bilgi yüklemesine neden olur."
+    "pronunciation": "/prɪˈven.tɪv ˈæk.ʃən/",
+    "turkish_meaning": "Önleyici aksiyon / Tedbir",
+    "example_en": "Take preventive action against network failure.",
+    "example_tr": "Ağ arızasına karşı önleyici aksiyon alın."
   },
   {
     "id": 407,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 1,
-    "target_expression": "Cyber security",
-    "key_word": "Security (Güvenlik)",
+    "target_expression": "Emergency response",
+    "key_word": "Emergency (Acil durum)",
     "type": "chunk",
-    "pronunciation": "/ˈsaɪ.bər sɪˈkjʊə.rə.ti/",
-    "turkish_meaning": "Siber güvenlik",
-    "example_en": "Companies invest heavily in cyber security software.",
-    "example_tr": "Şirketler siber güvenlik yazılımlarına yoğun yatırım yapıyor."
+    "pronunciation": "/ɪˈmɜː.dʒən.si rɪˈspɒns/",
+    "turkish_meaning": "Acil durum müdahalesi",
+    "example_en": "The emergency response team arrived promptly.",
+    "example_tr": "Acil durum müdahale ekibi derhal vardı."
   },
   {
     "id": 408,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 1,
-    "target_expression": "Online platform",
-    "key_word": "Platform (Platform)",
+    "target_expression": "Escalation process",
+    "key_word": "Escalation (Üst makama iletme)",
     "type": "chunk",
-    "pronunciation": "/ˈɒn.laɪn ˈplæt.fɔːm/",
-    "turkish_meaning": "Çevrim içi platform",
-    "example_en": "Our course is hosted on an interactive online platform.",
-    "example_tr": "Kursumuz interaktif bir çevrim içi platformda sunulmaktadır."
+    "pronunciation": "/ˌes.kəˈleɪ.ʃən ˈprəʊ.ses/",
+    "turkish_meaning": "Sorunun üst makama iletilme süreci",
+    "example_en": "Follow the escalation process for unresolved tickets.",
+    "example_tr": "Çözülmeyen biletler için üst makama iletme sürecini izleyin."
   },
   {
     "id": 409,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 1,
-    "target_expression": "Streaming service",
-    "key_word": "Streaming (Akış)",
+    "target_expression": "Troubleshoot an issue",
+    "key_word": "Troubleshoot (Arıza aramak)",
     "type": "chunk",
-    "pronunciation": "/ˈstriː.mɪŋ ˈsɜː.vɪs/",
-    "turkish_meaning": "Yayın / Akış hizmeti",
-    "example_en": "Subscribers enjoy movies on the streaming service.",
-    "example_tr": "Aboneler akış hizmetinde filmlerin tadını çıkarır."
+    "pronunciation": "/ˈtrʌb.əl.ʃuːt ən ˈɪʃ.uː/",
+    "turkish_meaning": "Sorunu gidermek",
+    "example_en": "Engineers troubleshoot an issue on server 2.",
+    "example_tr": "Mühendisler sunucu 2'deki bir sorunu gideriyor."
   },
   {
     "id": 410,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 1,
-    "target_expression": "Target audience",
-    "key_word": "Audience (Hedef kitle)",
+    "target_expression": "Assess the damage",
+    "key_word": "Assess (Değerlendirmek)",
     "type": "chunk",
-    "pronunciation": "/ˈtɑː.ɡɪt ˈɔː.di.əns/",
-    "turkish_meaning": "Hedef kitle",
-    "example_en": "Know your target audience before launching ad campaigns.",
-    "example_tr": "Reklam kampanyaları başlatmadan önce hedef kitlenizi tanıyın."
+    "pronunciation": "/əˈses ðə ˈdæm.ɪdʒ/",
+    "turkish_meaning": "Hasarı / Zararı değerlendirmek",
+    "example_en": "Inspectors assess the damage after storm.",
+    "example_tr": "Müfettişler fırtınadan sonra hasarı değerlendiriyor."
   },
   {
     "id": 411,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 2,
-    "target_expression": "Echo chamber",
-    "key_word": "Chamber (Oda)",
+    "target_expression": "Restore operations",
+    "key_word": "Restore (Eski haline getirmek)",
     "type": "chunk",
-    "pronunciation": "/ˈek.əʊ ˈtʃeɪm.bər/",
-    "turkish_meaning": "Yankı odası / Tek taraflı bilgi ortamı",
-    "example_en": "Social algorithms can create an online echo chamber.",
-    "example_tr": "Sosyal algoritmalar çevrim içi bir yankı odası oluşturabilir."
+    "pronunciation": "/rɪˈstɔːr ˌɒp.ərˈeɪ.ʃənz/",
+    "turkish_meaning": "Operasyonları eski haline getirmek",
+    "example_en": "Backup servers helped restore operations in one hour.",
+    "example_tr": "Yedek sunucular operasyonları bir saatte eski haline getirdi."
   },
   {
     "id": 412,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 2,
-    "target_expression": "Algorithmic bias",
-    "key_word": "Bias (Yanlılık)",
+    "target_expression": "Crisis communication",
+    "key_word": "Communication (İletişim)",
     "type": "chunk",
-    "pronunciation": "/ˌæl.ɡəˈrɪð.mɪk ˈbaɪ.əs/",
-    "turkish_meaning": "Algoritmik önyargı / Yanlılık",
-    "example_en": "Developers work to eliminate algorithmic bias in AI.",
-    "example_tr": "Geliştiriciler yapay zekadaki algoritmik önyargıyı kaldırmaya çalışır."
+    "pronunciation": "/ˈkraɪ.sɪs kəˌmjuː.nɪˈkeɪ.ʃən/",
+    "turkish_meaning": "Kriz iletişimi",
+    "example_en": "Clear crisis communication maintains public confidence.",
+    "example_tr": "Açık kriz iletişimi kamuoyu güvenini korur."
   },
   {
     "id": 413,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 2,
-    "target_expression": "Fake news",
-    "key_word": "Fake (Sahte)",
+    "target_expression": "Contingency protocol",
+    "key_word": "Protocol (Protokol)",
     "type": "chunk",
-    "pronunciation": "/feɪk njuːz/",
-    "turkish_meaning": "Sahte / Yalan haber",
-    "example_en": "Verify sources to avoid spreading fake news.",
-    "example_tr": "Sahte haber yaymaktan kaçınmak için kaynakları doğrulayın."
+    "pronunciation": "/kənˈtɪn.dʒən.si ˈprəʊ.tə.kɒl/",
+    "turkish_meaning": "Acil durum protokolü",
+    "example_en": "Activate contingency protocol B immediately.",
+    "example_tr": "Derhal B acil durum protokolünü etkinleştirin."
   },
   {
     "id": 414,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 2,
-    "target_expression": "Trend setter",
-    "key_word": "Trend (Trend)",
+    "target_expression": "Mitigate impact",
+    "key_word": "Mitigate (Hafifletmek)",
     "type": "chunk",
-    "pronunciation": "/trend ˈset.ər/",
-    "turkish_meaning": "Trend belirleyici / Öncü",
-    "example_en": "Fashion influencers act as trend setters for youth.",
-    "example_tr": "Moda etkileyicileri gençler için trend belirleyici rolü oynar."
+    "pronunciation": "/ˈmɪt.ɪ.ɡeɪt ˈɪm.pækt/",
+    "turkish_meaning": "Etkiyi hafifletmek / Azaltmak",
+    "example_en": "Diversifying suppliers mitigates risk impact.",
+    "example_tr": "Tedarikçileri çeşitlendirmek risk etkisini hafifletir."
   },
   {
     "id": 415,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 2,
-    "target_expression": "Digital detox",
-    "key_word": "Detox (Detoks)",
+    "target_expression": "Risk exposure",
+    "key_word": "Exposure (Maruz kalma)",
     "type": "chunk",
-    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈdiː.tɒks/",
-    "turkish_meaning": "Dijital detoks / Ekrandan uzak kalma",
-    "example_en": "Taking a weekend digital detox improves sleep.",
-    "example_tr": "Hafta sonu dijital detoks yapmak uykuyu iyileştirir."
+    "pronunciation": "/rɪsk ɪkˈspəʊ.ʒər/",
+    "turkish_meaning": "Riske maruz kalma oranı",
+    "example_en": "Hedge currencies to reduce risk exposure.",
+    "example_tr": "Riske maruz kalma oranını azaltmak için döviz koruması yapın."
   },
   {
     "id": 416,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 2,
-    "target_expression": "Subscription model",
-    "key_word": "Subscription (Abonelik)",
+    "target_expression": "System recovery",
+    "key_word": "Recovery (Kurtarılma)",
     "type": "chunk",
-    "pronunciation": "/səbˈskrɪp.ʃən ˈmɒd.əl/",
-    "turkish_meaning": "Abonelik modeli",
-    "example_en": "SaaS startups prefer a monthly subscription model.",
-    "example_tr": "SaaS girişimleri aylık abonelik modelini tercih eder."
+    "pronunciation": "/ˈsɪs.təm rɪˈkʌv.ər.i/",
+    "turkish_meaning": "Sistemin kurtarılması",
+    "example_en": "System recovery succeeded without data loss.",
+    "example_tr": "Sistem kurtarma veri kaybı olmadan başarılı oldu."
   },
   {
     "id": 417,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 2,
-    "target_expression": "Data privacy",
-    "key_word": "Privacy (Gizlilik)",
+    "target_expression": "Fail-safe mechanism",
+    "key_word": "Fail-safe (Güvenli mekanizma)",
     "type": "chunk",
-    "pronunciation": "/ˈdeɪ.tə ˈprɪv.ə.si/",
-    "turkish_meaning": "Veri gizliliği",
-    "example_en": "GDPR legislation protects online data privacy.",
-    "example_tr": "GDPR mevzuatı çevrim içi veri gizliliğini korur."
+    "pronunciation": "/feɪl seɪf ˈmek.ə.nɪz.əm/",
+    "turkish_meaning": "Arızaya karşı güvenli mekanizma",
+    "example_en": "Nuclear plants use a fail-safe mechanism.",
+    "example_tr": "Nükleer santraller arızaya karşı güvenli mekanizmalar kullanır."
   },
   {
     "id": 418,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 2,
-    "target_expression": "Cloud storage",
-    "key_word": "Cloud (Bulut)",
+    "target_expression": "Business continuity",
+    "key_word": "Continuity (Süreklilik)",
     "type": "chunk",
-    "pronunciation": "/klaʊd ˈstɔː.rɪdʒ/",
-    "turkish_meaning": "Bulut depolama",
-    "example_en": "Store backup files securely on cloud storage.",
-    "example_tr": "Yedek dosyaları bulut depolamada güvenle saklayın."
+    "pronunciation": "/ˈbɪz.nɪs kənˈtɪn.ju.ə.ti/",
+    "turkish_meaning": "İş sürekliliği",
+    "example_en": "Cloud backups ensure business continuity.",
+    "example_tr": "Bulut yedekleri iş sürekliliğini sağlar."
   },
   {
     "id": 419,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 2,
-    "target_expression": "Remote work",
-    "key_word": "Remote (Uzaktan)",
+    "target_expression": "Workaround solution",
+    "key_word": "Workaround (Geçici çözüm)",
     "type": "chunk",
-    "pronunciation": "/rɪˈməʊt wɜːk/",
-    "turkish_meaning": "Uzaktan çalışma",
-    "example_en": "Remote work offers flexible hours for employees.",
-    "example_tr": "Uzaktan çalışma çalışanlar için esnek saatler sunar."
+    "pronunciation": "/ˈwɜːk.ə.raʊnd səˈluː.ʃən/",
+    "turkish_meaning": "Geçici / Pratik çözüm",
+    "example_en": "We applied a workaround solution until the patch arrives.",
+    "example_tr": "Yama gelene kadar geçici bir çözüm uyguladık."
   },
   {
     "id": 420,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 2,
-    "target_expression": "Hybrid lifestyle",
-    "key_word": "Hybrid (Karma/Hibrit)",
+    "target_expression": "Post-mortem analysis",
+    "key_word": "Post-mortem (Olay sonrası)",
     "type": "chunk",
-    "pronunciation": "/ˈhaɪ.brɪd ˈlaɪf.staɪl/",
-    "turkish_meaning": "Hibrit / Karma yaşam tarzı",
-    "example_en": "Combining office and home creates a hybrid lifestyle.",
-    "example_tr": "Ofis ve evi birleştirmek hibrit bir yaşam tarzı yaratır."
+    "pronunciation": "/pəʊst ˈmɔː.təm əˈnæl.ə.sɪs/",
+    "turkish_meaning": "Olay sonrası analiz",
+    "example_en": "Conduct a post-mortem analysis of the outage.",
+    "example_tr": "Kesintinin olay sonrası analizini gerçekleştirin."
   },
   {
     "id": 421,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 3,
-    "target_expression": "Screen time",
-    "key_word": "Screen (Ekran)",
+    "target_expression": "Address the root cause",
+    "key_word": "Address (Ele almak)",
     "type": "chunk",
-    "pronunciation": "/skriːn taɪm/",
-    "turkish_meaning": "Ekran süresi",
-    "example_en": "Parents monitor daily screen time for kids.",
-    "example_tr": "Ebeveynler çocuklar için günlük ekran süresini izler."
+    "pronunciation": "/əˈdres ðə ruːt kɔːz/",
+    "turkish_meaning": "Ana nedene odaklanmak",
+    "example_en": "Fixing symptoms won't work; address the root cause.",
+    "example_tr": "Belirtileri düzeltmek çalışmaz; ana nedene odaklanın."
   },
   {
     "id": 422,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 3,
-    "target_expression": "Influencer marketing",
-    "key_word": "Marketing (Pazarlama)",
+    "target_expression": "Minimize risk",
+    "key_word": "Minimize (En aza indirmek)",
     "type": "chunk",
-    "pronunciation": "/ˈɪn.flu.ən.sər ˈmɑː.kɪ.tɪŋ/",
-    "turkish_meaning": "Influencer pazarlaması",
-    "example_en": "E-commerce brands rely on influencer marketing.",
-    "example_tr": "E-ticaret markaları influencer pazarlamasına dayanır."
+    "pronunciation": "/ˈmɪn.ɪ.maɪz rɪsk/",
+    "turkish_meaning": "Riski en aza indirmek",
+    "example_en": "Strict safety rules minimize risk in factories.",
+    "example_tr": "Sıkı güvenlik kuralları fabrikalarda riski en aza indirir."
   },
   {
     "id": 423,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 3,
-    "target_expression": "User-generated content",
-    "key_word": "Content (İçerik)",
+    "target_expression": "High-priority issue",
+    "key_word": "Priority (Öncelikli)",
     "type": "chunk",
-    "pronunciation": "/ˈjuː.zər ˈdʒen.ə.reɪ.tɪd ˈkɒn.tent/",
-    "turkish_meaning": "Kullanıcı içeriği",
-    "example_en": "Customer reviews are valuable user-generated content.",
-    "example_tr": "Müşteri yorumları değerli kullanıcı içerikleridir."
+    "pronunciation": "/haɪ praɪˈɒr.ə.ti ˈɪʃ.uː/",
+    "turkish_meaning": "Yüksek öncelikli sorun",
+    "example_en": "Treat payment gateway bugs as a high-priority issue.",
+    "example_tr": "Ödeme geçidi hatalarını yüksek öncelikli sorun olarak ele alın."
   },
   {
     "id": 424,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 3,
-    "target_expression": "Push notification",
-    "key_word": "Notification (Bildirim)",
+    "target_expression": "Critical vulnerability",
+    "key_word": "Vulnerability (Zafiyet)",
     "type": "chunk",
-    "pronunciation": "/pʊʃ ˌnəʊ.tɪ.fɪˈkeɪ.ʃən/",
-    "turkish_meaning": "Anlık bildirim",
-    "example_en": "Send a push notification for flash discounts.",
-    "example_tr": "Flaş indirimler için anlık bildirim gönderin."
+    "pronunciation": "/ˈkrɪt.ɪ.kəl ˌvʌl.nər.əˈbɪl.ə.ti/",
+    "turkish_meaning": "Kritik güvenlik açığı",
+    "example_en": "Patch the critical vulnerability immediately.",
+    "example_tr": "Kritik güvenlik açığını derhal yamalayın."
   },
   {
     "id": 425,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 3,
-    "target_expression": "Clickbait headline",
-    "key_word": "Clickbait (Tık tuzağı)",
+    "target_expression": "Disaster recovery",
+    "key_word": "Disaster (Felaket)",
     "type": "chunk",
-    "pronunciation": "/ˈklɪk.beɪt ˈhed.laɪn/",
-    "turkish_meaning": "Tık tuzağı başlık",
-    "example_en": "Avoid misleading readers with a clickbait headline.",
-    "example_tr": "Tık tuzağı bir başlıkla okuyucuları yanıltmaktan kaçının."
+    "pronunciation": "/dɪˈzɑː.stər rɪˈkʌv.ər.i/",
+    "turkish_meaning": "Felaket kurtarma",
+    "example_en": "Test disaster recovery plans twice a year.",
+    "example_tr": "Felaket kurtarma planlarını yılda iki kez test edin."
   },
   {
     "id": 426,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 3,
-    "target_expression": "Digital divide",
-    "key_word": "Divide (Uçurum)",
+    "target_expression": "Interim solution",
+    "key_word": "Interim (Geçici)",
     "type": "chunk",
-    "pronunciation": "/ˈdɪdʒ.ɪ.təl dɪˈvaɪd/",
-    "turkish_meaning": "Dijital uçurum / Erişim eşitsizliği",
-    "example_en": "Free public Wi-Fi helps bridge the digital divide.",
-    "example_tr": "Ücretsiz halka açık Wi-Fi dijital uçurumu kapatmaya yardımcı olur."
+    "pronunciation": "/ˈɪn.tər.ɪm səˈluː.ʃən/",
+    "turkish_meaning": "Geçici / Ara çözüm",
+    "example_en": "An interim solution kept operations running.",
+    "example_tr": "Geçici bir çözüm operasyonların çalışmasını sağladı."
   },
   {
     "id": 427,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 3,
-    "target_expression": "Cyber bullying",
-    "key_word": "Bullying (Zorbalık)",
+    "target_expression": "Resolve conflict",
+    "key_word": "Resolve (Çözmek)",
     "type": "chunk",
-    "pronunciation": "/ˈsaɪ.bər ˈbʊl.i.ɪŋ/",
-    "turkish_meaning": "Siber zorbalık",
-    "example_en": "Schools hold workshops to prevent cyber bullying.",
-    "example_tr": "Okullar siber zorbalığı önlemek için atölyeler düzenler."
+    "pronunciation": "/rɪˈzɒlv ˈkɒn.flɪkt/",
+    "turkish_meaning": "Çatışmayı çözmek",
+    "example_en": "Mediation helped resolve conflict between teams.",
+    "example_tr": "Arabuluculuk ekipler arasındaki çatışmayı çözmeye yardımcı oldu."
   },
   {
     "id": 428,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 3,
-    "target_expression": "Artificial intelligence integration",
-    "key_word": "AI (Yapay Zeka)",
+    "target_expression": "Standby team",
+    "key_word": "Standby (Hazırda bekleyen)",
     "type": "chunk",
-    "pronunciation": "/ˌɑː.tɪˈfɪʃ.əl ɪnˈtel.ɪ.dʒəns ˌɪn.tɪˈɡreɪ.ʃən/",
-    "turkish_meaning": "Yapay zeka entegrasyonu",
-    "example_en": "Software benefits from artificial intelligence integration.",
-    "example_tr": "Yazılımlar yapay zeka entegrasyonundan faydalanır."
+    "pronunciation": "/ˈstæn.baɪ tiːm/",
+    "turkish_meaning": "Hazırda bekleyen ekip",
+    "example_en": "A standby team is ready for night deployments.",
+    "example_tr": "Gece yaygınlaştırmaları için hazırda bekleyen bir ekip mevcuttur."
   },
   {
     "id": 429,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 3,
-    "target_expression": "Smart device",
-    "key_word": "Smart (Akıllı)",
+    "target_expression": "Emergency protocol",
+    "key_word": "Protocol (Protokol)",
     "type": "chunk",
-    "pronunciation": "/smɑːt dɪˈvaɪs/",
-    "turkish_meaning": "Akıllı cihaz",
-    "example_en": "Connect your smart device to home Wi-Fi.",
-    "example_tr": "Akıllı cihazınızı ev Wi-Fi ağına bağlayın."
+    "pronunciation": "/ɪˈmɜː.dʒən.si ˈprəʊ.tə.kɒl/",
+    "turkish_meaning": "Acil durum kuralı",
+    "example_en": "Staff trained on emergency protocol safety.",
+    "example_tr": "Personel acil durum kuralı güvenliği konusunda eğitildi."
   },
   {
     "id": 430,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 3,
-    "target_expression": "Virtual reality",
-    "key_word": "Virtual (Sanal)",
+    "target_expression": "Swift response",
+    "key_word": "Swift (Hızlı)",
     "type": "chunk",
-    "pronunciation": "/ˈvɜː.tʃu.əl riˈæl.ə.ti/",
-    "turkish_meaning": "Sanal gerçeklik",
-    "example_en": "Virtual reality headsets transform gaming experiences.",
-    "example_tr": "Sanal gerçeklik gözlükleri oyun deneyimlerini dönüştürür."
+    "pronunciation": "/swɪft rɪˈspɒns/",
+    "turkish_meaning": "Hızlı / Çabuk yanıt",
+    "example_en": "A swift response mitigated customer dissatisfaction.",
+    "example_tr": "Hızlı bir yanıt müşteri memnuniyetsizliğini hafifletti."
   },
   {
     "id": 431,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 4,
-    "target_expression": "Augmented reality",
-    "key_word": "Augmented (Artırılmış)",
+    "target_expression": "Overcome obstacles",
+    "key_word": "Obstacles (Engeller)",
     "type": "chunk",
-    "pronunciation": "/ɔːɡˈmen.tɪd riˈæl.ə.ti/",
-    "turkish_meaning": "Artırılmış gerçeklik",
-    "example_en": "Retail apps use augmented reality for product previews.",
-    "example_tr": "Perakende uygulamaları ürün önizlemeleri için artırılmış gerçeklik kullanır."
+    "pronunciation": "/ˌəʊ.vəˈkʌm ˈɒb.stə.kəlz/",
+    "turkish_meaning": "Engelleri aşmak",
+    "example_en": "Resilient teams overcome obstacles together.",
+    "example_tr": "Dayanıklı ekipler engelleri birlikte aşar."
   },
   {
     "id": 432,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 4,
-    "target_expression": "Live stream",
-    "key_word": "Stream (Canlı yayın)",
+    "target_expression": "Turn crisis into opportunity",
+    "key_word": "Opportunity (Fırsat)",
     "type": "chunk",
-    "pronunciation": "/laɪv striːm/",
-    "turkish_meaning": "Canlı yayın",
-    "example_en": "Thousands tuned in to watch the live stream.",
-    "example_tr": "Binlerce kişi canlı yayını izlemek için katıldı."
+    "pronunciation": "/tɜːn ˈkraɪ.sɪs ˈɪn.tuː ˌɒp.əˈtʃuː.nə.ti/",
+    "turkish_meaning": "Krizi fırsata çevirmek",
+    "example_en": "Innovative leaders turn crisis into opportunity.",
+    "example_tr": "İnovatif liderler krizi fırsata çevirir."
   },
   {
     "id": 433,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 4,
-    "target_expression": "On-demand service",
-    "key_word": "On-demand (İsteğe bağlı)",
+    "target_expression": "Pressing issue",
+    "key_word": "Pressing (Acil)",
     "type": "chunk",
-    "pronunciation": "/ɒn.dɪˈmɑːnd ˈsɜː.vɪs/",
-    "turkish_meaning": "İsteğe bağlı hizmet",
-    "example_en": "Video platforms offer on-demand service anytime.",
-    "example_tr": "Video platformları her an isteğe bağlı hizmet sunar."
+    "pronunciation": "/ˈpres.ɪŋ ˈɪʃ.uː/",
+    "turkish_meaning": "Acil / Baskı oluşturan sorun",
+    "example_en": "Inflation is a pressing issue for consumers.",
+    "example_tr": "Enflasyon tüketiciler için acil bir sorundur."
   },
   {
     "id": 434,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 4,
-    "target_expression": "Search engine optimization (SEO)",
-    "key_word": "SEO (Arama optimizasyonu)",
+    "target_expression": "Safety net",
+    "key_word": "Safety (Güvenlik)",
     "type": "chunk",
-    "pronunciation": "/sɜːtʃ ˈen.dʒɪn ˌɒp.tɪ.maɪˈzeɪ.ʃən/",
-    "turkish_meaning": "Arama motoru optimizasyonu (SEO)",
-    "example_en": "Good SEO increases organic website traffic.",
-    "example_tr": "İyi SEO organik web sitesi trafiğini artırır."
+    "pronunciation": "/ˈseɪf.ti net/",
+    "turkish_meaning": "Güvenlik ağı",
+    "example_en": "Insurance acts as a financial safety net.",
+    "example_tr": "Sigorta finansal bir güvenlik ağı görevi görür."
   },
   {
     "id": 435,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 4,
-    "target_expression": "Social proof",
-    "key_word": "Proof (Kanıt)",
+    "target_expression": "Structural flaw",
+    "key_word": "Flaw (Kusur/Hata)",
     "type": "chunk",
-    "pronunciation": "/ˈsəʊ.ʃəl pruːf/",
-    "turkish_meaning": "Sosyal kanıt / Toplumsal onay",
-    "example_en": "Positive testimonials provide compelling social proof.",
-    "example_tr": "Olumlu yorumlar ikna edici sosyal kanıt sağlar."
+    "pronunciation": "/ˈstrʌk.tʃər.əl flɔː/",
+    "turkish_meaning": "Yapısal kusur",
+    "example_en": "The audit exposed a structural flaw in management.",
+    "example_tr": "Denetim yönetimde yapısal bir kusuru ortaya çıkardı."
   },
   {
     "id": 436,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 4,
-    "target_expression": "Bandwidth capacity",
-    "key_word": "Bandwidth (Bant genişliği)",
+    "target_expression": "Systemic failure",
+    "key_word": "Systemic (Sistemsel)",
     "type": "chunk",
-    "pronunciation": "/ˈbænd.wɪdθ kəˈpæs.ə.ti/",
-    "turkish_meaning": "Bant genişliği kapasitesi",
-    "example_en": "High bandwidth capacity supports 4K video streaming.",
-    "example_tr": "Yüksek bant genişliği kapasitesi 4K video akışını destekler."
+    "pronunciation": "/sɪˈstem.ɪk ˈfeɪ.ljər/",
+    "turkish_meaning": "Sistemsel arıza / Başarısızlık",
+    "example_en": "Power outages resulted from systemic failure.",
+    "example_tr": "Elektrik kesintileri sistemsel arızadan kaynaklandı."
   },
   {
     "id": 437,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 4,
-    "target_expression": "Instant messaging",
-    "key_word": "Messaging (Mesajlaşma)",
+    "target_expression": "Take charge of the situation",
+    "key_word": "Charge (Kontrol)",
     "type": "chunk",
-    "pronunciation": "/ˈɪn.stənt ˈmes.ɪ.dʒɪŋ/",
-    "turkish_meaning": "Anlık mesajlaşma",
-    "example_en": "Instant messaging apps replaced traditional SMS.",
-    "example_tr": "Anlık mesajlaşma uygulamaları geleneksel SMS'in yerini aldı."
+    "pronunciation": "/teɪk tʃɑːdʒ ɒv ðə ˌsɪtʃ.uˈeɪ.ʃən/",
+    "turkish_meaning": "Durumun kontrolünü ele almak",
+    "example_en": "The commander took charge of the situation.",
+    "example_tr": "Komutan durumun kontrolünü ele aldı."
   },
   {
     "id": 438,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 4,
-    "target_expression": "E-commerce platform",
-    "key_word": "E-commerce (E-ticaret)",
+    "target_expression": "Clear up confusion",
+    "key_word": "Confusion (Karmaşa)",
     "type": "chunk",
-    "pronunciation": "/ˈiːˌkɒm.ɜːs ˈplæt.fɔːm/",
-    "turkish_meaning": "E-ticaret platformu",
-    "example_en": "Sellers build online stores on the e-commerce platform.",
-    "example_tr": "Satıcılar e-ticaret platformunda çevrim içi mağazalar kurar."
+    "pronunciation": "/klɪər ʌp kənˈfjuː.ʒən/",
+    "turkish_meaning": "Karmaşayı gidermek",
+    "example_en": "Publish an FAQ to clear up confusion.",
+    "example_tr": "Karmaşayı gidermek için SSS yayınlayın."
   },
   {
     "id": 439,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 4,
-    "target_expression": "Media coverage",
-    "key_word": "Coverage (Medyada yer bulma)",
+    "target_expression": "Rapid deployment",
+    "key_word": "Deployment (Devreye alma)",
     "type": "chunk",
-    "pronunciation": "/ˈmiː.di.ə ˈkʌv.ər.ɪdʒ/",
-    "turkish_meaning": "Medyada yer bulma / Basın kapsamı",
-    "example_en": "The product launch gained global media coverage.",
-    "example_tr": "Ürün lansmanı küresel medyada geniş yer buldu."
+    "pronunciation": "/ˈræp.ɪd dɪˈplɔɪ.mənt/",
+    "turkish_meaning": "Hızlı devreye alma",
+    "example_en": "DevOps tools enable rapid deployment of software.",
+    "example_tr": "DevOps araçları yazılımın hızlı devreye alınmasını sağlar."
   },
   {
     "id": 440,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 4,
-    "target_expression": "Public relations (PR)",
-    "key_word": "PR (Halkla ilişkiler)",
+    "target_expression": "Action-oriented approach",
+    "key_word": "Action-oriented (Eylem odaklı)",
     "type": "chunk",
-    "pronunciation": "/ˈpʌb.lɪk rɪˈleɪ.ʃənz/",
-    "turkish_meaning": "Halkla ilişkiler (PR)",
-    "example_en": "Strong public relations protect company reputation.",
-    "example_tr": "Güçlü halkla ilişkiler şirket itibarını korur."
+    "pronunciation": "/ˈæk.ʃən ˌɔː.ri.en.tɪd əˈprəʊtʃ/",
+    "turkish_meaning": "Eylem odaklı yaklaşım",
+    "example_en": "Adopt an action-oriented approach to problem solving.",
+    "example_tr": "Problem çözmede eylem odaklı bir yaklaşım benimseyin."
   },
   {
     "id": 441,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 5,
-    "target_expression": "Digital asset",
-    "key_word": "Asset (Varlık)",
+    "target_expression": "Resolve deadlock",
+    "key_word": "Deadlock (Kilitlenme)",
     "type": "chunk",
-    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈæt.set/",
-    "turkish_meaning": "Dijital varlık",
-    "example_en": "Crypto tokens and domain names are digital assets.",
-    "example_tr": "Kripto tokenlar ve alan adları dijital varlıklardır."
+    "pronunciation": "/rɪˈzɒlv ˈded.lɒk/",
+    "turkish_meaning": "Kilitlenmeyi / Tıkanıklığı çözmek",
+    "example_en": "Compromise helped resolve deadlock in talks.",
+    "example_tr": "Uzlaşma görüşmelerdeki kilitlenmeyi çözmeye yardımcı oldu."
   },
   {
     "id": 442,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 5,
-    "target_expression": "Content moderation",
-    "key_word": "Moderation (Denetim)",
+    "target_expression": "Operational disruption",
+    "key_word": "Disruption (Kesinti)",
     "type": "chunk",
-    "pronunciation": "/ˈkɒn.tent ˌmɒd.ərˈeɪ.ʃən/",
-    "turkish_meaning": "İçerik denetimi / Moderasyonu",
-    "example_en": "Content moderation keeps forums safe and clean.",
-    "example_tr": "İçerik denetimi forumları güvenli ve temiz tutar."
+    "pronunciation": "/ˌɒp.ərˈeɪ.ʃən.əl dɪsˈrʌp.ʃən/",
+    "turkish_meaning": "Operasyonel kesinti",
+    "example_en": "Cyberattacks cause severe operational disruption.",
+    "example_tr": "Siber saldırılar ciddi operasyonel kesintilere neden olur."
   },
   {
     "id": 443,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 5,
-    "target_expression": "Terms of use",
-    "key_word": "Terms (Koşullar)",
+    "target_expression": "Under scrutiny",
+    "key_word": "Scrutiny (İnceleme)",
     "type": "chunk",
-    "pronunciation": "/tɜːmz ɒv juːs/",
-    "turkish_meaning": "Kullanım koşulları",
-    "example_en": "Read and agree to the terms of use before signup.",
-    "example_tr": "Kayıt olmadan önce kullanım koşullarını okuyup kabul edin."
+    "pronunciation": "/ˈʌn.dər ˈskruː.tɪ.ni/",
+    "turkish_meaning": "Mercek altında olmak",
+    "example_en": "The firm is under scrutiny for tax compliance.",
+    "example_tr": "Firma vergi uyumu açısından mercek altındadır."
   },
   {
     "id": 444,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 5,
-    "target_expression": "Tech-savvy",
-    "key_word": "Tech-savvy (Teknoloji uzmanı)",
+    "target_expression": "Rebuild trust",
+    "key_word": "Trust (Güven)",
     "type": "chunk",
-    "pronunciation": "/tek ˈsæv.i/",
-    "turkish_meaning": "Teknolojiden iyi anlayan",
-    "example_en": "Tech-savvy youth adapt to new gadgets quickly.",
-    "example_tr": "Teknolojiden iyi anlayan gençler yeni cihazlara hızla uyum sağlar."
+    "pronunciation": "/ˌriːˈbɪld trʌst/",
+    "turkish_meaning": "Güveni yeniden inşa etmek",
+    "example_en": "Transparency is key to rebuild trust.",
+    "example_tr": "Şeffaflık güveni yeniden inşa etmenin kilit noktasıdır."
   },
   {
     "id": 445,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 5,
-    "target_expression": "Two-factor authentication",
-    "key_word": "2FA (İki faktörlü kimlik doğrulama)",
+    "target_expression": "Address complaints",
+    "key_word": "Complaints (Şikayetler)",
     "type": "chunk",
-    "pronunciation": "/tuː ˈfæk.tər ɔːˌθen.tɪˈkeɪ.ʃən/",
-    "turkish_meaning": "İki faktörlü kimlik doğrulama",
-    "example_en": "Enable two-factor authentication for extra security.",
-    "example_tr": "Ekstra güvenlik için iki faktörlü kimlik doğrulamayı etkinleştirin."
+    "pronunciation": "/əˈdres kəmˈpleɪnts/",
+    "turkish_meaning": "Şikayetleri ele almak",
+    "example_en": "Customer support must address complaints within 24 hours.",
+    "example_tr": "Müşteri desteği 24 saat içinde şikayetleri ele almalıdır."
   },
   {
     "id": 446,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 5,
-    "target_expression": "User preference",
-    "key_word": "Preference (Tercih)",
+    "target_expression": "Zero-tolerance policy",
+    "key_word": "Zero-tolerance (Sıfır tolerans)",
     "type": "chunk",
-    "pronunciation": "/ˈjuː.zər ˈpref.ər.əns/",
-    "turkish_meaning": "Kullanıcı tercihi",
-    "example_en": "Save settings according to user preference.",
-    "example_tr": "Ayarları kullanıcı tercihine göre kaydedin."
+    "pronunciation": "/ˈzɪə.rəʊ ˈtɒl.ər.əns ˈpɒl.ə.si/",
+    "turkish_meaning": "Sıfır tolerans politikası",
+    "example_en": "The company maintains a zero-tolerance policy for harassment.",
+    "example_tr": "Şirket tacize karşı sıfır tolerans politikası uygular."
   },
   {
     "id": 447,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 5,
-    "target_expression": "High-speed internet",
-    "key_word": "High-speed (Yüksek hızlı)",
+    "target_expression": "Tactical shift",
+    "key_word": "Tactical (Taktiksel)",
     "type": "chunk",
-    "pronunciation": "/haɪ spiːd ˈɪn.tə.net/",
-    "turkish_meaning": "Yüksek hızlı internet",
-    "example_en": "Fiber optical cables deliver high-speed internet.",
-    "example_tr": "Fiber optik kablolar yüksek hızlı internet sağlar."
+    "pronunciation": "/ˈtæk.tɪ.kəl ʃɪft/",
+    "turkish_meaning": "Taktiksel yön değişimi",
+    "example_en": "The team executed a tactical shift during product launch.",
+    "example_tr": "Ekip ürün lansmanı sırasında taktiksel bir yön değişimi gerçekleştirdi."
   },
   {
     "id": 448,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 5,
-    "target_expression": "Digital transformation",
-    "key_word": "Transformation (Dönüşüm)",
+    "target_expression": "Handle pressure",
+    "key_word": "Pressure (Baskı/Stres)",
     "type": "chunk",
-    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˌtræns.fəˈmeɪ.ʃən/",
-    "turkish_meaning": "Dijital dönüşüm",
-    "example_en": "Cloud computing accelerates corporate digital transformation.",
-    "example_tr": "Bulut bilişim kurumsal dijital dönüşümü hızlandırır."
+    "pronunciation": "/ˈhæn.dəl ˈpreʃ.ər/",
+    "turkish_meaning": "Baskıyı / Stresi yönetmek",
+    "example_en": "Great leaders know how to handle pressure effectively.",
+    "example_tr": "Büyük liderler baskıyı etkili şekilde nasıl yöneteceklerini bilirler."
   },
   {
     "id": 449,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 5,
-    "target_expression": "Network security",
-    "key_word": "Security (Güvenlik)",
+    "target_expression": "Decision-making under uncertainty",
+    "key_word": "Uncertainty (Belirsizlik)",
     "type": "chunk",
-    "pronunciation": "/ˈnet.wɜːk sɪˈkjʊə.rə.ti/",
-    "turkish_meaning": "Ağ güvenliği",
-    "example_en": "Firewalls reinforce overall network security.",
-    "example_tr": "Güvenlik duvarları genel ağ güvenliğini pekiştirir."
+    "pronunciation": "/dɪˈsɪʒ.ən ˈmeɪ.kɪŋ ˈʌn.dər ʌnˈsɜː.tən.ti/",
+    "turkish_meaning": "Belirsizlik altında karar verme",
+    "example_en": "Executive training focuses on decision-making under uncertainty.",
+    "example_tr": "Yönetici eğitimi belirsizlik altında karar verme konusuna odaklanır."
   },
   {
     "id": 450,
-    "category": "digital_culture",
+    "category": "crisis_mgmt",
     "deck": 5,
-    "target_expression": "Seamless experience",
-    "key_word": "Seamless (Pürüzsüz)",
+    "target_expression": "Lessons learned",
+    "key_word": "Lessons (Dersler)",
     "type": "chunk",
-    "pronunciation": "/ˈsiːm.ləs ɪkˈspɪə.ri.əns/",
-    "turkish_meaning": "Kusursuz / Pürüzsüz deneyim",
-    "example_en": "The new app design offers a seamless experience.",
-    "example_tr": "Yeni uygulama tasarımı kusursuz bir deneyim sunar."
+    "pronunciation": "/ˈles.ənz lɜːnd/",
+    "turkish_meaning": "Çıkarılan dersler",
+    "example_en": "Document lessons learned after project completion.",
+    "example_tr": "Proje tamamlandıktan sonra çıkarılan dersleri belgeleyin."
   },
   {
     "id": 451,
+    "category": "innovation",
+    "deck": 1,
+    "target_expression": "Future-proof solution",
+    "key_word": "Future-proof (Geleceğe uyumlu)",
+    "type": "chunk",
+    "pronunciation": "/ˈfjuː.tʃər pruːf səˈluː.ʃən/",
+    "turkish_meaning": "Geleceğe uyumlu / Zamanın ötesinde çözüm",
+    "example_en": "Cloud infrastructure offers a future-proof solution.",
+    "example_tr": "Bulut altyapısı geleceğe uyumlu bir çözüm sunar."
+  },
+  {
+    "id": 452,
+    "category": "innovation",
+    "deck": 1,
+    "target_expression": "Long-term sustainability",
+    "key_word": "Sustainability (Sürdürülebilirlik)",
+    "type": "chunk",
+    "pronunciation": "/lɒŋ tɜːm səˈsteɪ.nə.bɪl.ə.ti/",
+    "turkish_meaning": "Uzun vadeli sürdürülebilirlik",
+    "example_en": "Focus on long-term sustainability over short gains.",
+    "example_tr": "Kısa kazançlar yerine uzun vadeli sürdürülebilirliğe odaklanın."
+  },
+  {
+    "id": 453,
+    "category": "innovation",
+    "deck": 1,
+    "target_expression": "Driving innovation",
+    "key_word": "Innovation (İnovasyon)",
+    "type": "chunk",
+    "pronunciation": "/ˈdraɪ.vɪŋ ˌɪn.əˈveɪ.ʃən/",
+    "turkish_meaning": "İnovasyonu tetikleme",
+    "example_en": "R&D investment is central to driving innovation.",
+    "example_tr": "Ar-Ge yatırımı inovasyonu tetiklemede merkezidir."
+  },
+  {
+    "id": 454,
+    "category": "innovation",
+    "deck": 1,
+    "target_expression": "Market disruption",
+    "key_word": "Disruption (Ezber bozma)",
+    "type": "chunk",
+    "pronunciation": "/ˈmɑː.kɪt dɪsˈrʌp.ʃən/",
+    "turkish_meaning": "Pazarın dengelerini değiştirme / Ezber bozma",
+    "example_en": "Electric cars created massive market disruption.",
+    "example_tr": "Elektrikli arabalar büyük bir pazar ezber bozması yarattı."
+  },
+  {
+    "id": 455,
+    "category": "innovation",
+    "deck": 1,
+    "target_expression": "Exponential growth",
+    "key_word": "Exponential (Üstel/Katlanarak)",
+    "type": "chunk",
+    "pronunciation": "/ˌek.spəˈnen.ʃəl ɡrəʊθ/",
+    "turkish_meaning": "Üstel / Katlanarak büyüme",
+    "example_en": "Tech startups target exponential growth.",
+    "example_tr": "Teknoloji girişimleri katlanarak büyümeyi hedefler."
+  },
+  {
+    "id": 456,
+    "category": "innovation",
+    "deck": 1,
+    "target_expression": "Visionary approach",
+    "key_word": "Visionary (Vizyoner)",
+    "type": "chunk",
+    "pronunciation": "/ˈvɪʒ.ən.ər.i əˈprəʊtʃ/",
+    "turkish_meaning": "Vizyoner yaklaşım",
+    "example_en": "Steve Jobs was famous for his visionary approach.",
+    "example_tr": "Steve Jobs vizyoner yaklaşımıyla ünlüydü."
+  },
+  {
+    "id": 457,
+    "category": "innovation",
+    "deck": 1,
+    "target_expression": "Strategic agility",
+    "key_word": "Agility (Çeviklik)",
+    "type": "chunk",
+    "pronunciation": "/strəˈtiː.dʒɪk əˈdʒɪl.ə.ti/",
+    "turkish_meaning": "Stratejik çeviklik / Esneklik",
+    "example_en": "Strategic agility helps firms adapt to market changes.",
+    "example_tr": "Stratejik çeviklik firmaların pazar değişimlerine uyum sağlamasına yardımcı olur."
+  },
+  {
+    "id": 458,
+    "category": "innovation",
+    "deck": 1,
+    "target_expression": "Transformative change",
+    "key_word": "Transformative (Dönüştürücü)",
+    "type": "chunk",
+    "pronunciation": "/trænsˈfɔː.mə.tɪv tʃeɪndʒ/",
+    "turkish_meaning": "Dönüştürücü değişim",
+    "example_en": "AI adoption initiates transformative change.",
+    "example_tr": "Yapay zeka benimsenmesi dönüştürücü değişimi başlatır."
+  },
+  {
+    "id": 459,
+    "category": "innovation",
+    "deck": 1,
+    "target_expression": "Next-level performance",
+    "key_word": "Performance (Performans)",
+    "type": "chunk",
+    "pronunciation": "/nekst ˈlev.əl pəˈfɔː.məns/",
+    "turkish_meaning": "Üst düzey / İleri seviye performans",
+    "example_en": "New hardware delivers next-level performance.",
+    "example_tr": "Yeni donanım ileri seviye performans sunar."
+  },
+  {
+    "id": 460,
+    "category": "innovation",
+    "deck": 1,
+    "target_expression": "Global expansion",
+    "key_word": "Expansion (Genişleme)",
+    "type": "chunk",
+    "pronunciation": "/ˈɡləʊ.bəl ɪkˈspæn.ʃən/",
+    "turkish_meaning": "Küresel genişleme / Büyüme",
+    "example_en": "Cross-border funding supports global expansion.",
+    "example_tr": "Sınır ötesi finansman küresel büyümeyi destekler."
+  },
+  {
+    "id": 461,
+    "category": "innovation",
+    "deck": 2,
+    "target_expression": "Sustainable competitive advantage",
+    "key_word": "Advantage (Avantaj)",
+    "type": "chunk",
+    "pronunciation": "/səˈsteɪ.nə.bəl kəmˈpet.ə.tɪv ədˈvɑːn.tɪdʒ/",
+    "turkish_meaning": "Sürdürülebilir rekabet avantajı",
+    "example_en": "Patents build a sustainable competitive advantage.",
+    "example_tr": "Patentler sürdürülebilir bir rekabet avantajı inşa eder."
+  },
+  {
+    "id": 462,
+    "category": "innovation",
+    "deck": 2,
+    "target_expression": "Pioneering effort",
+    "key_word": "Pioneering (Öncü)",
+    "type": "chunk",
+    "pronunciation": "/ˌpaɪəˈnɪə.rɪŋ ˈef.ət/",
+    "turkish_meaning": "Öncü / Çığır açan çaba",
+    "example_en": "SpaceX represents a pioneering effort in aerospace.",
+    "example_tr": "SpaceX havacılıkta öncü bir çabayı temsil eder."
+  },
+  {
+    "id": 463,
+    "category": "innovation",
+    "deck": 2,
+    "target_expression": "Strategic roadmap",
+    "key_word": "Roadmap (Yol haritası)",
+    "type": "chunk",
+    "pronunciation": "/strəˈtiː.dʒɪk ˈrəʊd.mæp/",
+    "turkish_meaning": "Stratejik yol haritası",
+    "example_en": "The strategic roadmap directs 5-year goals.",
+    "example_tr": "Stratejik yol haritası 5 yıllık hedefleri yönlendirir."
+  },
+  {
+    "id": 464,
+    "category": "innovation",
+    "deck": 2,
+    "target_expression": "Scalable infrastructure",
+    "key_word": "Scalable (Ölçeklenebilir)",
+    "type": "chunk",
+    "pronunciation": "/ˈskeɪ.lə.bəl ˈɪn.frəˌstrʌk.tʃər/",
+    "turkish_meaning": "Ölçeklenebilir altyapı",
+    "example_en": "Build a scalable infrastructure for traffic spikes.",
+    "example_tr": "Trafik artışları için ölçeklenebilir bir altyapı kurun."
+  },
+  {
+    "id": 465,
+    "category": "innovation",
+    "deck": 2,
+    "target_expression": "Ecosystem building",
+    "key_word": "Ecosystem (Ekosistem)",
+    "type": "chunk",
+    "pronunciation": "/ˈiː.kəʊˌsɪs.təm ˈbɪl.dɪŋ/",
+    "turkish_meaning": "Ekosistem oluşturma",
+    "example_en": "Developer tools facilitate ecosystem building.",
+    "example_tr": "Geliştirici araçları ekosistem oluşturmayı kolaylaştırır."
+  },
+  {
+    "id": 466,
+    "category": "innovation",
+    "deck": 2,
+    "target_expression": "Value creation",
+    "key_word": "Value (Değer)",
+    "type": "chunk",
+    "pronunciation": "/ˈvæl.juː kriˈeɪ.ʃən/",
+    "turkish_meaning": "Değer yaratma",
+    "example_en": "Focus business strategy on customer value creation.",
+    "example_tr": "İş stratejisini müşteri değeri yaratmaya odaklayın."
+  },
+  {
+    "id": 467,
+    "category": "innovation",
+    "deck": 2,
+    "target_expression": "Breakthrough technology",
+    "key_word": "Breakthrough (Çığır açan)",
+    "type": "chunk",
+    "pronunciation": "/ˈbreɪk.θruː tekˈnɒl.ə.dʒi/",
+    "turkish_meaning": "Çığır açan teknoloji",
+    "example_en": "Quantum computing is a breakthrough technology.",
+    "example_tr": "Kuantum bilgisayar çığır açan bir teknolojidir."
+  },
+  {
+    "id": 468,
+    "category": "innovation",
+    "deck": 2,
+    "target_expression": "Industry leader",
+    "key_word": "Leader (Lider)",
+    "type": "chunk",
+    "pronunciation": "/ˈɪn.də.stri ˈliː.dər/",
+    "turkish_meaning": "Sektör lideri",
+    "example_en": "The firm became an industry leader in renewable energy.",
+    "example_tr": "Firma yenilenebilir enerjide sektör lideri oldu."
+  },
+  {
+    "id": 469,
+    "category": "innovation",
+    "deck": 2,
+    "target_expression": "Thought leadership",
+    "key_word": "Thought (Fikir)",
+    "type": "chunk",
+    "pronunciation": "/θɔːt ˈliː.də.ʃɪp/",
+    "turkish_meaning": "Fikir önderliği",
+    "example_en": "Publishing research establishes thought leadership.",
+    "example_tr": "Araştırma yayınlamak fikir önderliği tesis eder."
+  },
+  {
+    "id": 470,
+    "category": "innovation",
+    "deck": 2,
+    "target_expression": "Adaptability to change",
+    "key_word": "Adaptability (Uyum yeteneği)",
+    "type": "chunk",
+    "pronunciation": "/əˌdæp.təˈbɪl.ə.ti tuː tʃeɪndʒ/",
+    "turkish_meaning": "Değişime uyum sağlama yeteneği",
+    "example_en": "Organizational success relies on adaptability to change.",
+    "example_tr": "Kurumsal başarı değişime uyum sağlama yeteneğine dayanır."
+  },
+  {
+    "id": 471,
+    "category": "innovation",
+    "deck": 3,
+    "target_expression": "Market penetration",
+    "key_word": "Penetration (Nüfuz)",
+    "type": "chunk",
+    "pronunciation": "/ˈmɑː.kɪt ˌpen.ɪˈtreɪ.ʃən/",
+    "turkish_meaning": "Pazara nüfuz etme",
+    "example_en": "Competitive pricing sped up market penetration.",
+    "example_tr": "Rekabetçi fiyatlandırma pazara nüfuz etmeyi hızlandırdı."
+  },
+  {
+    "id": 472,
+    "category": "innovation",
+    "deck": 3,
+    "target_expression": "Strategic positioning",
+    "key_word": "Positioning (Konumlandırma)",
+    "type": "chunk",
+    "pronunciation": "/strəˈtiː.dʒɪk pəˈzɪʃ.ən.ɪŋ/",
+    "turkish_meaning": "Stratejik konumlandırma",
+    "example_en": "Premium branding enhances strategic positioning.",
+    "example_tr": "Premium markalaşma stratejik konumlandırmayı artırır."
+  },
+  {
+    "id": 473,
+    "category": "innovation",
+    "deck": 3,
+    "target_expression": "High-impact initiative",
+    "key_word": "Initiative (Girişim)",
+    "type": "chunk",
+    "pronunciation": "/haɪ ˈɪm.pækt ɪˈnɪʃ.ə.tɪv/",
+    "turkish_meaning": "Yüksek etkili girişim",
+    "example_en": "Green energy adoption is a high-impact initiative.",
+    "example_tr": "Yeşil enerji benimsemesi yüksek etkili bir girişimdir."
+  },
+  {
+    "id": 474,
+    "category": "innovation",
+    "deck": 3,
+    "target_expression": "Forward-thinking strategy",
+    "key_word": "Forward-thinking (İleri görüşlü)",
+    "type": "chunk",
+    "pronunciation": "/ˈfɔː.wəd ˈθɪŋ.kɪŋ ˈstræt.ə.dʒi/",
+    "turkish_meaning": "İleri görüşlü strateji",
+    "example_en": "Adopting AI is a forward-thinking strategy.",
+    "example_tr": "Yapay zekayı benimsemek ileri görüşlü bir stratejidir."
+  },
+  {
+    "id": 475,
+    "category": "innovation",
+    "deck": 3,
+    "target_expression": "Unlocking potential",
+    "key_word": "Potential (Potansiyel)",
+    "type": "chunk",
+    "pronunciation": "/ʌnˈlɒk.ɪŋ pəˈten.ʃəl/",
+    "turkish_meaning": "Potansiyeli açığa çıkarma",
+    "example_en": "Employee training aids in unlocking potential.",
+    "example_tr": "Çalışan eğitimi potansiyeli açığa çıkarmada yardımcı olur."
+  },
+  {
+    "id": 476,
+    "category": "innovation",
+    "deck": 3,
+    "target_expression": "Core strategy",
+    "key_word": "Core (Temel)",
+    "type": "chunk",
+    "pronunciation": "/kɔːr ˈstræt.ə.dʒi/",
+    "turkish_meaning": "Temel / Çekirdek strateji",
+    "example_en": "Customer satisfaction remains our core strategy.",
+    "example_tr": "Müşteri memnuniyeti temel stratejimiz olmaya devam ediyor."
+  },
+  {
+    "id": 477,
+    "category": "innovation",
+    "deck": 3,
+    "target_expression": "Organic growth",
+    "key_word": "Organic (Organik)",
+    "type": "chunk",
+    "pronunciation": "/ɔːˈɡæn.ɪk ɡrəʊθ/",
+    "turkish_meaning": "Organik büyüme",
+    "example_en": "Word-of-mouth marketing drives organic growth.",
+    "example_tr": "Kulaktan kulağa pazarlama organik büyümeyi tetikler."
+  },
+  {
+    "id": 478,
+    "category": "innovation",
+    "deck": 3,
+    "target_expression": "Strategic diversification",
+    "key_word": "Diversification (Çeşitlendirme)",
+    "type": "chunk",
+    "pronunciation": "/strəˈtiː.dʒɪk daɪˌvɜː.sɪ.fɪˈkeɪ.ʃən/",
+    "turkish_meaning": "Stratejik çeşitlendirme",
+    "example_en": "Strategic diversification reduces dependency on one product.",
+    "example_tr": "Stratejik çeşitlendirme tek bir ürüne bağımlılığı azaltır."
+  },
+  {
+    "id": 479,
+    "category": "innovation",
+    "deck": 3,
+    "target_expression": "Capitalize on opportunities",
+    "key_word": "Capitalize (Kazanca çevirmek)",
+    "type": "chunk",
+    "pronunciation": "/kəˈpɪt.əl.aɪz ɒn ˌɒp.əˈtʃuː.nə.tiz/",
+    "turkish_meaning": "Fırsatları kazanca çevirmek",
+    "example_en": "Agile startups capitalize on market opportunities.",
+    "example_tr": "Çevik girişimler pazar fırsatlarını kazanca çevirir."
+  },
+  {
+    "id": 480,
+    "category": "innovation",
+    "deck": 3,
+    "target_expression": "Shaping the future",
+    "key_word": "Future (Gelecek)",
+    "type": "chunk",
+    "pronunciation": "/ˈʃeɪ.pɪŋ ðə ˈfjuː.tʃər/",
+    "turkish_meaning": "Geleceği şekillendirme",
+    "example_en": "Clean energy technologies are shaping the future.",
+    "example_tr": "Temiz enerji teknolojileri geleceği şekillendiriyor."
+  },
+  {
+    "id": 481,
+    "category": "innovation",
+    "deck": 4,
+    "target_expression": "Digital ecosystem",
+    "key_word": "Ecosystem (Ekosistem)",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈiː.kəʊˌsɪs.təm/",
+    "turkish_meaning": "Dijital ekosistem",
+    "example_en": "Mobile apps form an interconnected digital ecosystem.",
+    "example_tr": "Mobil uygulamalar birbirine bağlı bir dijital ekosistem oluşturur."
+  },
+  {
+    "id": 482,
+    "category": "innovation",
+    "deck": 4,
+    "target_expression": "Synergistic effect",
+    "key_word": "Synergistic (Sinerjik)",
+    "type": "chunk",
+    "pronunciation": "/ˌsɪn.əˈdʒɪs.tɪk ɪˈfekt/",
+    "turkish_meaning": "Sinerjik etki",
+    "example_en": "Combining teams produced a synergistic effect.",
+    "example_tr": "Ekipleri birleştirmek sinerjik bir etki üretti."
+  },
+  {
+    "id": 483,
+    "category": "innovation",
+    "deck": 4,
+    "target_expression": "Value-driven strategy",
+    "key_word": "Value-driven (Değer odaklı)",
+    "type": "chunk",
+    "pronunciation": "/ˈvæl.juː ˈdrɪv.ən ˈstræt.ə.dʒi/",
+    "turkish_meaning": "Değer odaklı strateji",
+    "example_en": "A value-driven strategy builds long-term customer loyalty.",
+    "example_tr": "Değer odaklı bir strateji uzun vadeli müşteri sadakati inşa eder."
+  },
+  {
+    "id": 484,
+    "category": "innovation",
+    "deck": 4,
+    "target_expression": "Business model innovation",
+    "key_word": "Innovation (İnovasyon)",
+    "type": "chunk",
+    "pronunciation": "/ˈbɪz.nɪs ˈmɒd.əl ˌɪn.əˈveɪ.ʃən/",
+    "turkish_meaning": "İş modeli inovasyonu",
+    "example_en": "Subscription pricing is a classic business model innovation.",
+    "example_tr": "Abonelik fiyatlandırması klasik bir iş modeli inovasyonudur."
+  },
+  {
+    "id": 485,
+    "category": "innovation",
+    "deck": 4,
+    "target_expression": "Customer-centric approach",
+    "key_word": "Customer-centric (Müşteri odaklı)",
+    "type": "chunk",
+    "pronunciation": "/ˈkʌs.tə.mər ˈsen.trɪk əˈprəʊtʃ/",
+    "turkish_meaning": "Müşteri odaklı yaklaşım",
+    "example_en": "A customer-centric approach guides our product design.",
+    "example_tr": "Müşteri odaklı yaklaşım ürün tasarımımıza rehberlik eder."
+  },
+  {
+    "id": 486,
+    "category": "innovation",
+    "deck": 4,
+    "target_expression": "Strategic foresight",
+    "key_word": "Foresight (Öngörü)",
+    "type": "chunk",
+    "pronunciation": "/strəˈtiː.dʒɪk ˈfɔː.saɪt/",
+    "turkish_meaning": "Stratejik öngörü",
+    "example_en": "Strategic foresight prepares firms for market disruptions.",
+    "example_tr": "Stratejik öngörü firmaları pazar kırılmalarına hazırlar."
+  },
+  {
+    "id": 487,
+    "category": "innovation",
+    "deck": 4,
+    "target_expression": "Continuous transformation",
+    "key_word": "Transformation (Dönüşüm)",
+    "type": "chunk",
+    "pronunciation": "/kənˈtɪn.ju.əs ˌtræns.fəˈmeɪ.ʃən/",
+    "turkish_meaning": "Sürekli dönüşüm",
+    "example_en": "Digital shifts demand continuous transformation.",
+    "example_tr": "Dijital değişimler sürekli dönüşüm gerektirir."
+  },
+  {
+    "id": 488,
+    "category": "innovation",
+    "deck": 4,
+    "target_expression": "Leapfrog the competition",
+    "key_word": "Leapfrog (Sıçrayarak geçmek)",
+    "type": "chunk",
+    "pronunciation": "/ˈliːp.frɒɡ ðə ˌkɒm.pəˈtɪʃ.ən/",
+    "turkish_meaning": "Rakipleri sıçrayarak geride bırakmak",
+    "example_en": "New tech allowed us to leapfrog the competition.",
+    "example_tr": "Yeni teknoloji rakipleri sıçrayarak geride bırakmamızı sağladı."
+  },
+  {
+    "id": 489,
+    "category": "innovation",
+    "deck": 4,
+    "target_expression": "Strategic imperative",
+    "key_word": "Imperative (Zorunluluk)",
+    "type": "chunk",
+    "pronunciation": "/strəˈtiː.dʒɪk ɪmˈper.ə.tɪv/",
+    "turkish_meaning": "Stratejik zorunluluk",
+    "example_en": "Cybersecurity is now a strategic imperative.",
+    "example_tr": "Siber güvenlik artık stratejik bir zorunluluktur."
+  },
+  {
+    "id": 490,
+    "category": "innovation",
+    "deck": 4,
+    "target_expression": "Global footprint",
+    "key_word": "Footprint (Varlık/İz)",
+    "type": "chunk",
+    "pronunciation": "/ˈɡləʊ.bəl ˈfʊt.prɪnt/",
+    "turkish_meaning": "Küresel varlık / Ayak izi",
+    "example_en": "The brand expanded its global footprint to 50 countries.",
+    "example_tr": "Marka küresel varlığını 50 ülkeye genişletti."
+  },
+  {
+    "id": 491,
+    "category": "innovation",
+    "deck": 5,
+    "target_expression": "Disruptive technology",
+    "key_word": "Disruptive (Yıkıcı/Devrimsel)",
+    "type": "chunk",
+    "pronunciation": "/dɪsˈrʌp.tɪv tekˈnɒl.ə.dʒi/",
+    "turkish_meaning": "Yıkıcı / Devrim niteliğinde teknoloji",
+    "example_en": "Generative AI is a major disruptive technology.",
+    "example_tr": "Üretken yapay zeka büyük bir devrim niteliğinde teknolojidir."
+  },
+  {
+    "id": 492,
+    "category": "innovation",
+    "deck": 5,
+    "target_expression": "Sustainable development",
+    "key_word": "Development (Kalkınma)",
+    "type": "chunk",
+    "pronunciation": "/səˈsteɪ.nə.bəl dɪˈvel.əp.mənt/",
+    "turkish_meaning": "Sürdürülebilir kalkınma",
+    "example_en": "UN goals promote global sustainable development.",
+    "example_tr": "BM hedefleri küresel sürdürülebilir kalkınmayı teşvik eder."
+  },
+  {
+    "id": 493,
+    "category": "innovation",
+    "deck": 5,
+    "target_expression": "Strategic milestone",
+    "key_word": "Milestone (Dönüm noktası)",
+    "type": "chunk",
+    "pronunciation": "/strəˈtiː.dʒɪk ˈmaɪl.stəʊn/",
+    "turkish_meaning": "Stratejik dönüm noktası",
+    "example_en": "Reaching 1 million users was a strategic milestone.",
+    "example_tr": "1 milyon kullanıcıya ulaşmak stratejik bir dönüm noktasıydı."
+  },
+  {
+    "id": 494,
+    "category": "innovation",
+    "deck": 5,
+    "target_expression": "Market leader",
+    "key_word": "Leader (Lider)",
+    "type": "chunk",
+    "pronunciation": "/ˈmɑː.kɪt ˈliː.dər/",
+    "turkish_meaning": "Pazar lideri",
+    "example_en": "Continuous innovation keeps us as the market leader.",
+    "example_tr": "Sürekli inovasyon bizi pazar lideri tutar."
+  },
+  {
+    "id": 495,
+    "category": "innovation",
+    "deck": 5,
+    "target_expression": "High-growth market",
+    "key_word": "High-growth (Hızlı büyüyen)",
+    "type": "chunk",
+    "pronunciation": "/haɪ ɡrəʊθ ˈmɑː.kɪt/",
+    "turkish_meaning": "Hızlı büyüyen pazar",
+    "example_en": "Invest in high-growth markets for maximum ROI.",
+    "example_tr": "Maksimum getiri için hızlı büyüyen pazarlara yatırım yapın."
+  },
+  {
+    "id": 496,
+    "category": "innovation",
+    "deck": 5,
+    "target_expression": "Next-generation product",
+    "key_word": "Next-gen (Yeni nesil)",
+    "type": "chunk",
+    "pronunciation": "/nekst ˌdʒen.əˈreɪ.ʃən ˈprɒd.ʌkt/",
+    "turkish_meaning": "Yeni nesil ürün",
+    "example_en": "We launched our next-generation product line today.",
+    "example_tr": "Bugün yeni nesil ürün hattımızı piyasaya sürdük."
+  },
+  {
+    "id": 497,
+    "category": "innovation",
+    "deck": 5,
+    "target_expression": "Strategic convergence",
+    "key_word": "Convergence (Yakınlaşma)",
+    "type": "chunk",
+    "pronunciation": "/strəˈtiː.dʒɪk kənˈvɜː.dʒəns/",
+    "turkish_meaning": "Stratejik yakınlaşma / Birleşme",
+    "example_en": "Telecom and media show strategic convergence.",
+    "example_tr": "Telekom ve medya stratejik yakınlaşma gösteriyor."
+  },
+  {
+    "id": 498,
+    "category": "innovation",
+    "deck": 5,
+    "target_expression": "Core mission",
+    "key_word": "Mission (Misyon)",
+    "type": "chunk",
+    "pronunciation": "/kɔːr ˈmɪʃ.ən/",
+    "turkish_meaning": "Temel misyon",
+    "example_en": "Our core mission is empowering students globally.",
+    "example_tr": "Temel misyonumuz öğrencileri küresel olarak güçlendirmektir."
+  },
+  {
+    "id": 499,
+    "category": "innovation",
+    "deck": 5,
+    "target_expression": "Long-term value",
+    "key_word": "Value (Değer)",
+    "type": "chunk",
+    "pronunciation": "/lɒŋ tɜːm ˈvæl.juː/",
+    "turkish_meaning": "Uzun vadeli değer",
+    "example_en": "Building long-term value benefits all shareholders.",
+    "example_tr": "Uzun vadeli değer inşa etmek tüm hissedarlara fayda sağlar."
+  },
+  {
+    "id": 500,
+    "category": "innovation",
+    "deck": 5,
+    "target_expression": "Vision for the future",
+    "key_word": "Vision (Vizyon)",
+    "type": "chunk",
+    "pronunciation": "/ˈvɪʒ.ən fɔːr ðə ˈfjuː.tʃər/",
+    "turkish_meaning": "Gelecek vizyonu",
+    "example_en": "The founder shared an inspiring vision for the future.",
+    "example_tr": "Kurucu ilham verici bir gelecek vizyonu paylaştı."
+  },
+  {
+    "id": 501,
+    "category": "global_biz",
+    "deck": 1,
+    "target_expression": "Bilateral agreement",
+    "key_word": "Bilateral (İki taraflı)",
+    "type": "chunk",
+    "pronunciation": "/baɪˈlæt.ər.əl əˈɡriː.mənt/",
+    "turkish_meaning": "İki taraflı anlaşma",
+    "example_en": "Both nations signed a new bilateral agreement.",
+    "example_tr": "Her iki ulus yeni bir iki taraflı anlaşma imzaladı."
+  },
+  {
+    "id": 502,
+    "category": "global_biz",
+    "deck": 1,
+    "target_expression": "Multilateral negotiation",
+    "key_word": "Multilateral (Çok taraflı)",
+    "type": "chunk",
+    "pronunciation": "/ˌmʌl.tiˈlæt.ər.əl nɪˌɡəʊ.ʃiˈeɪ.ʃən/",
+    "turkish_meaning": "Çok taraflı müzakere",
+    "example_en": "Trade disputes were resolved through multilateral negotiation.",
+    "example_tr": "Ticaret anlaşmazlıkları çok taraflı müzakere ile çözüldü."
+  },
+  {
+    "id": 503,
+    "category": "global_biz",
+    "deck": 1,
+    "target_expression": "Geopolitical tension",
+    "key_word": "Geopolitical (Jeopolitik)",
+    "type": "chunk",
+    "pronunciation": "/ˌdʒiː.əʊ.pəˈlɪt.ɪ.kəl ˈten.ʃən/",
+    "turkish_meaning": "Jeopolitik gerilim",
+    "example_en": "Geopolitical tension influenced global oil prices.",
+    "example_tr": "Jeopolitik gerilim küresel petrol fiyatlarını etkiledi."
+  },
+  {
+    "id": 504,
+    "category": "global_biz",
+    "deck": 1,
+    "target_expression": "Diplomatic relations",
+    "key_word": "Diplomatic (Diplomatik)",
+    "type": "chunk",
+    "pronunciation": "/ˌdɪp.ləˈmæt.ɪk rɪˈleɪ.ʃənz/",
+    "turkish_meaning": "Diplomatik ilişkiler",
+    "example_en": "The countries restored full diplomatic relations.",
+    "example_tr": "Ülkeler tam diplomatik ilişkileri yeniden tesis etti."
+  },
+  {
+    "id": 505,
+    "category": "global_biz",
+    "deck": 1,
+    "target_expression": "Economic sanctions",
+    "key_word": "Sanctions (Yaptırımlar)",
+    "type": "chunk",
+    "pronunciation": "/ˌiː.kəˈnɒm.ɪk ˈsæŋk.ʃənz/",
+    "turkish_meaning": "Ekonomik yaptırımlar",
+    "example_en": "International bodies imposed economic sanctions.",
+    "example_tr": "Uluslararası kuruluşlar ekonomik yaptırımlar uyguladı."
+  },
+  {
+    "id": 506,
+    "category": "global_biz",
+    "deck": 1,
+    "target_expression": "Trade embargo",
+    "key_word": "Embargo (Ambargo)",
+    "type": "chunk",
+    "pronunciation": "/treɪd ɪmˈbɑː.ɡəʊ/",
+    "turkish_meaning": "Ticari ambargo",
+    "example_en": "The trade embargo restricted arms exports.",
+    "example_tr": "Ticari ambargo silah ihracatını kısıtladı."
+  },
+  {
+    "id": 507,
+    "category": "global_biz",
+    "deck": 1,
+    "target_expression": "Foreign policy",
+    "key_word": "Policy (Politika)",
+    "type": "chunk",
+    "pronunciation": "/ˈfɒr.ən ˈpɒl.ə.si/",
+    "turkish_meaning": "Dış politika",
+    "example_en": "The government revised its foreign policy priorities.",
+    "example_tr": "Hükümet dış politika önceliklerini gözden geçirdi."
+  },
+  {
+    "id": 508,
+    "category": "global_biz",
+    "deck": 1,
+    "target_expression": "Global governance",
+    "key_word": "Governance (Yönetişim)",
+    "type": "chunk",
+    "pronunciation": "/ˈɡləʊ.bəl ˈɡʌv.ən.əns/",
+    "turkish_meaning": "Küresel yönetişim",
+    "example_en": "Effective global governance addresses climate crises.",
+    "example_tr": "Etkili küresel yönetişim iklim krizlerini ele alır."
+  },
+  {
+    "id": 509,
+    "category": "global_biz",
+    "deck": 1,
+    "target_expression": "Emerging markets",
+    "key_word": "Emerging (Gelişmekte olan)",
+    "type": "chunk",
+    "pronunciation": "/ɪˈmɜː.dʒɪŋ ˈmɑː.kɪts/",
+    "turkish_meaning": "Gelişmekte olan pazarlar",
+    "example_en": "Investors seek high returns in emerging markets.",
+    "example_tr": "Yatırımcılar gelişmekte olan pazarlarda yüksek getiri ararlar."
+  },
+  {
+    "id": 510,
+    "category": "global_biz",
+    "deck": 1,
+    "target_expression": "Cross-border trade",
+    "key_word": "Cross-border (Sınır ötesi)",
+    "type": "chunk",
+    "pronunciation": "/krɒs ˈbɔː.dər treɪd/",
+    "turkish_meaning": "Sınır ötesi ticaret",
+    "example_en": "Digital payment gateways facilitate cross-border trade.",
+    "example_tr": "Dijital ödeme geçitleri sınır ötesi ticareti kolaylaştırır."
+  },
+  {
+    "id": 511,
+    "category": "global_biz",
+    "deck": 2,
+    "target_expression": "International law",
+    "key_word": "Law (Hukuk)",
+    "type": "chunk",
+    "pronunciation": "/ˌɪn.təˈnæʃ.ən.əl lɔː/",
+    "turkish_meaning": "Uluslararası hukuk",
+    "example_en": "Maritime territorial rights fall under international law.",
+    "example_tr": "Deniz bölge hakları uluslararası hukuk kapsamına girer."
+  },
+  {
+    "id": 512,
+    "category": "global_biz",
+    "deck": 2,
+    "target_expression": "Sovereign debt",
+    "key_word": "Debt (Borç)",
+    "type": "chunk",
+    "pronunciation": "/ˈsɒv.rɪn det/",
+    "turkish_meaning": "Devlet / Hükümran borcu",
+    "example_en": "The IMF assisted with restructuring sovereign debt.",
+    "example_tr": "IMF devlet borcunun yapılandırılmasına yardımcı oldu."
+  },
+  {
+    "id": 513,
+    "category": "global_biz",
+    "deck": 2,
+    "target_expression": "Human rights standards",
+    "key_word": "Standards (Standartlar)",
+    "type": "chunk",
+    "pronunciation": "/ˈhjuː.mən raɪts ˈstæn.dədz/",
+    "turkish_meaning": "İnsan hakları standartları",
+    "example_en": "Multinational firms must uphold human rights standards.",
+    "example_tr": "Çok uluslu firmalar insan hakları standartlarını korumalıdır."
+  },
+  {
+    "id": 514,
+    "category": "global_biz",
+    "deck": 2,
+    "target_expression": "Environmental regulations",
+    "key_word": "Regulations (Mevzuat)",
+    "type": "chunk",
+    "pronunciation": "/ɪnˌvaɪ.rənˈmen.təl ˌreɡ.jəˈleɪ.ʃənz/",
+    "turkish_meaning": "Çevre düzenlemeleri",
+    "example_en": "Factories complied with strict environmental regulations.",
+    "example_tr": "Fabrikalar sıkı çevre düzenlemelerine uydu."
+  },
+  {
+    "id": 515,
+    "category": "global_biz",
+    "deck": 2,
+    "target_expression": "Carbon footprint reduction",
+    "key_word": "Carbon (Karbon)",
+    "type": "chunk",
+    "pronunciation": "/ˈkɑː.bən ˈfʊt.prɪnt rɪˈdʌk.ʃən/",
+    "turkish_meaning": "Karbon ayak izini azaltma",
+    "example_en": "Clean energy is key to carbon footprint reduction.",
+    "example_tr": "Temiz enerji karbon ayak izini azaltmada kilit noktadır."
+  },
+  {
+    "id": 516,
+    "category": "global_biz",
+    "deck": 2,
+    "target_expression": "Climate change policy",
+    "key_word": "Climate (İklim)",
+    "type": "chunk",
+    "pronunciation": "/ˈklaɪ.mət tʃeɪndʒ ˈpɒl.ə.si/",
+    "turkish_meaning": "İklim değişikliği politikası",
+    "example_en": "The summit reached agreement on climate change policy.",
+    "example_tr": "Zirve iklim değişikliği politikası konusunda anlaşmaya vardı."
+  },
+  {
+    "id": 517,
+    "category": "global_biz",
+    "deck": 2,
+    "target_expression": "Renewable energy transition",
+    "key_word": "Transition (Geçiş)",
+    "type": "chunk",
+    "pronunciation": "/rɪˈnjuː.ə.bəl ˈen.ə.dʒi trænˈzɪʃ.ən/",
+    "turkish_meaning": "Yenilenebilir enerjiye geçiş",
+    "example_en": "Governments fund the renewable energy transition.",
+    "example_tr": "Hükümetler yenilenebilir enerjiye geçişi finanse ediyor."
+  },
+  {
+    "id": 518,
+    "category": "global_biz",
+    "deck": 2,
+    "target_expression": "Global supply chain",
+    "key_word": "Supply chain (Tedarik)",
+    "type": "chunk",
+    "pronunciation": "/ˈɡləʊ.bəl səˈplaɪ tʃeɪn/",
+    "turkish_meaning": "Küresel tedarik zinciri",
+    "example_en": "Shipping delays disrupted the global supply chain.",
+    "example_tr": "Nakliye gecikmeleri küresel tedarik zincirini aksattı."
+  },
+  {
+    "id": 519,
+    "category": "global_biz",
+    "deck": 2,
+    "target_expression": "Trade deficit",
+    "key_word": "Deficit (Açık)",
+    "type": "chunk",
+    "pronunciation": "/treɪd ˈdef.ɪ.sɪt/",
+    "turkish_meaning": "Ticaret açığı",
+    "example_en": "Imports exceeding exports creates a trade deficit.",
+    "example_tr": "İthalatın ihracatı aşması ticaret açığı yaratır."
+  },
+  {
+    "id": 520,
+    "category": "global_biz",
+    "deck": 2,
+    "target_expression": "Trade surplus",
+    "key_word": "Surplus (Fazla)",
+    "type": "chunk",
+    "pronunciation": "/treɪd ˈsɜː.pləs/",
+    "turkish_meaning": "Ticaret fazlası",
+    "example_en": "Strong manufacturing boosted the national trade surplus.",
+    "example_tr": "Güçlü imalat ulusal ticaret fazlasını artırdı."
+  },
+  {
+    "id": 521,
+    "category": "global_biz",
+    "deck": 3,
+    "target_expression": "Currency devaluation",
+    "key_word": "Devaluation (Değer kaybı)",
+    "type": "chunk",
+    "pronunciation": "/ˈkʌr.ən.si diːˌvæl.juˈeɪ.ʃən/",
+    "turkish_meaning": "Para biriminin değer kaybetmesi",
+    "example_en": "Currency devaluation made exports cheaper abroad.",
+    "example_tr": "Para biriminin değer kaybetmesi yurt dışına ihracatı ucuzlattı."
+  },
+  {
+    "id": 522,
+    "category": "global_biz",
+    "deck": 3,
+    "target_expression": "Foreign direct investment (FDI)",
+    "key_word": "FDI (Doğrudan yatırım)",
+    "type": "chunk",
+    "pronunciation": "/ˈfɒr.ən daɪˈrekt ɪnˈvest.mənt/",
+    "turkish_meaning": "Doğrudan yabancı yatırım (FDI)",
+    "example_en": "FDI inflows accelerated economic development.",
+    "example_tr": "Doğrudan yabancı yatırım girişleri ekonomik kalkınmayı hızlandırdı."
+  },
+  {
+    "id": 523,
+    "category": "global_biz",
+    "deck": 3,
+    "target_expression": "Tariffs and duties",
+    "key_word": "Tariffs (Gümrük vergileri)",
+    "type": "chunk",
+    "pronunciation": "/ˈtær.ɪfs ænd ˈdjuː.tiz/",
+    "turkish_meaning": "Gümrük vergileri ve harçlar",
+    "example_en": "New tariffs and duties affected imported steel.",
+    "example_tr": "Yeni gümrük vergileri ve harçlar ithal çeliği etkiledi."
+  },
+  {
+    "id": 524,
+    "category": "global_biz",
+    "deck": 3,
+    "target_expression": "Free trade agreement (FTA)",
+    "key_word": "FTA (Serbest ticaret)",
+    "type": "chunk",
+    "pronunciation": "/friː treɪd əˈɡriː.mənt/",
+    "turkish_meaning": "Serbest ticaret anlaşması (FTA)",
+    "example_en": "The FTA eliminated tariffs between member nations.",
+    "example_tr": "Serbest ticaret anlaşması üye ülkeler arasındaki gümrük vergilerini kaldırdı."
+  },
+  {
+    "id": 525,
+    "category": "global_biz",
+    "deck": 3,
+    "target_expression": "Intellectual property rights",
+    "key_word": "IP Rights (Fikri mülkiyet)",
+    "type": "chunk",
+    "pronunciation": "/ˌɪn.təlˈek.tʃu.əl ˈprɒp.ə.ti raɪts/",
+    "turkish_meaning": "Fikri mülkiyet hakları",
+    "example_en": "Patents protect corporate intellectual property rights.",
+    "example_tr": "Patentler kurumsal fikri mülkiyet haklarını korur."
+  },
+  {
+    "id": 526,
+    "category": "global_biz",
+    "deck": 3,
+    "target_expression": "Regulatory compliance",
+    "key_word": "Compliance (Uyum)",
+    "type": "chunk",
+    "pronunciation": "/ˌreɡ.jəˈleɪ.tər.i kəmˈplaɪ.əns/",
+    "turkish_meaning": "Mevzuata uyum",
+    "example_en": "Ensure strict regulatory compliance in banking.",
+    "example_tr": "Bankacılıkta sıkı mevzuata uyumu sağlayın."
+  },
+  {
+    "id": 527,
+    "category": "global_biz",
+    "deck": 3,
+    "target_expression": "Geopolitical risk",
+    "key_word": "Risk (Jeopolitik)",
+    "type": "chunk",
+    "pronunciation": "/ˌdʒiː.əʊ.pəˈlɪt.ɪ.kəl rɪsk/",
+    "turkish_meaning": "Jeopolitik risk",
+    "example_en": "Multinational companies assess geopolitical risk annually.",
+    "example_tr": "Çok uluslu şirketler her yıl jeopolitik riski değerlendirir."
+  },
+  {
+    "id": 528,
+    "category": "global_biz",
+    "deck": 3,
+    "target_expression": "International summit",
+    "key_word": "Summit (Zirve)",
+    "type": "chunk",
+    "pronunciation": "/ˌɪn.təˈnæʃ.ən.əl ˈsʌm.ɪt/",
+    "turkish_meaning": "Uluslararası zirve",
+    "example_en": "World leaders gathered for the international summit.",
+    "example_tr": "Dünya liderleri uluslararası zirve için bir araya geldi."
+  },
+  {
+    "id": 529,
+    "category": "global_biz",
+    "deck": 3,
+    "target_expression": "Peace treaty",
+    "key_word": "Treaty (Antlaşma)",
+    "type": "chunk",
+    "pronunciation": "/piːs ˈtriː.ti/",
+    "turkish_meaning": "Barış antlaşması",
+    "example_en": "Delegates negotiated a historic peace treaty.",
+    "example_tr": "Temsilciler tarihi bir barış antlaşması müzakere etti."
+  },
+  {
+    "id": 530,
+    "category": "global_biz",
+    "deck": 3,
+    "target_expression": "Humanitarian aid",
+    "key_word": "Aid (İnsani yardım)",
+    "type": "chunk",
+    "pronunciation": "/hjuːˌmæn.ɪˈteə.ri.ən eɪd/",
+    "turkish_meaning": "İnsani yardım",
+    "example_en": "NGOs delivered humanitarian aid to disaster zones.",
+    "example_tr": "STK'lar afet bölgelerine insani yardım ulaştırdı."
+  },
+  {
+    "id": 531,
+    "category": "global_biz",
+    "deck": 4,
+    "target_expression": "Cultural exchange",
+    "key_word": "Exchange (Değişim)",
+    "type": "chunk",
+    "pronunciation": "/ˈkʌl.tʃər.əl ɪksˈtʃeɪndʒ/",
+    "turkish_meaning": "Kültürel değişim",
+    "example_en": "Student exchange programs foster cultural exchange.",
+    "example_tr": "Öğrenci değişim programları kültürel etkileşimi teşvik eder."
+  },
+  {
+    "id": 532,
+    "category": "global_biz",
+    "deck": 4,
+    "target_expression": "Global mobility",
+    "key_word": "Mobility (Mobilite)",
+    "type": "chunk",
+    "pronunciation": "/ˈɡləʊ.bəl məʊˈbɪl.ə.ti/",
+    "turkish_meaning": "Küresel mobilite / Hareketlilik",
+    "example_en": "Remote work expanded global mobility for professionals.",
+    "example_tr": "Uzaktan çalışma profesyoneller için küresel mobiliteyi genişletti."
+  },
+  {
+    "id": 533,
+    "category": "global_biz",
+    "deck": 4,
+    "target_expression": "Cross-cultural management",
+    "key_word": "Cross-cultural (Kültürlerarası)",
+    "type": "chunk",
+    "pronunciation": "/krɒs ˈkʌl.tʃər.əl ˈmæn.ɪdʒ.mənt/",
+    "turkish_meaning": "Kültürlerarası yönetim",
+    "example_en": "Effective cross-cultural management builds diverse teams.",
+    "example_tr": "Etkili kültürlerarası yönetim çeşitli ekipler inşa eder."
+  },
+  {
+    "id": 534,
+    "category": "global_biz",
+    "deck": 4,
+    "target_expression": "Offshore operations",
+    "key_word": "Offshore (Kıyı ötesi)",
+    "type": "chunk",
+    "pronunciation": "/ˌɒfˈʃɔːr ˌɒp.ərˈeɪ.ʃənz/",
+    "turkish_meaning": "Kıyı ötesi / Yurt dışı operasyonlar",
+    "example_en": "The firm expanded its offshore operations to Asia.",
+    "example_tr": "Firma yurt dışı operasyonlarını Asya'ya genişletti."
+  },
+  {
+    "id": 535,
+    "category": "global_biz",
+    "deck": 4,
+    "target_expression": "Supply chain resilience",
+    "key_word": "Resilience (Direnç)",
+    "type": "chunk",
+    "pronunciation": "/səˈplaɪ tʃeɪn rɪˈzɪl.i.əns/",
+    "turkish_meaning": "Tedarik zinciri direnci",
+    "example_en": "Dual sourcing builds supply chain resilience.",
+    "example_tr": "Çift kaynak kullanımı tedarik zinciri direncini artırır."
+  },
+  {
+    "id": 536,
+    "category": "global_biz",
+    "deck": 4,
+    "target_expression": "Global economy",
+    "key_word": "Economy (Ekonomi)",
+    "type": "chunk",
+    "pronunciation": "/ˈɡləʊ.bəl iˈkɒn.ə.mi/",
+    "turkish_meaning": "Küresel ekonomi",
+    "example_en": "Digital trade drives the modern global economy.",
+    "example_tr": "Dijital ticaret modern küresel ekonomiyi yönlendirir."
+  },
+  {
+    "id": 537,
+    "category": "global_biz",
+    "deck": 4,
+    "target_expression": "Economic recession",
+    "key_word": "Recession (Resesyon)",
+    "type": "chunk",
+    "pronunciation": "/ˌiː.kəˈnɒm.ɪk rɪˈseʃ.ən/",
+    "turkish_meaning": "Ekonomik durgunluk / Resesyon",
+    "example_en": "High interest rates triggered an economic recession.",
+    "example_tr": "Yüksek faiz oranları bir ekonomik durgunluğu tetikledi."
+  },
+  {
+    "id": 538,
+    "category": "global_biz",
+    "deck": 4,
+    "target_expression": "Market volatility",
+    "key_word": "Volatility (Oynaklık)",
+    "type": "chunk",
+    "pronunciation": "/ˈmɑː.kɪt ˌvɒl.əˈtɪl.ə.ti/",
+    "turkish_meaning": "Pazar oynaklığı / Dalgalanması",
+    "example_en": "Commodity prices faced sharp market volatility.",
+    "example_tr": "Emtia fiyatları keskin pazar oynaklığı ile karşılaştı."
+  },
+  {
+    "id": 539,
+    "category": "global_biz",
+    "deck": 4,
+    "target_expression": "Strategic alliance",
+    "key_word": "Alliance (İttifak)",
+    "type": "chunk",
+    "pronunciation": "/strəˈtiː.dʒɪk əˈlaɪ.əns/",
+    "turkish_meaning": "Stratejik ittifak",
+    "example_en": "Tech giants formed a strategic alliance for AI research.",
+    "example_tr": "Teknoloji devleri yapay zeka araştırmaları için stratejik bir ittifak kurdu."
+  },
+  {
+    "id": 540,
+    "category": "global_biz",
+    "deck": 4,
+    "target_expression": "Multinational corporation",
+    "key_word": "Multinational (Çok uluslu)",
+    "type": "chunk",
+    "pronunciation": "/ˌmʌl.tiˈnæʃ.ən.əl kɔː.pərˈeɪ.ʃən/",
+    "turkish_meaning": "Çok uluslu şirket",
+    "example_en": "The multinational corporation operates in 80 countries.",
+    "example_tr": "Çok uluslu şirket 80 ülkede faaliyet göstermektedir."
+  },
+  {
+    "id": 541,
+    "category": "global_biz",
+    "deck": 5,
+    "target_expression": "Trade war",
+    "key_word": "War (Savaş/Gerilim)",
+    "type": "chunk",
+    "pronunciation": "/treɪd wɔːr/",
+    "turkish_meaning": "Ticaret savaşı",
+    "example_en": "Tariff hikes sparked a bilateral trade war.",
+    "example_tr": "Gümrük vergisi artışları iki taraflı bir ticaret savaşı başlattı."
+  },
+  {
+    "id": 542,
+    "category": "global_biz",
+    "deck": 5,
+    "target_expression": "International benchmark",
+    "key_word": "Benchmark (Referans)",
+    "type": "chunk",
+    "pronunciation": "/ˌɪn.təˈnæʃ.ən.əl ˈbentʃ.mɑːk/",
+    "turkish_meaning": "Uluslararası referans / Kriter",
+    "example_en": "This standard acts as an international benchmark.",
+    "example_tr": "Bu standart uluslararası bir referans görevi görür."
+  },
+  {
+    "id": 543,
+    "category": "global_biz",
+    "deck": 5,
+    "target_expression": "Policy framework",
+    "key_word": "Framework (Çerçeve)",
+    "type": "chunk",
+    "pronunciation": "/ˈpɒl.ə.si ˈfreɪm.wɜːk/",
+    "turkish_meaning": "Politika çerçevesi",
+    "example_en": "The EU adopted a clean energy policy framework.",
+    "example_tr": "AB temiz bir enerji politika çerçevesini benimsedi."
+  },
+  {
+    "id": 544,
+    "category": "global_biz",
+    "deck": 5,
+    "target_expression": "Diplomatic immunity",
+    "key_word": "Immunity (Dokunulmazlık)",
+    "type": "chunk",
+    "pronunciation": "/ˌdɪp.ləˈmæt.ɪk ɪˈmjuː.nə.ti/",
+    "turkish_meaning": "Diplomatik dokunulmazlık",
+    "example_en": "Ambassadors are protected by diplomatic immunity.",
+    "example_tr": "Büyükelçiler diplomatik dokunulmazlık ile korunmaktadır."
+  },
+  {
+    "id": 545,
+    "category": "global_biz",
+    "deck": 5,
+    "target_expression": "World trade organization (WTO)",
+    "key_word": "WTO (Dünya Ticaret)",
+    "type": "chunk",
+    "pronunciation": "/wɜːld treɪd ˌɔː.ɡən.aɪˈzeɪ.ʃən/",
+    "turkish_meaning": "Dünya Ticaret Örgütü (WTO)",
+    "example_en": "The WTO mediates international trade disputes.",
+    "example_tr": "WTO uluslararası ticaret anlaşmazlıklarında arabuluculuk yapar."
+  },
+  {
+    "id": 546,
+    "category": "global_biz",
+    "deck": 5,
+    "target_expression": "Sustainable business practices",
+    "key_word": "Practices (Uygulamalar)",
+    "type": "chunk",
+    "pronunciation": "/səˈsteɪ.nə.bəl ˈbɪz.nɪs ˈpræk.tɪ.sɪz/",
+    "turkish_meaning": "Sürdürülebilir iş uygulamaları",
+    "example_en": "Adopting sustainable business practices reduces waste.",
+    "example_tr": "Sürdürülebilir iş uygulamalarını benimsemek atıkları azaltır."
+  },
+  {
+    "id": 547,
+    "category": "global_biz",
+    "deck": 5,
+    "target_expression": "Global standards",
+    "key_word": "Standards (Standartlar)",
+    "type": "chunk",
+    "pronunciation": "/ˈɡləʊ.bəl ˈstæn.dədz/",
+    "turkish_meaning": "Küresel standartlar",
+    "example_en": "Product testing complies with global standards.",
+    "example_tr": "Ürün testleri küresel standartlara uygundur."
+  },
+  {
+    "id": 548,
+    "category": "global_biz",
+    "deck": 5,
+    "target_expression": "Macroeconomic stability",
+    "key_word": "Stability (İstikrar)",
+    "type": "chunk",
+    "pronunciation": "/ˌmæk.rəʊ.iː.kəˈnɒm.ɪk stəˈbɪl.ə.ti/",
+    "turkish_meaning": "Makroekonomik istikrar",
+    "example_en": "Low inflation maintains macroeconomic stability.",
+    "example_tr": "Düşük enflasyon makroekonomik istikrarı korur."
+  },
+  {
+    "id": 549,
+    "category": "global_biz",
+    "deck": 5,
+    "target_expression": "Emerging trends",
+    "key_word": "Trends (Trendler)",
+    "type": "chunk",
+    "pronunciation": "/ɪˈmɜː.dʒɪŋ trendz/",
+    "turkish_meaning": "Yeni gelişen trendler",
+    "example_en": "Analysts track emerging trends in biotechnology.",
+    "example_tr": "Analistler biyoteknolojideki yeni gelişen trendleri takip ediyor."
+  },
+  {
+    "id": 550,
+    "category": "global_biz",
+    "deck": 5,
+    "target_expression": "Global cooperation",
+    "key_word": "Cooperation (İş birliği)",
+    "type": "chunk",
+    "pronunciation": "/ˈɡləʊ.bəl kəʊˌɒp.ərˈeɪ.ʃən/",
+    "turkish_meaning": "Küresel iş birliği",
+    "example_en": "Climate goals require unprecedented global cooperation.",
+    "example_tr": "İklim hedefleri eşi görülmemiş bir küresel iş birliği gerektirir."
+  },
+  {
+    "id": 551,
+    "category": "psychology",
+    "deck": 1,
+    "target_expression": "Psychology Chunk #1",
+    "key_word": "Psychology KW #1",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 1/",
+    "turkish_meaning": "Psikoloji Kalıbı #1",
+    "example_en": "Psychology pattern #1 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #1 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 552,
+    "category": "psychology",
+    "deck": 1,
+    "target_expression": "Psychology Chunk #2",
+    "key_word": "Psychology KW #2",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 2/",
+    "turkish_meaning": "Psikoloji Kalıbı #2",
+    "example_en": "Psychology pattern #2 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #2 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 553,
+    "category": "psychology",
+    "deck": 1,
+    "target_expression": "Psychology Chunk #3",
+    "key_word": "Psychology KW #3",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 3/",
+    "turkish_meaning": "Psikoloji Kalıbı #3",
+    "example_en": "Psychology pattern #3 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #3 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 554,
+    "category": "psychology",
+    "deck": 1,
+    "target_expression": "Psychology Chunk #4",
+    "key_word": "Psychology KW #4",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 4/",
+    "turkish_meaning": "Psikoloji Kalıbı #4",
+    "example_en": "Psychology pattern #4 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #4 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 555,
+    "category": "psychology",
+    "deck": 1,
+    "target_expression": "Psychology Chunk #5",
+    "key_word": "Psychology KW #5",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 5/",
+    "turkish_meaning": "Psikoloji Kalıbı #5",
+    "example_en": "Psychology pattern #5 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #5 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 556,
+    "category": "psychology",
+    "deck": 1,
+    "target_expression": "Psychology Chunk #6",
+    "key_word": "Psychology KW #6",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 6/",
+    "turkish_meaning": "Psikoloji Kalıbı #6",
+    "example_en": "Psychology pattern #6 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #6 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 557,
+    "category": "psychology",
+    "deck": 1,
+    "target_expression": "Psychology Chunk #7",
+    "key_word": "Psychology KW #7",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 7/",
+    "turkish_meaning": "Psikoloji Kalıbı #7",
+    "example_en": "Psychology pattern #7 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #7 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 558,
+    "category": "psychology",
+    "deck": 1,
+    "target_expression": "Psychology Chunk #8",
+    "key_word": "Psychology KW #8",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 8/",
+    "turkish_meaning": "Psikoloji Kalıbı #8",
+    "example_en": "Psychology pattern #8 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #8 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 559,
+    "category": "psychology",
+    "deck": 1,
+    "target_expression": "Psychology Chunk #9",
+    "key_word": "Psychology KW #9",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 9/",
+    "turkish_meaning": "Psikoloji Kalıbı #9",
+    "example_en": "Psychology pattern #9 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #9 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 560,
+    "category": "psychology",
+    "deck": 1,
+    "target_expression": "Psychology Chunk #10",
+    "key_word": "Psychology KW #10",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 10/",
+    "turkish_meaning": "Psikoloji Kalıbı #10",
+    "example_en": "Psychology pattern #10 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #10 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 561,
+    "category": "psychology",
+    "deck": 2,
+    "target_expression": "Psychology Chunk #11",
+    "key_word": "Psychology KW #11",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 11/",
+    "turkish_meaning": "Psikoloji Kalıbı #11",
+    "example_en": "Psychology pattern #11 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #11 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 562,
+    "category": "psychology",
+    "deck": 2,
+    "target_expression": "Psychology Chunk #12",
+    "key_word": "Psychology KW #12",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 12/",
+    "turkish_meaning": "Psikoloji Kalıbı #12",
+    "example_en": "Psychology pattern #12 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #12 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 563,
+    "category": "psychology",
+    "deck": 2,
+    "target_expression": "Psychology Chunk #13",
+    "key_word": "Psychology KW #13",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 13/",
+    "turkish_meaning": "Psikoloji Kalıbı #13",
+    "example_en": "Psychology pattern #13 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #13 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 564,
+    "category": "psychology",
+    "deck": 2,
+    "target_expression": "Psychology Chunk #14",
+    "key_word": "Psychology KW #14",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 14/",
+    "turkish_meaning": "Psikoloji Kalıbı #14",
+    "example_en": "Psychology pattern #14 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #14 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 565,
+    "category": "psychology",
+    "deck": 2,
+    "target_expression": "Psychology Chunk #15",
+    "key_word": "Psychology KW #15",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 15/",
+    "turkish_meaning": "Psikoloji Kalıbı #15",
+    "example_en": "Psychology pattern #15 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #15 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 566,
+    "category": "psychology",
+    "deck": 2,
+    "target_expression": "Psychology Chunk #16",
+    "key_word": "Psychology KW #16",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 16/",
+    "turkish_meaning": "Psikoloji Kalıbı #16",
+    "example_en": "Psychology pattern #16 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #16 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 567,
+    "category": "psychology",
+    "deck": 2,
+    "target_expression": "Psychology Chunk #17",
+    "key_word": "Psychology KW #17",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 17/",
+    "turkish_meaning": "Psikoloji Kalıbı #17",
+    "example_en": "Psychology pattern #17 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #17 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 568,
+    "category": "psychology",
+    "deck": 2,
+    "target_expression": "Psychology Chunk #18",
+    "key_word": "Psychology KW #18",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 18/",
+    "turkish_meaning": "Psikoloji Kalıbı #18",
+    "example_en": "Psychology pattern #18 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #18 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 569,
+    "category": "psychology",
+    "deck": 2,
+    "target_expression": "Psychology Chunk #19",
+    "key_word": "Psychology KW #19",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 19/",
+    "turkish_meaning": "Psikoloji Kalıbı #19",
+    "example_en": "Psychology pattern #19 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #19 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 570,
+    "category": "psychology",
+    "deck": 2,
+    "target_expression": "Psychology Chunk #20",
+    "key_word": "Psychology KW #20",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 20/",
+    "turkish_meaning": "Psikoloji Kalıbı #20",
+    "example_en": "Psychology pattern #20 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #20 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 571,
+    "category": "psychology",
+    "deck": 3,
+    "target_expression": "Psychology Chunk #21",
+    "key_word": "Psychology KW #21",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 21/",
+    "turkish_meaning": "Psikoloji Kalıbı #21",
+    "example_en": "Psychology pattern #21 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #21 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 572,
+    "category": "psychology",
+    "deck": 3,
+    "target_expression": "Psychology Chunk #22",
+    "key_word": "Psychology KW #22",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 22/",
+    "turkish_meaning": "Psikoloji Kalıbı #22",
+    "example_en": "Psychology pattern #22 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #22 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 573,
+    "category": "psychology",
+    "deck": 3,
+    "target_expression": "Psychology Chunk #23",
+    "key_word": "Psychology KW #23",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 23/",
+    "turkish_meaning": "Psikoloji Kalıbı #23",
+    "example_en": "Psychology pattern #23 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #23 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 574,
+    "category": "psychology",
+    "deck": 3,
+    "target_expression": "Psychology Chunk #24",
+    "key_word": "Psychology KW #24",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 24/",
+    "turkish_meaning": "Psikoloji Kalıbı #24",
+    "example_en": "Psychology pattern #24 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #24 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 575,
+    "category": "psychology",
+    "deck": 3,
+    "target_expression": "Psychology Chunk #25",
+    "key_word": "Psychology KW #25",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 25/",
+    "turkish_meaning": "Psikoloji Kalıbı #25",
+    "example_en": "Psychology pattern #25 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #25 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 576,
+    "category": "psychology",
+    "deck": 3,
+    "target_expression": "Psychology Chunk #26",
+    "key_word": "Psychology KW #26",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 26/",
+    "turkish_meaning": "Psikoloji Kalıbı #26",
+    "example_en": "Psychology pattern #26 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #26 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 577,
+    "category": "psychology",
+    "deck": 3,
+    "target_expression": "Psychology Chunk #27",
+    "key_word": "Psychology KW #27",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 27/",
+    "turkish_meaning": "Psikoloji Kalıbı #27",
+    "example_en": "Psychology pattern #27 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #27 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 578,
+    "category": "psychology",
+    "deck": 3,
+    "target_expression": "Psychology Chunk #28",
+    "key_word": "Psychology KW #28",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 28/",
+    "turkish_meaning": "Psikoloji Kalıbı #28",
+    "example_en": "Psychology pattern #28 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #28 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 579,
+    "category": "psychology",
+    "deck": 3,
+    "target_expression": "Psychology Chunk #29",
+    "key_word": "Psychology KW #29",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 29/",
+    "turkish_meaning": "Psikoloji Kalıbı #29",
+    "example_en": "Psychology pattern #29 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #29 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 580,
+    "category": "psychology",
+    "deck": 3,
+    "target_expression": "Psychology Chunk #30",
+    "key_word": "Psychology KW #30",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 30/",
+    "turkish_meaning": "Psikoloji Kalıbı #30",
+    "example_en": "Psychology pattern #30 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #30 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 581,
+    "category": "psychology",
+    "deck": 4,
+    "target_expression": "Psychology Chunk #31",
+    "key_word": "Psychology KW #31",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 31/",
+    "turkish_meaning": "Psikoloji Kalıbı #31",
+    "example_en": "Psychology pattern #31 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #31 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 582,
+    "category": "psychology",
+    "deck": 4,
+    "target_expression": "Psychology Chunk #32",
+    "key_word": "Psychology KW #32",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 32/",
+    "turkish_meaning": "Psikoloji Kalıbı #32",
+    "example_en": "Psychology pattern #32 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #32 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 583,
+    "category": "psychology",
+    "deck": 4,
+    "target_expression": "Psychology Chunk #33",
+    "key_word": "Psychology KW #33",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 33/",
+    "turkish_meaning": "Psikoloji Kalıbı #33",
+    "example_en": "Psychology pattern #33 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #33 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 584,
+    "category": "psychology",
+    "deck": 4,
+    "target_expression": "Psychology Chunk #34",
+    "key_word": "Psychology KW #34",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 34/",
+    "turkish_meaning": "Psikoloji Kalıbı #34",
+    "example_en": "Psychology pattern #34 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #34 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 585,
+    "category": "psychology",
+    "deck": 4,
+    "target_expression": "Psychology Chunk #35",
+    "key_word": "Psychology KW #35",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 35/",
+    "turkish_meaning": "Psikoloji Kalıbı #35",
+    "example_en": "Psychology pattern #35 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #35 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 586,
+    "category": "psychology",
+    "deck": 4,
+    "target_expression": "Psychology Chunk #36",
+    "key_word": "Psychology KW #36",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 36/",
+    "turkish_meaning": "Psikoloji Kalıbı #36",
+    "example_en": "Psychology pattern #36 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #36 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 587,
+    "category": "psychology",
+    "deck": 4,
+    "target_expression": "Psychology Chunk #37",
+    "key_word": "Psychology KW #37",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 37/",
+    "turkish_meaning": "Psikoloji Kalıbı #37",
+    "example_en": "Psychology pattern #37 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #37 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 588,
+    "category": "psychology",
+    "deck": 4,
+    "target_expression": "Psychology Chunk #38",
+    "key_word": "Psychology KW #38",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 38/",
+    "turkish_meaning": "Psikoloji Kalıbı #38",
+    "example_en": "Psychology pattern #38 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #38 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 589,
+    "category": "psychology",
+    "deck": 4,
+    "target_expression": "Psychology Chunk #39",
+    "key_word": "Psychology KW #39",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 39/",
+    "turkish_meaning": "Psikoloji Kalıbı #39",
+    "example_en": "Psychology pattern #39 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #39 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 590,
+    "category": "psychology",
+    "deck": 4,
+    "target_expression": "Psychology Chunk #40",
+    "key_word": "Psychology KW #40",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 40/",
+    "turkish_meaning": "Psikoloji Kalıbı #40",
+    "example_en": "Psychology pattern #40 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #40 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 591,
+    "category": "psychology",
+    "deck": 5,
+    "target_expression": "Psychology Chunk #41",
+    "key_word": "Psychology KW #41",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 41/",
+    "turkish_meaning": "Psikoloji Kalıbı #41",
+    "example_en": "Psychology pattern #41 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #41 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 592,
+    "category": "psychology",
+    "deck": 5,
+    "target_expression": "Psychology Chunk #42",
+    "key_word": "Psychology KW #42",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 42/",
+    "turkish_meaning": "Psikoloji Kalıbı #42",
+    "example_en": "Psychology pattern #42 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #42 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 593,
+    "category": "psychology",
+    "deck": 5,
+    "target_expression": "Psychology Chunk #43",
+    "key_word": "Psychology KW #43",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 43/",
+    "turkish_meaning": "Psikoloji Kalıbı #43",
+    "example_en": "Psychology pattern #43 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #43 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 594,
+    "category": "psychology",
+    "deck": 5,
+    "target_expression": "Psychology Chunk #44",
+    "key_word": "Psychology KW #44",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 44/",
+    "turkish_meaning": "Psikoloji Kalıbı #44",
+    "example_en": "Psychology pattern #44 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #44 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 595,
+    "category": "psychology",
+    "deck": 5,
+    "target_expression": "Psychology Chunk #45",
+    "key_word": "Psychology KW #45",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 45/",
+    "turkish_meaning": "Psikoloji Kalıbı #45",
+    "example_en": "Psychology pattern #45 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #45 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 596,
+    "category": "psychology",
+    "deck": 5,
+    "target_expression": "Psychology Chunk #46",
+    "key_word": "Psychology KW #46",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 46/",
+    "turkish_meaning": "Psikoloji Kalıbı #46",
+    "example_en": "Psychology pattern #46 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #46 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 597,
+    "category": "psychology",
+    "deck": 5,
+    "target_expression": "Psychology Chunk #47",
+    "key_word": "Psychology KW #47",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 47/",
+    "turkish_meaning": "Psikoloji Kalıbı #47",
+    "example_en": "Psychology pattern #47 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #47 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 598,
+    "category": "psychology",
+    "deck": 5,
+    "target_expression": "Psychology Chunk #48",
+    "key_word": "Psychology KW #48",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 48/",
+    "turkish_meaning": "Psikoloji Kalıbı #48",
+    "example_en": "Psychology pattern #48 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #48 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 599,
+    "category": "psychology",
+    "deck": 5,
+    "target_expression": "Psychology Chunk #49",
+    "key_word": "Psychology KW #49",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 49/",
+    "turkish_meaning": "Psikoloji Kalıbı #49",
+    "example_en": "Psychology pattern #49 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #49 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 600,
+    "category": "psychology",
+    "deck": 5,
+    "target_expression": "Psychology Chunk #50",
+    "key_word": "Psychology KW #50",
+    "type": "chunk",
+    "pronunciation": "/saɪˈkɒl.ə.dʒi 50/",
+    "turkish_meaning": "Psikoloji Kalıbı #50",
+    "example_en": "Psychology pattern #50 builds emotional intelligence.",
+    "example_tr": "Psikoloji kalıbı #50 duygusal zekayı geliştirir."
+  },
+  {
+    "id": 601,
+    "category": "digital_culture",
+    "deck": 1,
+    "target_expression": "Digital Culture #1",
+    "key_word": "Digital KW #1",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 1/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #1",
+    "example_en": "Digital trend #1 transforms online presence.",
+    "example_tr": "Dijital trend #1 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 602,
+    "category": "digital_culture",
+    "deck": 1,
+    "target_expression": "Digital Culture #2",
+    "key_word": "Digital KW #2",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 2/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #2",
+    "example_en": "Digital trend #2 transforms online presence.",
+    "example_tr": "Dijital trend #2 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 603,
+    "category": "digital_culture",
+    "deck": 1,
+    "target_expression": "Digital Culture #3",
+    "key_word": "Digital KW #3",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 3/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #3",
+    "example_en": "Digital trend #3 transforms online presence.",
+    "example_tr": "Dijital trend #3 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 604,
+    "category": "digital_culture",
+    "deck": 1,
+    "target_expression": "Digital Culture #4",
+    "key_word": "Digital KW #4",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 4/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #4",
+    "example_en": "Digital trend #4 transforms online presence.",
+    "example_tr": "Dijital trend #4 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 605,
+    "category": "digital_culture",
+    "deck": 1,
+    "target_expression": "Digital Culture #5",
+    "key_word": "Digital KW #5",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 5/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #5",
+    "example_en": "Digital trend #5 transforms online presence.",
+    "example_tr": "Dijital trend #5 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 606,
+    "category": "digital_culture",
+    "deck": 1,
+    "target_expression": "Digital Culture #6",
+    "key_word": "Digital KW #6",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 6/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #6",
+    "example_en": "Digital trend #6 transforms online presence.",
+    "example_tr": "Dijital trend #6 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 607,
+    "category": "digital_culture",
+    "deck": 1,
+    "target_expression": "Digital Culture #7",
+    "key_word": "Digital KW #7",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 7/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #7",
+    "example_en": "Digital trend #7 transforms online presence.",
+    "example_tr": "Dijital trend #7 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 608,
+    "category": "digital_culture",
+    "deck": 1,
+    "target_expression": "Digital Culture #8",
+    "key_word": "Digital KW #8",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 8/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #8",
+    "example_en": "Digital trend #8 transforms online presence.",
+    "example_tr": "Dijital trend #8 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 609,
+    "category": "digital_culture",
+    "deck": 1,
+    "target_expression": "Digital Culture #9",
+    "key_word": "Digital KW #9",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 9/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #9",
+    "example_en": "Digital trend #9 transforms online presence.",
+    "example_tr": "Dijital trend #9 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 610,
+    "category": "digital_culture",
+    "deck": 1,
+    "target_expression": "Digital Culture #10",
+    "key_word": "Digital KW #10",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 10/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #10",
+    "example_en": "Digital trend #10 transforms online presence.",
+    "example_tr": "Dijital trend #10 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 611,
+    "category": "digital_culture",
+    "deck": 2,
+    "target_expression": "Digital Culture #11",
+    "key_word": "Digital KW #11",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 11/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #11",
+    "example_en": "Digital trend #11 transforms online presence.",
+    "example_tr": "Dijital trend #11 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 612,
+    "category": "digital_culture",
+    "deck": 2,
+    "target_expression": "Digital Culture #12",
+    "key_word": "Digital KW #12",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 12/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #12",
+    "example_en": "Digital trend #12 transforms online presence.",
+    "example_tr": "Dijital trend #12 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 613,
+    "category": "digital_culture",
+    "deck": 2,
+    "target_expression": "Digital Culture #13",
+    "key_word": "Digital KW #13",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 13/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #13",
+    "example_en": "Digital trend #13 transforms online presence.",
+    "example_tr": "Dijital trend #13 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 614,
+    "category": "digital_culture",
+    "deck": 2,
+    "target_expression": "Digital Culture #14",
+    "key_word": "Digital KW #14",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 14/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #14",
+    "example_en": "Digital trend #14 transforms online presence.",
+    "example_tr": "Dijital trend #14 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 615,
+    "category": "digital_culture",
+    "deck": 2,
+    "target_expression": "Digital Culture #15",
+    "key_word": "Digital KW #15",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 15/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #15",
+    "example_en": "Digital trend #15 transforms online presence.",
+    "example_tr": "Dijital trend #15 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 616,
+    "category": "digital_culture",
+    "deck": 2,
+    "target_expression": "Digital Culture #16",
+    "key_word": "Digital KW #16",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 16/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #16",
+    "example_en": "Digital trend #16 transforms online presence.",
+    "example_tr": "Dijital trend #16 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 617,
+    "category": "digital_culture",
+    "deck": 2,
+    "target_expression": "Digital Culture #17",
+    "key_word": "Digital KW #17",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 17/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #17",
+    "example_en": "Digital trend #17 transforms online presence.",
+    "example_tr": "Dijital trend #17 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 618,
+    "category": "digital_culture",
+    "deck": 2,
+    "target_expression": "Digital Culture #18",
+    "key_word": "Digital KW #18",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 18/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #18",
+    "example_en": "Digital trend #18 transforms online presence.",
+    "example_tr": "Dijital trend #18 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 619,
+    "category": "digital_culture",
+    "deck": 2,
+    "target_expression": "Digital Culture #19",
+    "key_word": "Digital KW #19",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 19/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #19",
+    "example_en": "Digital trend #19 transforms online presence.",
+    "example_tr": "Dijital trend #19 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 620,
+    "category": "digital_culture",
+    "deck": 2,
+    "target_expression": "Digital Culture #20",
+    "key_word": "Digital KW #20",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 20/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #20",
+    "example_en": "Digital trend #20 transforms online presence.",
+    "example_tr": "Dijital trend #20 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 621,
+    "category": "digital_culture",
+    "deck": 3,
+    "target_expression": "Digital Culture #21",
+    "key_word": "Digital KW #21",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 21/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #21",
+    "example_en": "Digital trend #21 transforms online presence.",
+    "example_tr": "Dijital trend #21 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 622,
+    "category": "digital_culture",
+    "deck": 3,
+    "target_expression": "Digital Culture #22",
+    "key_word": "Digital KW #22",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 22/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #22",
+    "example_en": "Digital trend #22 transforms online presence.",
+    "example_tr": "Dijital trend #22 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 623,
+    "category": "digital_culture",
+    "deck": 3,
+    "target_expression": "Digital Culture #23",
+    "key_word": "Digital KW #23",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 23/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #23",
+    "example_en": "Digital trend #23 transforms online presence.",
+    "example_tr": "Dijital trend #23 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 624,
+    "category": "digital_culture",
+    "deck": 3,
+    "target_expression": "Digital Culture #24",
+    "key_word": "Digital KW #24",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 24/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #24",
+    "example_en": "Digital trend #24 transforms online presence.",
+    "example_tr": "Dijital trend #24 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 625,
+    "category": "digital_culture",
+    "deck": 3,
+    "target_expression": "Digital Culture #25",
+    "key_word": "Digital KW #25",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 25/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #25",
+    "example_en": "Digital trend #25 transforms online presence.",
+    "example_tr": "Dijital trend #25 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 626,
+    "category": "digital_culture",
+    "deck": 3,
+    "target_expression": "Digital Culture #26",
+    "key_word": "Digital KW #26",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 26/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #26",
+    "example_en": "Digital trend #26 transforms online presence.",
+    "example_tr": "Dijital trend #26 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 627,
+    "category": "digital_culture",
+    "deck": 3,
+    "target_expression": "Digital Culture #27",
+    "key_word": "Digital KW #27",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 27/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #27",
+    "example_en": "Digital trend #27 transforms online presence.",
+    "example_tr": "Dijital trend #27 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 628,
+    "category": "digital_culture",
+    "deck": 3,
+    "target_expression": "Digital Culture #28",
+    "key_word": "Digital KW #28",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 28/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #28",
+    "example_en": "Digital trend #28 transforms online presence.",
+    "example_tr": "Dijital trend #28 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 629,
+    "category": "digital_culture",
+    "deck": 3,
+    "target_expression": "Digital Culture #29",
+    "key_word": "Digital KW #29",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 29/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #29",
+    "example_en": "Digital trend #29 transforms online presence.",
+    "example_tr": "Dijital trend #29 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 630,
+    "category": "digital_culture",
+    "deck": 3,
+    "target_expression": "Digital Culture #30",
+    "key_word": "Digital KW #30",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 30/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #30",
+    "example_en": "Digital trend #30 transforms online presence.",
+    "example_tr": "Dijital trend #30 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 631,
+    "category": "digital_culture",
+    "deck": 4,
+    "target_expression": "Digital Culture #31",
+    "key_word": "Digital KW #31",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 31/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #31",
+    "example_en": "Digital trend #31 transforms online presence.",
+    "example_tr": "Dijital trend #31 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 632,
+    "category": "digital_culture",
+    "deck": 4,
+    "target_expression": "Digital Culture #32",
+    "key_word": "Digital KW #32",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 32/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #32",
+    "example_en": "Digital trend #32 transforms online presence.",
+    "example_tr": "Dijital trend #32 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 633,
+    "category": "digital_culture",
+    "deck": 4,
+    "target_expression": "Digital Culture #33",
+    "key_word": "Digital KW #33",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 33/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #33",
+    "example_en": "Digital trend #33 transforms online presence.",
+    "example_tr": "Dijital trend #33 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 634,
+    "category": "digital_culture",
+    "deck": 4,
+    "target_expression": "Digital Culture #34",
+    "key_word": "Digital KW #34",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 34/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #34",
+    "example_en": "Digital trend #34 transforms online presence.",
+    "example_tr": "Dijital trend #34 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 635,
+    "category": "digital_culture",
+    "deck": 4,
+    "target_expression": "Digital Culture #35",
+    "key_word": "Digital KW #35",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 35/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #35",
+    "example_en": "Digital trend #35 transforms online presence.",
+    "example_tr": "Dijital trend #35 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 636,
+    "category": "digital_culture",
+    "deck": 4,
+    "target_expression": "Digital Culture #36",
+    "key_word": "Digital KW #36",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 36/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #36",
+    "example_en": "Digital trend #36 transforms online presence.",
+    "example_tr": "Dijital trend #36 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 637,
+    "category": "digital_culture",
+    "deck": 4,
+    "target_expression": "Digital Culture #37",
+    "key_word": "Digital KW #37",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 37/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #37",
+    "example_en": "Digital trend #37 transforms online presence.",
+    "example_tr": "Dijital trend #37 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 638,
+    "category": "digital_culture",
+    "deck": 4,
+    "target_expression": "Digital Culture #38",
+    "key_word": "Digital KW #38",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 38/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #38",
+    "example_en": "Digital trend #38 transforms online presence.",
+    "example_tr": "Dijital trend #38 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 639,
+    "category": "digital_culture",
+    "deck": 4,
+    "target_expression": "Digital Culture #39",
+    "key_word": "Digital KW #39",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 39/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #39",
+    "example_en": "Digital trend #39 transforms online presence.",
+    "example_tr": "Dijital trend #39 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 640,
+    "category": "digital_culture",
+    "deck": 4,
+    "target_expression": "Digital Culture #40",
+    "key_word": "Digital KW #40",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 40/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #40",
+    "example_en": "Digital trend #40 transforms online presence.",
+    "example_tr": "Dijital trend #40 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 641,
+    "category": "digital_culture",
+    "deck": 5,
+    "target_expression": "Digital Culture #41",
+    "key_word": "Digital KW #41",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 41/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #41",
+    "example_en": "Digital trend #41 transforms online presence.",
+    "example_tr": "Dijital trend #41 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 642,
+    "category": "digital_culture",
+    "deck": 5,
+    "target_expression": "Digital Culture #42",
+    "key_word": "Digital KW #42",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 42/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #42",
+    "example_en": "Digital trend #42 transforms online presence.",
+    "example_tr": "Dijital trend #42 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 643,
+    "category": "digital_culture",
+    "deck": 5,
+    "target_expression": "Digital Culture #43",
+    "key_word": "Digital KW #43",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 43/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #43",
+    "example_en": "Digital trend #43 transforms online presence.",
+    "example_tr": "Dijital trend #43 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 644,
+    "category": "digital_culture",
+    "deck": 5,
+    "target_expression": "Digital Culture #44",
+    "key_word": "Digital KW #44",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 44/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #44",
+    "example_en": "Digital trend #44 transforms online presence.",
+    "example_tr": "Dijital trend #44 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 645,
+    "category": "digital_culture",
+    "deck": 5,
+    "target_expression": "Digital Culture #45",
+    "key_word": "Digital KW #45",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 45/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #45",
+    "example_en": "Digital trend #45 transforms online presence.",
+    "example_tr": "Dijital trend #45 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 646,
+    "category": "digital_culture",
+    "deck": 5,
+    "target_expression": "Digital Culture #46",
+    "key_word": "Digital KW #46",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 46/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #46",
+    "example_en": "Digital trend #46 transforms online presence.",
+    "example_tr": "Dijital trend #46 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 647,
+    "category": "digital_culture",
+    "deck": 5,
+    "target_expression": "Digital Culture #47",
+    "key_word": "Digital KW #47",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 47/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #47",
+    "example_en": "Digital trend #47 transforms online presence.",
+    "example_tr": "Dijital trend #47 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 648,
+    "category": "digital_culture",
+    "deck": 5,
+    "target_expression": "Digital Culture #48",
+    "key_word": "Digital KW #48",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 48/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #48",
+    "example_en": "Digital trend #48 transforms online presence.",
+    "example_tr": "Dijital trend #48 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 649,
+    "category": "digital_culture",
+    "deck": 5,
+    "target_expression": "Digital Culture #49",
+    "key_word": "Digital KW #49",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 49/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #49",
+    "example_en": "Digital trend #49 transforms online presence.",
+    "example_tr": "Dijital trend #49 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 650,
+    "category": "digital_culture",
+    "deck": 5,
+    "target_expression": "Digital Culture #50",
+    "key_word": "Digital KW #50",
+    "type": "chunk",
+    "pronunciation": "/ˈdɪdʒ.ɪ.təl ˈkʌl.tʃər 50/",
+    "turkish_meaning": "Dijital Kültür Kalıbı #50",
+    "example_en": "Digital trend #50 transforms online presence.",
+    "example_tr": "Dijital trend #50 çevrim içi görünürlüğü dönüştürür."
+  },
+  {
+    "id": 651,
     "category": "advanced_analysis",
     "deck": 1,
     "target_expression": "Advanced Analysis #1",
@@ -5495,7 +7927,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #1 analiz altyapısına güvenir."
   },
   {
-    "id": 452,
+    "id": 652,
     "category": "advanced_analysis",
     "deck": 1,
     "target_expression": "Advanced Analysis #2",
@@ -5507,7 +7939,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #2 analiz altyapısına güvenir."
   },
   {
-    "id": 453,
+    "id": 653,
     "category": "advanced_analysis",
     "deck": 1,
     "target_expression": "Advanced Analysis #3",
@@ -5519,7 +7951,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #3 analiz altyapısına güvenir."
   },
   {
-    "id": 454,
+    "id": 654,
     "category": "advanced_analysis",
     "deck": 1,
     "target_expression": "Advanced Analysis #4",
@@ -5531,7 +7963,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #4 analiz altyapısına güvenir."
   },
   {
-    "id": 455,
+    "id": 655,
     "category": "advanced_analysis",
     "deck": 1,
     "target_expression": "Advanced Analysis #5",
@@ -5543,7 +7975,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #5 analiz altyapısına güvenir."
   },
   {
-    "id": 456,
+    "id": 656,
     "category": "advanced_analysis",
     "deck": 1,
     "target_expression": "Advanced Analysis #6",
@@ -5555,7 +7987,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #6 analiz altyapısına güvenir."
   },
   {
-    "id": 457,
+    "id": 657,
     "category": "advanced_analysis",
     "deck": 1,
     "target_expression": "Advanced Analysis #7",
@@ -5567,7 +7999,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #7 analiz altyapısına güvenir."
   },
   {
-    "id": 458,
+    "id": 658,
     "category": "advanced_analysis",
     "deck": 1,
     "target_expression": "Advanced Analysis #8",
@@ -5579,7 +8011,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #8 analiz altyapısına güvenir."
   },
   {
-    "id": 459,
+    "id": 659,
     "category": "advanced_analysis",
     "deck": 1,
     "target_expression": "Advanced Analysis #9",
@@ -5591,7 +8023,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #9 analiz altyapısına güvenir."
   },
   {
-    "id": 460,
+    "id": 660,
     "category": "advanced_analysis",
     "deck": 1,
     "target_expression": "Advanced Analysis #10",
@@ -5603,7 +8035,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #10 analiz altyapısına güvenir."
   },
   {
-    "id": 461,
+    "id": 661,
     "category": "advanced_analysis",
     "deck": 2,
     "target_expression": "Advanced Analysis #11",
@@ -5615,7 +8047,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #11 analiz altyapısına güvenir."
   },
   {
-    "id": 462,
+    "id": 662,
     "category": "advanced_analysis",
     "deck": 2,
     "target_expression": "Advanced Analysis #12",
@@ -5627,7 +8059,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #12 analiz altyapısına güvenir."
   },
   {
-    "id": 463,
+    "id": 663,
     "category": "advanced_analysis",
     "deck": 2,
     "target_expression": "Advanced Analysis #13",
@@ -5639,7 +8071,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #13 analiz altyapısına güvenir."
   },
   {
-    "id": 464,
+    "id": 664,
     "category": "advanced_analysis",
     "deck": 2,
     "target_expression": "Advanced Analysis #14",
@@ -5651,7 +8083,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #14 analiz altyapısına güvenir."
   },
   {
-    "id": 465,
+    "id": 665,
     "category": "advanced_analysis",
     "deck": 2,
     "target_expression": "Advanced Analysis #15",
@@ -5663,7 +8095,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #15 analiz altyapısına güvenir."
   },
   {
-    "id": 466,
+    "id": 666,
     "category": "advanced_analysis",
     "deck": 2,
     "target_expression": "Advanced Analysis #16",
@@ -5675,7 +8107,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #16 analiz altyapısına güvenir."
   },
   {
-    "id": 467,
+    "id": 667,
     "category": "advanced_analysis",
     "deck": 2,
     "target_expression": "Advanced Analysis #17",
@@ -5687,7 +8119,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #17 analiz altyapısına güvenir."
   },
   {
-    "id": 468,
+    "id": 668,
     "category": "advanced_analysis",
     "deck": 2,
     "target_expression": "Advanced Analysis #18",
@@ -5699,7 +8131,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #18 analiz altyapısına güvenir."
   },
   {
-    "id": 469,
+    "id": 669,
     "category": "advanced_analysis",
     "deck": 2,
     "target_expression": "Advanced Analysis #19",
@@ -5711,7 +8143,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #19 analiz altyapısına güvenir."
   },
   {
-    "id": 470,
+    "id": 670,
     "category": "advanced_analysis",
     "deck": 2,
     "target_expression": "Advanced Analysis #20",
@@ -5723,7 +8155,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #20 analiz altyapısına güvenir."
   },
   {
-    "id": 471,
+    "id": 671,
     "category": "advanced_analysis",
     "deck": 3,
     "target_expression": "Advanced Analysis #21",
@@ -5735,7 +8167,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #21 analiz altyapısına güvenir."
   },
   {
-    "id": 472,
+    "id": 672,
     "category": "advanced_analysis",
     "deck": 3,
     "target_expression": "Advanced Analysis #22",
@@ -5747,7 +8179,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #22 analiz altyapısına güvenir."
   },
   {
-    "id": 473,
+    "id": 673,
     "category": "advanced_analysis",
     "deck": 3,
     "target_expression": "Advanced Analysis #23",
@@ -5759,7 +8191,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #23 analiz altyapısına güvenir."
   },
   {
-    "id": 474,
+    "id": 674,
     "category": "advanced_analysis",
     "deck": 3,
     "target_expression": "Advanced Analysis #24",
@@ -5771,7 +8203,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #24 analiz altyapısına güvenir."
   },
   {
-    "id": 475,
+    "id": 675,
     "category": "advanced_analysis",
     "deck": 3,
     "target_expression": "Advanced Analysis #25",
@@ -5783,7 +8215,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #25 analiz altyapısına güvenir."
   },
   {
-    "id": 476,
+    "id": 676,
     "category": "advanced_analysis",
     "deck": 3,
     "target_expression": "Advanced Analysis #26",
@@ -5795,7 +8227,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #26 analiz altyapısına güvenir."
   },
   {
-    "id": 477,
+    "id": 677,
     "category": "advanced_analysis",
     "deck": 3,
     "target_expression": "Advanced Analysis #27",
@@ -5807,7 +8239,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #27 analiz altyapısına güvenir."
   },
   {
-    "id": 478,
+    "id": 678,
     "category": "advanced_analysis",
     "deck": 3,
     "target_expression": "Advanced Analysis #28",
@@ -5819,7 +8251,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #28 analiz altyapısına güvenir."
   },
   {
-    "id": 479,
+    "id": 679,
     "category": "advanced_analysis",
     "deck": 3,
     "target_expression": "Advanced Analysis #29",
@@ -5831,7 +8263,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #29 analiz altyapısına güvenir."
   },
   {
-    "id": 480,
+    "id": 680,
     "category": "advanced_analysis",
     "deck": 3,
     "target_expression": "Advanced Analysis #30",
@@ -5843,7 +8275,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #30 analiz altyapısına güvenir."
   },
   {
-    "id": 481,
+    "id": 681,
     "category": "advanced_analysis",
     "deck": 4,
     "target_expression": "Advanced Analysis #31",
@@ -5855,7 +8287,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #31 analiz altyapısına güvenir."
   },
   {
-    "id": 482,
+    "id": 682,
     "category": "advanced_analysis",
     "deck": 4,
     "target_expression": "Advanced Analysis #32",
@@ -5867,7 +8299,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #32 analiz altyapısına güvenir."
   },
   {
-    "id": 483,
+    "id": 683,
     "category": "advanced_analysis",
     "deck": 4,
     "target_expression": "Advanced Analysis #33",
@@ -5879,7 +8311,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #33 analiz altyapısına güvenir."
   },
   {
-    "id": 484,
+    "id": 684,
     "category": "advanced_analysis",
     "deck": 4,
     "target_expression": "Advanced Analysis #34",
@@ -5891,7 +8323,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #34 analiz altyapısına güvenir."
   },
   {
-    "id": 485,
+    "id": 685,
     "category": "advanced_analysis",
     "deck": 4,
     "target_expression": "Advanced Analysis #35",
@@ -5903,7 +8335,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #35 analiz altyapısına güvenir."
   },
   {
-    "id": 486,
+    "id": 686,
     "category": "advanced_analysis",
     "deck": 4,
     "target_expression": "Advanced Analysis #36",
@@ -5915,7 +8347,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #36 analiz altyapısına güvenir."
   },
   {
-    "id": 487,
+    "id": 687,
     "category": "advanced_analysis",
     "deck": 4,
     "target_expression": "Advanced Analysis #37",
@@ -5927,7 +8359,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #37 analiz altyapısına güvenir."
   },
   {
-    "id": 488,
+    "id": 688,
     "category": "advanced_analysis",
     "deck": 4,
     "target_expression": "Advanced Analysis #38",
@@ -5939,7 +8371,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #38 analiz altyapısına güvenir."
   },
   {
-    "id": 489,
+    "id": 689,
     "category": "advanced_analysis",
     "deck": 4,
     "target_expression": "Advanced Analysis #39",
@@ -5951,7 +8383,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #39 analiz altyapısına güvenir."
   },
   {
-    "id": 490,
+    "id": 690,
     "category": "advanced_analysis",
     "deck": 4,
     "target_expression": "Advanced Analysis #40",
@@ -5963,7 +8395,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #40 analiz altyapısına güvenir."
   },
   {
-    "id": 491,
+    "id": 691,
     "category": "advanced_analysis",
     "deck": 5,
     "target_expression": "Advanced Analysis #41",
@@ -5975,7 +8407,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #41 analiz altyapısına güvenir."
   },
   {
-    "id": 492,
+    "id": 692,
     "category": "advanced_analysis",
     "deck": 5,
     "target_expression": "Advanced Analysis #42",
@@ -5987,7 +8419,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #42 analiz altyapısına güvenir."
   },
   {
-    "id": 493,
+    "id": 693,
     "category": "advanced_analysis",
     "deck": 5,
     "target_expression": "Advanced Analysis #43",
@@ -5999,7 +8431,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #43 analiz altyapısına güvenir."
   },
   {
-    "id": 494,
+    "id": 694,
     "category": "advanced_analysis",
     "deck": 5,
     "target_expression": "Advanced Analysis #44",
@@ -6011,7 +8443,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #44 analiz altyapısına güvenir."
   },
   {
-    "id": 495,
+    "id": 695,
     "category": "advanced_analysis",
     "deck": 5,
     "target_expression": "Advanced Analysis #45",
@@ -6023,7 +8455,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #45 analiz altyapısına güvenir."
   },
   {
-    "id": 496,
+    "id": 696,
     "category": "advanced_analysis",
     "deck": 5,
     "target_expression": "Advanced Analysis #46",
@@ -6035,7 +8467,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #46 analiz altyapısına güvenir."
   },
   {
-    "id": 497,
+    "id": 697,
     "category": "advanced_analysis",
     "deck": 5,
     "target_expression": "Advanced Analysis #47",
@@ -6047,7 +8479,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #47 analiz altyapısına güvenir."
   },
   {
-    "id": 498,
+    "id": 698,
     "category": "advanced_analysis",
     "deck": 5,
     "target_expression": "Advanced Analysis #48",
@@ -6059,7 +8491,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #48 analiz altyapısına güvenir."
   },
   {
-    "id": 499,
+    "id": 699,
     "category": "advanced_analysis",
     "deck": 5,
     "target_expression": "Advanced Analysis #49",
@@ -6071,7 +8503,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #49 analiz altyapısına güvenir."
   },
   {
-    "id": 500,
+    "id": 700,
     "category": "advanced_analysis",
     "deck": 5,
     "target_expression": "Advanced Analysis #50",
@@ -6083,7 +8515,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Araştırmacılar #50 analiz altyapısına güvenir."
   },
   {
-    "id": 501,
+    "id": 701,
     "category": "connectors",
     "deck": 1,
     "target_expression": "Connector Chunk #1",
@@ -6095,7 +8527,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #1 kalıbını kullanın."
   },
   {
-    "id": 502,
+    "id": 702,
     "category": "connectors",
     "deck": 1,
     "target_expression": "Connector Chunk #2",
@@ -6107,7 +8539,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #2 kalıbını kullanın."
   },
   {
-    "id": 503,
+    "id": 703,
     "category": "connectors",
     "deck": 1,
     "target_expression": "Connector Chunk #3",
@@ -6119,7 +8551,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #3 kalıbını kullanın."
   },
   {
-    "id": 504,
+    "id": 704,
     "category": "connectors",
     "deck": 1,
     "target_expression": "Connector Chunk #4",
@@ -6131,7 +8563,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #4 kalıbını kullanın."
   },
   {
-    "id": 505,
+    "id": 705,
     "category": "connectors",
     "deck": 1,
     "target_expression": "Connector Chunk #5",
@@ -6143,7 +8575,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #5 kalıbını kullanın."
   },
   {
-    "id": 506,
+    "id": 706,
     "category": "connectors",
     "deck": 1,
     "target_expression": "Connector Chunk #6",
@@ -6155,7 +8587,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #6 kalıbını kullanın."
   },
   {
-    "id": 507,
+    "id": 707,
     "category": "connectors",
     "deck": 1,
     "target_expression": "Connector Chunk #7",
@@ -6167,7 +8599,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #7 kalıbını kullanın."
   },
   {
-    "id": 508,
+    "id": 708,
     "category": "connectors",
     "deck": 1,
     "target_expression": "Connector Chunk #8",
@@ -6179,7 +8611,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #8 kalıbını kullanın."
   },
   {
-    "id": 509,
+    "id": 709,
     "category": "connectors",
     "deck": 1,
     "target_expression": "Connector Chunk #9",
@@ -6191,7 +8623,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #9 kalıbını kullanın."
   },
   {
-    "id": 510,
+    "id": 710,
     "category": "connectors",
     "deck": 1,
     "target_expression": "Connector Chunk #10",
@@ -6203,7 +8635,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #10 kalıbını kullanın."
   },
   {
-    "id": 511,
+    "id": 711,
     "category": "connectors",
     "deck": 2,
     "target_expression": "Connector Chunk #11",
@@ -6215,7 +8647,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #11 kalıbını kullanın."
   },
   {
-    "id": 512,
+    "id": 712,
     "category": "connectors",
     "deck": 2,
     "target_expression": "Connector Chunk #12",
@@ -6227,7 +8659,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #12 kalıbını kullanın."
   },
   {
-    "id": 513,
+    "id": 713,
     "category": "connectors",
     "deck": 2,
     "target_expression": "Connector Chunk #13",
@@ -6239,7 +8671,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #13 kalıbını kullanın."
   },
   {
-    "id": 514,
+    "id": 714,
     "category": "connectors",
     "deck": 2,
     "target_expression": "Connector Chunk #14",
@@ -6251,7 +8683,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #14 kalıbını kullanın."
   },
   {
-    "id": 515,
+    "id": 715,
     "category": "connectors",
     "deck": 2,
     "target_expression": "Connector Chunk #15",
@@ -6263,7 +8695,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #15 kalıbını kullanın."
   },
   {
-    "id": 516,
+    "id": 716,
     "category": "connectors",
     "deck": 2,
     "target_expression": "Connector Chunk #16",
@@ -6275,7 +8707,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #16 kalıbını kullanın."
   },
   {
-    "id": 517,
+    "id": 717,
     "category": "connectors",
     "deck": 2,
     "target_expression": "Connector Chunk #17",
@@ -6287,7 +8719,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #17 kalıbını kullanın."
   },
   {
-    "id": 518,
+    "id": 718,
     "category": "connectors",
     "deck": 2,
     "target_expression": "Connector Chunk #18",
@@ -6299,7 +8731,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #18 kalıbını kullanın."
   },
   {
-    "id": 519,
+    "id": 719,
     "category": "connectors",
     "deck": 2,
     "target_expression": "Connector Chunk #19",
@@ -6311,7 +8743,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #19 kalıbını kullanın."
   },
   {
-    "id": 520,
+    "id": 720,
     "category": "connectors",
     "deck": 2,
     "target_expression": "Connector Chunk #20",
@@ -6323,7 +8755,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #20 kalıbını kullanın."
   },
   {
-    "id": 521,
+    "id": 721,
     "category": "connectors",
     "deck": 3,
     "target_expression": "Connector Chunk #21",
@@ -6335,7 +8767,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #21 kalıbını kullanın."
   },
   {
-    "id": 522,
+    "id": 722,
     "category": "connectors",
     "deck": 3,
     "target_expression": "Connector Chunk #22",
@@ -6347,7 +8779,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #22 kalıbını kullanın."
   },
   {
-    "id": 523,
+    "id": 723,
     "category": "connectors",
     "deck": 3,
     "target_expression": "Connector Chunk #23",
@@ -6359,7 +8791,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #23 kalıbını kullanın."
   },
   {
-    "id": 524,
+    "id": 724,
     "category": "connectors",
     "deck": 3,
     "target_expression": "Connector Chunk #24",
@@ -6371,7 +8803,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #24 kalıbını kullanın."
   },
   {
-    "id": 525,
+    "id": 725,
     "category": "connectors",
     "deck": 3,
     "target_expression": "Connector Chunk #25",
@@ -6383,7 +8815,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #25 kalıbını kullanın."
   },
   {
-    "id": 526,
+    "id": 726,
     "category": "connectors",
     "deck": 3,
     "target_expression": "Connector Chunk #26",
@@ -6395,7 +8827,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #26 kalıbını kullanın."
   },
   {
-    "id": 527,
+    "id": 727,
     "category": "connectors",
     "deck": 3,
     "target_expression": "Connector Chunk #27",
@@ -6407,7 +8839,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #27 kalıbını kullanın."
   },
   {
-    "id": 528,
+    "id": 728,
     "category": "connectors",
     "deck": 3,
     "target_expression": "Connector Chunk #28",
@@ -6419,7 +8851,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #28 kalıbını kullanın."
   },
   {
-    "id": 529,
+    "id": 729,
     "category": "connectors",
     "deck": 3,
     "target_expression": "Connector Chunk #29",
@@ -6431,7 +8863,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #29 kalıbını kullanın."
   },
   {
-    "id": 530,
+    "id": 730,
     "category": "connectors",
     "deck": 3,
     "target_expression": "Connector Chunk #30",
@@ -6443,7 +8875,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #30 kalıbını kullanın."
   },
   {
-    "id": 531,
+    "id": 731,
     "category": "connectors",
     "deck": 4,
     "target_expression": "Connector Chunk #31",
@@ -6455,7 +8887,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #31 kalıbını kullanın."
   },
   {
-    "id": 532,
+    "id": 732,
     "category": "connectors",
     "deck": 4,
     "target_expression": "Connector Chunk #32",
@@ -6467,7 +8899,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #32 kalıbını kullanın."
   },
   {
-    "id": 533,
+    "id": 733,
     "category": "connectors",
     "deck": 4,
     "target_expression": "Connector Chunk #33",
@@ -6479,7 +8911,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #33 kalıbını kullanın."
   },
   {
-    "id": 534,
+    "id": 734,
     "category": "connectors",
     "deck": 4,
     "target_expression": "Connector Chunk #34",
@@ -6491,7 +8923,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #34 kalıbını kullanın."
   },
   {
-    "id": 535,
+    "id": 735,
     "category": "connectors",
     "deck": 4,
     "target_expression": "Connector Chunk #35",
@@ -6503,7 +8935,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #35 kalıbını kullanın."
   },
   {
-    "id": 536,
+    "id": 736,
     "category": "connectors",
     "deck": 4,
     "target_expression": "Connector Chunk #36",
@@ -6515,7 +8947,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #36 kalıbını kullanın."
   },
   {
-    "id": 537,
+    "id": 737,
     "category": "connectors",
     "deck": 4,
     "target_expression": "Connector Chunk #37",
@@ -6527,7 +8959,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #37 kalıbını kullanın."
   },
   {
-    "id": 538,
+    "id": 738,
     "category": "connectors",
     "deck": 4,
     "target_expression": "Connector Chunk #38",
@@ -6539,7 +8971,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #38 kalıbını kullanın."
   },
   {
-    "id": 539,
+    "id": 739,
     "category": "connectors",
     "deck": 4,
     "target_expression": "Connector Chunk #39",
@@ -6551,7 +8983,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #39 kalıbını kullanın."
   },
   {
-    "id": 540,
+    "id": 740,
     "category": "connectors",
     "deck": 4,
     "target_expression": "Connector Chunk #40",
@@ -6563,7 +8995,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #40 kalıbını kullanın."
   },
   {
-    "id": 541,
+    "id": 741,
     "category": "connectors",
     "deck": 5,
     "target_expression": "Connector Chunk #41",
@@ -6575,7 +9007,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #41 kalıbını kullanın."
   },
   {
-    "id": 542,
+    "id": 742,
     "category": "connectors",
     "deck": 5,
     "target_expression": "Connector Chunk #42",
@@ -6587,7 +9019,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #42 kalıbını kullanın."
   },
   {
-    "id": 543,
+    "id": 743,
     "category": "connectors",
     "deck": 5,
     "target_expression": "Connector Chunk #43",
@@ -6599,7 +9031,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #43 kalıbını kullanın."
   },
   {
-    "id": 544,
+    "id": 744,
     "category": "connectors",
     "deck": 5,
     "target_expression": "Connector Chunk #44",
@@ -6611,7 +9043,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #44 kalıbını kullanın."
   },
   {
-    "id": 545,
+    "id": 745,
     "category": "connectors",
     "deck": 5,
     "target_expression": "Connector Chunk #45",
@@ -6623,7 +9055,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #45 kalıbını kullanın."
   },
   {
-    "id": 546,
+    "id": 746,
     "category": "connectors",
     "deck": 5,
     "target_expression": "Connector Chunk #46",
@@ -6635,7 +9067,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #46 kalıbını kullanın."
   },
   {
-    "id": 547,
+    "id": 747,
     "category": "connectors",
     "deck": 5,
     "target_expression": "Connector Chunk #47",
@@ -6647,7 +9079,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #47 kalıbını kullanın."
   },
   {
-    "id": 548,
+    "id": 748,
     "category": "connectors",
     "deck": 5,
     "target_expression": "Connector Chunk #48",
@@ -6659,7 +9091,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #48 kalıbını kullanın."
   },
   {
-    "id": 549,
+    "id": 749,
     "category": "connectors",
     "deck": 5,
     "target_expression": "Connector Chunk #49",
@@ -6671,7 +9103,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #49 kalıbını kullanın."
   },
   {
-    "id": 550,
+    "id": 750,
     "category": "connectors",
     "deck": 5,
     "target_expression": "Connector Chunk #50",
@@ -6683,7 +9115,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #50 kalıbını kullanın."
   },
   {
-    "id": 551,
+    "id": 751,
     "category": "connectors",
     "deck": 6,
     "target_expression": "Connector Chunk #51",
@@ -6695,7 +9127,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #51 kalıbını kullanın."
   },
   {
-    "id": 552,
+    "id": 752,
     "category": "connectors",
     "deck": 6,
     "target_expression": "Connector Chunk #52",
@@ -6707,7 +9139,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #52 kalıbını kullanın."
   },
   {
-    "id": 553,
+    "id": 753,
     "category": "connectors",
     "deck": 6,
     "target_expression": "Connector Chunk #53",
@@ -6719,7 +9151,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #53 kalıbını kullanın."
   },
   {
-    "id": 554,
+    "id": 754,
     "category": "connectors",
     "deck": 6,
     "target_expression": "Connector Chunk #54",
@@ -6731,7 +9163,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #54 kalıbını kullanın."
   },
   {
-    "id": 555,
+    "id": 755,
     "category": "connectors",
     "deck": 6,
     "target_expression": "Connector Chunk #55",
@@ -6743,7 +9175,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #55 kalıbını kullanın."
   },
   {
-    "id": 556,
+    "id": 756,
     "category": "connectors",
     "deck": 6,
     "target_expression": "Connector Chunk #56",
@@ -6755,7 +9187,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #56 kalıbını kullanın."
   },
   {
-    "id": 557,
+    "id": 757,
     "category": "connectors",
     "deck": 6,
     "target_expression": "Connector Chunk #57",
@@ -6767,7 +9199,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #57 kalıbını kullanın."
   },
   {
-    "id": 558,
+    "id": 758,
     "category": "connectors",
     "deck": 6,
     "target_expression": "Connector Chunk #58",
@@ -6779,7 +9211,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #58 kalıbını kullanın."
   },
   {
-    "id": 559,
+    "id": 759,
     "category": "connectors",
     "deck": 6,
     "target_expression": "Connector Chunk #59",
@@ -6791,7 +9223,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #59 kalıbını kullanın."
   },
   {
-    "id": 560,
+    "id": 760,
     "category": "connectors",
     "deck": 6,
     "target_expression": "Connector Chunk #60",
@@ -6803,7 +9235,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #60 kalıbını kullanın."
   },
   {
-    "id": 561,
+    "id": 761,
     "category": "connectors",
     "deck": 7,
     "target_expression": "Connector Chunk #61",
@@ -6815,7 +9247,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #61 kalıbını kullanın."
   },
   {
-    "id": 562,
+    "id": 762,
     "category": "connectors",
     "deck": 7,
     "target_expression": "Connector Chunk #62",
@@ -6827,7 +9259,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #62 kalıbını kullanın."
   },
   {
-    "id": 563,
+    "id": 763,
     "category": "connectors",
     "deck": 7,
     "target_expression": "Connector Chunk #63",
@@ -6839,7 +9271,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #63 kalıbını kullanın."
   },
   {
-    "id": 564,
+    "id": 764,
     "category": "connectors",
     "deck": 7,
     "target_expression": "Connector Chunk #64",
@@ -6851,7 +9283,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #64 kalıbını kullanın."
   },
   {
-    "id": 565,
+    "id": 765,
     "category": "connectors",
     "deck": 7,
     "target_expression": "Connector Chunk #65",
@@ -6863,7 +9295,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #65 kalıbını kullanın."
   },
   {
-    "id": 566,
+    "id": 766,
     "category": "connectors",
     "deck": 7,
     "target_expression": "Connector Chunk #66",
@@ -6875,7 +9307,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #66 kalıbını kullanın."
   },
   {
-    "id": 567,
+    "id": 767,
     "category": "connectors",
     "deck": 7,
     "target_expression": "Connector Chunk #67",
@@ -6887,7 +9319,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #67 kalıbını kullanın."
   },
   {
-    "id": 568,
+    "id": 768,
     "category": "connectors",
     "deck": 7,
     "target_expression": "Connector Chunk #68",
@@ -6899,7 +9331,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #68 kalıbını kullanın."
   },
   {
-    "id": 569,
+    "id": 769,
     "category": "connectors",
     "deck": 7,
     "target_expression": "Connector Chunk #69",
@@ -6911,7 +9343,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #69 kalıbını kullanın."
   },
   {
-    "id": 570,
+    "id": 770,
     "category": "connectors",
     "deck": 7,
     "target_expression": "Connector Chunk #70",
@@ -6923,7 +9355,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #70 kalıbını kullanın."
   },
   {
-    "id": 571,
+    "id": 771,
     "category": "connectors",
     "deck": 8,
     "target_expression": "Connector Chunk #71",
@@ -6935,7 +9367,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #71 kalıbını kullanın."
   },
   {
-    "id": 572,
+    "id": 772,
     "category": "connectors",
     "deck": 8,
     "target_expression": "Connector Chunk #72",
@@ -6947,7 +9379,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #72 kalıbını kullanın."
   },
   {
-    "id": 573,
+    "id": 773,
     "category": "connectors",
     "deck": 8,
     "target_expression": "Connector Chunk #73",
@@ -6959,7 +9391,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #73 kalıbını kullanın."
   },
   {
-    "id": 574,
+    "id": 774,
     "category": "connectors",
     "deck": 8,
     "target_expression": "Connector Chunk #74",
@@ -6971,7 +9403,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #74 kalıbını kullanın."
   },
   {
-    "id": 575,
+    "id": 775,
     "category": "connectors",
     "deck": 8,
     "target_expression": "Connector Chunk #75",
@@ -6983,7 +9415,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #75 kalıbını kullanın."
   },
   {
-    "id": 576,
+    "id": 776,
     "category": "connectors",
     "deck": 8,
     "target_expression": "Connector Chunk #76",
@@ -6995,7 +9427,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #76 kalıbını kullanın."
   },
   {
-    "id": 577,
+    "id": 777,
     "category": "connectors",
     "deck": 8,
     "target_expression": "Connector Chunk #77",
@@ -7007,7 +9439,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #77 kalıbını kullanın."
   },
   {
-    "id": 578,
+    "id": 778,
     "category": "connectors",
     "deck": 8,
     "target_expression": "Connector Chunk #78",
@@ -7019,7 +9451,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #78 kalıbını kullanın."
   },
   {
-    "id": 579,
+    "id": 779,
     "category": "connectors",
     "deck": 8,
     "target_expression": "Connector Chunk #79",
@@ -7031,7 +9463,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #79 kalıbını kullanın."
   },
   {
-    "id": 580,
+    "id": 780,
     "category": "connectors",
     "deck": 8,
     "target_expression": "Connector Chunk #80",
@@ -7043,7 +9475,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #80 kalıbını kullanın."
   },
   {
-    "id": 581,
+    "id": 781,
     "category": "connectors",
     "deck": 9,
     "target_expression": "Connector Chunk #81",
@@ -7055,7 +9487,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #81 kalıbını kullanın."
   },
   {
-    "id": 582,
+    "id": 782,
     "category": "connectors",
     "deck": 9,
     "target_expression": "Connector Chunk #82",
@@ -7067,7 +9499,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #82 kalıbını kullanın."
   },
   {
-    "id": 583,
+    "id": 783,
     "category": "connectors",
     "deck": 9,
     "target_expression": "Connector Chunk #83",
@@ -7079,7 +9511,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #83 kalıbını kullanın."
   },
   {
-    "id": 584,
+    "id": 784,
     "category": "connectors",
     "deck": 9,
     "target_expression": "Connector Chunk #84",
@@ -7091,7 +9523,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #84 kalıbını kullanın."
   },
   {
-    "id": 585,
+    "id": 785,
     "category": "connectors",
     "deck": 9,
     "target_expression": "Connector Chunk #85",
@@ -7103,7 +9535,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #85 kalıbını kullanın."
   },
   {
-    "id": 586,
+    "id": 786,
     "category": "connectors",
     "deck": 9,
     "target_expression": "Connector Chunk #86",
@@ -7115,7 +9547,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #86 kalıbını kullanın."
   },
   {
-    "id": 587,
+    "id": 787,
     "category": "connectors",
     "deck": 9,
     "target_expression": "Connector Chunk #87",
@@ -7127,7 +9559,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #87 kalıbını kullanın."
   },
   {
-    "id": 588,
+    "id": 788,
     "category": "connectors",
     "deck": 9,
     "target_expression": "Connector Chunk #88",
@@ -7139,7 +9571,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #88 kalıbını kullanın."
   },
   {
-    "id": 589,
+    "id": 789,
     "category": "connectors",
     "deck": 9,
     "target_expression": "Connector Chunk #89",
@@ -7151,7 +9583,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #89 kalıbını kullanın."
   },
   {
-    "id": 590,
+    "id": 790,
     "category": "connectors",
     "deck": 9,
     "target_expression": "Connector Chunk #90",
@@ -7163,7 +9595,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #90 kalıbını kullanın."
   },
   {
-    "id": 591,
+    "id": 791,
     "category": "connectors",
     "deck": 10,
     "target_expression": "Connector Chunk #91",
@@ -7175,7 +9607,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #91 kalıbını kullanın."
   },
   {
-    "id": 592,
+    "id": 792,
     "category": "connectors",
     "deck": 10,
     "target_expression": "Connector Chunk #92",
@@ -7187,7 +9619,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #92 kalıbını kullanın."
   },
   {
-    "id": 593,
+    "id": 793,
     "category": "connectors",
     "deck": 10,
     "target_expression": "Connector Chunk #93",
@@ -7199,7 +9631,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #93 kalıbını kullanın."
   },
   {
-    "id": 594,
+    "id": 794,
     "category": "connectors",
     "deck": 10,
     "target_expression": "Connector Chunk #94",
@@ -7211,7 +9643,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #94 kalıbını kullanın."
   },
   {
-    "id": 595,
+    "id": 795,
     "category": "connectors",
     "deck": 10,
     "target_expression": "Connector Chunk #95",
@@ -7223,7 +9655,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #95 kalıbını kullanın."
   },
   {
-    "id": 596,
+    "id": 796,
     "category": "connectors",
     "deck": 10,
     "target_expression": "Connector Chunk #96",
@@ -7235,7 +9667,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #96 kalıbını kullanın."
   },
   {
-    "id": 597,
+    "id": 797,
     "category": "connectors",
     "deck": 10,
     "target_expression": "Connector Chunk #97",
@@ -7247,7 +9679,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #97 kalıbını kullanın."
   },
   {
-    "id": 598,
+    "id": 798,
     "category": "connectors",
     "deck": 10,
     "target_expression": "Connector Chunk #98",
@@ -7259,7 +9691,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #98 kalıbını kullanın."
   },
   {
-    "id": 599,
+    "id": 799,
     "category": "connectors",
     "deck": 10,
     "target_expression": "Connector Chunk #99",
@@ -7271,7 +9703,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #99 kalıbını kullanın."
   },
   {
-    "id": 600,
+    "id": 800,
     "category": "connectors",
     "deck": 10,
     "target_expression": "Connector Chunk #100",
@@ -7283,7 +9715,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Fikirleri pürüzsüz bağlamak için #100 kalıbını kullanın."
   },
   {
-    "id": 601,
+    "id": 801,
     "category": "travel",
     "deck": 1,
     "target_expression": "Travel Phrase #1",
@@ -7295,7 +9727,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #1 havalimanında faydalıdır."
   },
   {
-    "id": 602,
+    "id": 802,
     "category": "travel",
     "deck": 1,
     "target_expression": "Travel Phrase #2",
@@ -7307,7 +9739,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #2 havalimanında faydalıdır."
   },
   {
-    "id": 603,
+    "id": 803,
     "category": "travel",
     "deck": 1,
     "target_expression": "Travel Phrase #3",
@@ -7319,7 +9751,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #3 havalimanında faydalıdır."
   },
   {
-    "id": 604,
+    "id": 804,
     "category": "travel",
     "deck": 1,
     "target_expression": "Travel Phrase #4",
@@ -7331,7 +9763,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #4 havalimanında faydalıdır."
   },
   {
-    "id": 605,
+    "id": 805,
     "category": "travel",
     "deck": 1,
     "target_expression": "Travel Phrase #5",
@@ -7343,7 +9775,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #5 havalimanında faydalıdır."
   },
   {
-    "id": 606,
+    "id": 806,
     "category": "travel",
     "deck": 1,
     "target_expression": "Travel Phrase #6",
@@ -7355,7 +9787,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #6 havalimanında faydalıdır."
   },
   {
-    "id": 607,
+    "id": 807,
     "category": "travel",
     "deck": 1,
     "target_expression": "Travel Phrase #7",
@@ -7367,7 +9799,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #7 havalimanında faydalıdır."
   },
   {
-    "id": 608,
+    "id": 808,
     "category": "travel",
     "deck": 1,
     "target_expression": "Travel Phrase #8",
@@ -7379,7 +9811,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #8 havalimanında faydalıdır."
   },
   {
-    "id": 609,
+    "id": 809,
     "category": "travel",
     "deck": 1,
     "target_expression": "Travel Phrase #9",
@@ -7391,7 +9823,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #9 havalimanında faydalıdır."
   },
   {
-    "id": 610,
+    "id": 810,
     "category": "travel",
     "deck": 1,
     "target_expression": "Travel Phrase #10",
@@ -7403,7 +9835,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #10 havalimanında faydalıdır."
   },
   {
-    "id": 611,
+    "id": 811,
     "category": "travel",
     "deck": 2,
     "target_expression": "Travel Phrase #11",
@@ -7415,7 +9847,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #11 havalimanında faydalıdır."
   },
   {
-    "id": 612,
+    "id": 812,
     "category": "travel",
     "deck": 2,
     "target_expression": "Travel Phrase #12",
@@ -7427,7 +9859,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #12 havalimanında faydalıdır."
   },
   {
-    "id": 613,
+    "id": 813,
     "category": "travel",
     "deck": 2,
     "target_expression": "Travel Phrase #13",
@@ -7439,7 +9871,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #13 havalimanında faydalıdır."
   },
   {
-    "id": 614,
+    "id": 814,
     "category": "travel",
     "deck": 2,
     "target_expression": "Travel Phrase #14",
@@ -7451,7 +9883,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #14 havalimanında faydalıdır."
   },
   {
-    "id": 615,
+    "id": 815,
     "category": "travel",
     "deck": 2,
     "target_expression": "Travel Phrase #15",
@@ -7463,7 +9895,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #15 havalimanında faydalıdır."
   },
   {
-    "id": 616,
+    "id": 816,
     "category": "travel",
     "deck": 2,
     "target_expression": "Travel Phrase #16",
@@ -7475,7 +9907,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #16 havalimanında faydalıdır."
   },
   {
-    "id": 617,
+    "id": 817,
     "category": "travel",
     "deck": 2,
     "target_expression": "Travel Phrase #17",
@@ -7487,7 +9919,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #17 havalimanında faydalıdır."
   },
   {
-    "id": 618,
+    "id": 818,
     "category": "travel",
     "deck": 2,
     "target_expression": "Travel Phrase #18",
@@ -7499,7 +9931,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #18 havalimanında faydalıdır."
   },
   {
-    "id": 619,
+    "id": 819,
     "category": "travel",
     "deck": 2,
     "target_expression": "Travel Phrase #19",
@@ -7511,7 +9943,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #19 havalimanında faydalıdır."
   },
   {
-    "id": 620,
+    "id": 820,
     "category": "travel",
     "deck": 2,
     "target_expression": "Travel Phrase #20",
@@ -7523,7 +9955,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #20 havalimanında faydalıdır."
   },
   {
-    "id": 621,
+    "id": 821,
     "category": "travel",
     "deck": 3,
     "target_expression": "Travel Phrase #21",
@@ -7535,7 +9967,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #21 havalimanında faydalıdır."
   },
   {
-    "id": 622,
+    "id": 822,
     "category": "travel",
     "deck": 3,
     "target_expression": "Travel Phrase #22",
@@ -7547,7 +9979,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #22 havalimanında faydalıdır."
   },
   {
-    "id": 623,
+    "id": 823,
     "category": "travel",
     "deck": 3,
     "target_expression": "Travel Phrase #23",
@@ -7559,7 +9991,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #23 havalimanında faydalıdır."
   },
   {
-    "id": 624,
+    "id": 824,
     "category": "travel",
     "deck": 3,
     "target_expression": "Travel Phrase #24",
@@ -7571,7 +10003,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #24 havalimanında faydalıdır."
   },
   {
-    "id": 625,
+    "id": 825,
     "category": "travel",
     "deck": 3,
     "target_expression": "Travel Phrase #25",
@@ -7583,7 +10015,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #25 havalimanında faydalıdır."
   },
   {
-    "id": 626,
+    "id": 826,
     "category": "travel",
     "deck": 3,
     "target_expression": "Travel Phrase #26",
@@ -7595,7 +10027,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #26 havalimanında faydalıdır."
   },
   {
-    "id": 627,
+    "id": 827,
     "category": "travel",
     "deck": 3,
     "target_expression": "Travel Phrase #27",
@@ -7607,7 +10039,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #27 havalimanında faydalıdır."
   },
   {
-    "id": 628,
+    "id": 828,
     "category": "travel",
     "deck": 3,
     "target_expression": "Travel Phrase #28",
@@ -7619,7 +10051,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #28 havalimanında faydalıdır."
   },
   {
-    "id": 629,
+    "id": 829,
     "category": "travel",
     "deck": 3,
     "target_expression": "Travel Phrase #29",
@@ -7631,7 +10063,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #29 havalimanında faydalıdır."
   },
   {
-    "id": 630,
+    "id": 830,
     "category": "travel",
     "deck": 3,
     "target_expression": "Travel Phrase #30",
@@ -7643,7 +10075,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #30 havalimanında faydalıdır."
   },
   {
-    "id": 631,
+    "id": 831,
     "category": "travel",
     "deck": 4,
     "target_expression": "Travel Phrase #31",
@@ -7655,7 +10087,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #31 havalimanında faydalıdır."
   },
   {
-    "id": 632,
+    "id": 832,
     "category": "travel",
     "deck": 4,
     "target_expression": "Travel Phrase #32",
@@ -7667,7 +10099,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #32 havalimanında faydalıdır."
   },
   {
-    "id": 633,
+    "id": 833,
     "category": "travel",
     "deck": 4,
     "target_expression": "Travel Phrase #33",
@@ -7679,7 +10111,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #33 havalimanında faydalıdır."
   },
   {
-    "id": 634,
+    "id": 834,
     "category": "travel",
     "deck": 4,
     "target_expression": "Travel Phrase #34",
@@ -7691,7 +10123,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #34 havalimanında faydalıdır."
   },
   {
-    "id": 635,
+    "id": 835,
     "category": "travel",
     "deck": 4,
     "target_expression": "Travel Phrase #35",
@@ -7703,7 +10135,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #35 havalimanında faydalıdır."
   },
   {
-    "id": 636,
+    "id": 836,
     "category": "travel",
     "deck": 4,
     "target_expression": "Travel Phrase #36",
@@ -7715,7 +10147,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #36 havalimanında faydalıdır."
   },
   {
-    "id": 637,
+    "id": 837,
     "category": "travel",
     "deck": 4,
     "target_expression": "Travel Phrase #37",
@@ -7727,7 +10159,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #37 havalimanında faydalıdır."
   },
   {
-    "id": 638,
+    "id": 838,
     "category": "travel",
     "deck": 4,
     "target_expression": "Travel Phrase #38",
@@ -7739,7 +10171,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #38 havalimanında faydalıdır."
   },
   {
-    "id": 639,
+    "id": 839,
     "category": "travel",
     "deck": 4,
     "target_expression": "Travel Phrase #39",
@@ -7751,7 +10183,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #39 havalimanında faydalıdır."
   },
   {
-    "id": 640,
+    "id": 840,
     "category": "travel",
     "deck": 4,
     "target_expression": "Travel Phrase #40",
@@ -7763,7 +10195,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #40 havalimanında faydalıdır."
   },
   {
-    "id": 641,
+    "id": 841,
     "category": "travel",
     "deck": 5,
     "target_expression": "Travel Phrase #41",
@@ -7775,7 +10207,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #41 havalimanında faydalıdır."
   },
   {
-    "id": 642,
+    "id": 842,
     "category": "travel",
     "deck": 5,
     "target_expression": "Travel Phrase #42",
@@ -7787,7 +10219,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #42 havalimanında faydalıdır."
   },
   {
-    "id": 643,
+    "id": 843,
     "category": "travel",
     "deck": 5,
     "target_expression": "Travel Phrase #43",
@@ -7799,7 +10231,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #43 havalimanında faydalıdır."
   },
   {
-    "id": 644,
+    "id": 844,
     "category": "travel",
     "deck": 5,
     "target_expression": "Travel Phrase #44",
@@ -7811,7 +10243,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #44 havalimanında faydalıdır."
   },
   {
-    "id": 645,
+    "id": 845,
     "category": "travel",
     "deck": 5,
     "target_expression": "Travel Phrase #45",
@@ -7823,7 +10255,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #45 havalimanında faydalıdır."
   },
   {
-    "id": 646,
+    "id": 846,
     "category": "travel",
     "deck": 5,
     "target_expression": "Travel Phrase #46",
@@ -7835,7 +10267,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #46 havalimanında faydalıdır."
   },
   {
-    "id": 647,
+    "id": 847,
     "category": "travel",
     "deck": 5,
     "target_expression": "Travel Phrase #47",
@@ -7847,7 +10279,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #47 havalimanında faydalıdır."
   },
   {
-    "id": 648,
+    "id": 848,
     "category": "travel",
     "deck": 5,
     "target_expression": "Travel Phrase #48",
@@ -7859,7 +10291,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #48 havalimanında faydalıdır."
   },
   {
-    "id": 649,
+    "id": 849,
     "category": "travel",
     "deck": 5,
     "target_expression": "Travel Phrase #49",
@@ -7871,7 +10303,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #49 havalimanında faydalıdır."
   },
   {
-    "id": 650,
+    "id": 850,
     "category": "travel",
     "deck": 5,
     "target_expression": "Travel Phrase #50",
@@ -7883,7 +10315,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #50 havalimanında faydalıdır."
   },
   {
-    "id": 651,
+    "id": 851,
     "category": "travel",
     "deck": 6,
     "target_expression": "Travel Phrase #51",
@@ -7895,7 +10327,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #51 havalimanında faydalıdır."
   },
   {
-    "id": 652,
+    "id": 852,
     "category": "travel",
     "deck": 6,
     "target_expression": "Travel Phrase #52",
@@ -7907,7 +10339,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #52 havalimanında faydalıdır."
   },
   {
-    "id": 653,
+    "id": 853,
     "category": "travel",
     "deck": 6,
     "target_expression": "Travel Phrase #53",
@@ -7919,7 +10351,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #53 havalimanında faydalıdır."
   },
   {
-    "id": 654,
+    "id": 854,
     "category": "travel",
     "deck": 6,
     "target_expression": "Travel Phrase #54",
@@ -7931,7 +10363,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #54 havalimanında faydalıdır."
   },
   {
-    "id": 655,
+    "id": 855,
     "category": "travel",
     "deck": 6,
     "target_expression": "Travel Phrase #55",
@@ -7943,7 +10375,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #55 havalimanında faydalıdır."
   },
   {
-    "id": 656,
+    "id": 856,
     "category": "travel",
     "deck": 6,
     "target_expression": "Travel Phrase #56",
@@ -7955,7 +10387,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #56 havalimanında faydalıdır."
   },
   {
-    "id": 657,
+    "id": 857,
     "category": "travel",
     "deck": 6,
     "target_expression": "Travel Phrase #57",
@@ -7967,7 +10399,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #57 havalimanında faydalıdır."
   },
   {
-    "id": 658,
+    "id": 858,
     "category": "travel",
     "deck": 6,
     "target_expression": "Travel Phrase #58",
@@ -7979,7 +10411,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #58 havalimanında faydalıdır."
   },
   {
-    "id": 659,
+    "id": 859,
     "category": "travel",
     "deck": 6,
     "target_expression": "Travel Phrase #59",
@@ -7991,7 +10423,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #59 havalimanında faydalıdır."
   },
   {
-    "id": 660,
+    "id": 860,
     "category": "travel",
     "deck": 6,
     "target_expression": "Travel Phrase #60",
@@ -8003,7 +10435,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #60 havalimanında faydalıdır."
   },
   {
-    "id": 661,
+    "id": 861,
     "category": "travel",
     "deck": 7,
     "target_expression": "Travel Phrase #61",
@@ -8015,7 +10447,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #61 havalimanında faydalıdır."
   },
   {
-    "id": 662,
+    "id": 862,
     "category": "travel",
     "deck": 7,
     "target_expression": "Travel Phrase #62",
@@ -8027,7 +10459,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #62 havalimanında faydalıdır."
   },
   {
-    "id": 663,
+    "id": 863,
     "category": "travel",
     "deck": 7,
     "target_expression": "Travel Phrase #63",
@@ -8039,7 +10471,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #63 havalimanında faydalıdır."
   },
   {
-    "id": 664,
+    "id": 864,
     "category": "travel",
     "deck": 7,
     "target_expression": "Travel Phrase #64",
@@ -8051,7 +10483,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #64 havalimanında faydalıdır."
   },
   {
-    "id": 665,
+    "id": 865,
     "category": "travel",
     "deck": 7,
     "target_expression": "Travel Phrase #65",
@@ -8063,7 +10495,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #65 havalimanında faydalıdır."
   },
   {
-    "id": 666,
+    "id": 866,
     "category": "travel",
     "deck": 7,
     "target_expression": "Travel Phrase #66",
@@ -8075,7 +10507,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #66 havalimanında faydalıdır."
   },
   {
-    "id": 667,
+    "id": 867,
     "category": "travel",
     "deck": 7,
     "target_expression": "Travel Phrase #67",
@@ -8087,7 +10519,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #67 havalimanında faydalıdır."
   },
   {
-    "id": 668,
+    "id": 868,
     "category": "travel",
     "deck": 7,
     "target_expression": "Travel Phrase #68",
@@ -8099,7 +10531,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #68 havalimanında faydalıdır."
   },
   {
-    "id": 669,
+    "id": 869,
     "category": "travel",
     "deck": 7,
     "target_expression": "Travel Phrase #69",
@@ -8111,7 +10543,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #69 havalimanında faydalıdır."
   },
   {
-    "id": 670,
+    "id": 870,
     "category": "travel",
     "deck": 7,
     "target_expression": "Travel Phrase #70",
@@ -8123,7 +10555,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Seyahat kalıbı #70 havalimanında faydalıdır."
   },
   {
-    "id": 671,
+    "id": 871,
     "category": "idioms",
     "deck": 1,
     "target_expression": "Popular Idiom #1",
@@ -8135,7 +10567,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #1 deyimini kullanır."
   },
   {
-    "id": 672,
+    "id": 872,
     "category": "idioms",
     "deck": 1,
     "target_expression": "Popular Idiom #2",
@@ -8147,7 +10579,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #2 deyimini kullanır."
   },
   {
-    "id": 673,
+    "id": 873,
     "category": "idioms",
     "deck": 1,
     "target_expression": "Popular Idiom #3",
@@ -8159,7 +10591,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #3 deyimini kullanır."
   },
   {
-    "id": 674,
+    "id": 874,
     "category": "idioms",
     "deck": 1,
     "target_expression": "Popular Idiom #4",
@@ -8171,7 +10603,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #4 deyimini kullanır."
   },
   {
-    "id": 675,
+    "id": 875,
     "category": "idioms",
     "deck": 1,
     "target_expression": "Popular Idiom #5",
@@ -8183,7 +10615,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #5 deyimini kullanır."
   },
   {
-    "id": 676,
+    "id": 876,
     "category": "idioms",
     "deck": 1,
     "target_expression": "Popular Idiom #6",
@@ -8195,7 +10627,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #6 deyimini kullanır."
   },
   {
-    "id": 677,
+    "id": 877,
     "category": "idioms",
     "deck": 1,
     "target_expression": "Popular Idiom #7",
@@ -8207,7 +10639,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #7 deyimini kullanır."
   },
   {
-    "id": 678,
+    "id": 878,
     "category": "idioms",
     "deck": 1,
     "target_expression": "Popular Idiom #8",
@@ -8219,7 +10651,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #8 deyimini kullanır."
   },
   {
-    "id": 679,
+    "id": 879,
     "category": "idioms",
     "deck": 1,
     "target_expression": "Popular Idiom #9",
@@ -8231,7 +10663,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #9 deyimini kullanır."
   },
   {
-    "id": 680,
+    "id": 880,
     "category": "idioms",
     "deck": 1,
     "target_expression": "Popular Idiom #10",
@@ -8243,7 +10675,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #10 deyimini kullanır."
   },
   {
-    "id": 681,
+    "id": 881,
     "category": "idioms",
     "deck": 2,
     "target_expression": "Popular Idiom #11",
@@ -8255,7 +10687,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #11 deyimini kullanır."
   },
   {
-    "id": 682,
+    "id": 882,
     "category": "idioms",
     "deck": 2,
     "target_expression": "Popular Idiom #12",
@@ -8267,7 +10699,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #12 deyimini kullanır."
   },
   {
-    "id": 683,
+    "id": 883,
     "category": "idioms",
     "deck": 2,
     "target_expression": "Popular Idiom #13",
@@ -8279,7 +10711,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #13 deyimini kullanır."
   },
   {
-    "id": 684,
+    "id": 884,
     "category": "idioms",
     "deck": 2,
     "target_expression": "Popular Idiom #14",
@@ -8291,7 +10723,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #14 deyimini kullanır."
   },
   {
-    "id": 685,
+    "id": 885,
     "category": "idioms",
     "deck": 2,
     "target_expression": "Popular Idiom #15",
@@ -8303,7 +10735,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #15 deyimini kullanır."
   },
   {
-    "id": 686,
+    "id": 886,
     "category": "idioms",
     "deck": 2,
     "target_expression": "Popular Idiom #16",
@@ -8315,7 +10747,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #16 deyimini kullanır."
   },
   {
-    "id": 687,
+    "id": 887,
     "category": "idioms",
     "deck": 2,
     "target_expression": "Popular Idiom #17",
@@ -8327,7 +10759,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #17 deyimini kullanır."
   },
   {
-    "id": 688,
+    "id": 888,
     "category": "idioms",
     "deck": 2,
     "target_expression": "Popular Idiom #18",
@@ -8339,7 +10771,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #18 deyimini kullanır."
   },
   {
-    "id": 689,
+    "id": 889,
     "category": "idioms",
     "deck": 2,
     "target_expression": "Popular Idiom #19",
@@ -8351,7 +10783,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #19 deyimini kullanır."
   },
   {
-    "id": 690,
+    "id": 890,
     "category": "idioms",
     "deck": 2,
     "target_expression": "Popular Idiom #20",
@@ -8363,7 +10795,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #20 deyimini kullanır."
   },
   {
-    "id": 691,
+    "id": 891,
     "category": "idioms",
     "deck": 3,
     "target_expression": "Popular Idiom #21",
@@ -8375,7 +10807,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #21 deyimini kullanır."
   },
   {
-    "id": 692,
+    "id": 892,
     "category": "idioms",
     "deck": 3,
     "target_expression": "Popular Idiom #22",
@@ -8387,7 +10819,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #22 deyimini kullanır."
   },
   {
-    "id": 693,
+    "id": 893,
     "category": "idioms",
     "deck": 3,
     "target_expression": "Popular Idiom #23",
@@ -8399,7 +10831,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #23 deyimini kullanır."
   },
   {
-    "id": 694,
+    "id": 894,
     "category": "idioms",
     "deck": 3,
     "target_expression": "Popular Idiom #24",
@@ -8411,7 +10843,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #24 deyimini kullanır."
   },
   {
-    "id": 695,
+    "id": 895,
     "category": "idioms",
     "deck": 3,
     "target_expression": "Popular Idiom #25",
@@ -8423,7 +10855,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #25 deyimini kullanır."
   },
   {
-    "id": 696,
+    "id": 896,
     "category": "idioms",
     "deck": 3,
     "target_expression": "Popular Idiom #26",
@@ -8435,7 +10867,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #26 deyimini kullanır."
   },
   {
-    "id": 697,
+    "id": 897,
     "category": "idioms",
     "deck": 3,
     "target_expression": "Popular Idiom #27",
@@ -8447,7 +10879,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #27 deyimini kullanır."
   },
   {
-    "id": 698,
+    "id": 898,
     "category": "idioms",
     "deck": 3,
     "target_expression": "Popular Idiom #28",
@@ -8459,7 +10891,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #28 deyimini kullanır."
   },
   {
-    "id": 699,
+    "id": 899,
     "category": "idioms",
     "deck": 3,
     "target_expression": "Popular Idiom #29",
@@ -8471,7 +10903,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #29 deyimini kullanır."
   },
   {
-    "id": 700,
+    "id": 900,
     "category": "idioms",
     "deck": 3,
     "target_expression": "Popular Idiom #30",
@@ -8483,7 +10915,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #30 deyimini kullanır."
   },
   {
-    "id": 701,
+    "id": 901,
     "category": "idioms",
     "deck": 4,
     "target_expression": "Popular Idiom #31",
@@ -8495,7 +10927,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #31 deyimini kullanır."
   },
   {
-    "id": 702,
+    "id": 902,
     "category": "idioms",
     "deck": 4,
     "target_expression": "Popular Idiom #32",
@@ -8507,7 +10939,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #32 deyimini kullanır."
   },
   {
-    "id": 703,
+    "id": 903,
     "category": "idioms",
     "deck": 4,
     "target_expression": "Popular Idiom #33",
@@ -8519,7 +10951,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #33 deyimini kullanır."
   },
   {
-    "id": 704,
+    "id": 904,
     "category": "idioms",
     "deck": 4,
     "target_expression": "Popular Idiom #34",
@@ -8531,7 +10963,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #34 deyimini kullanır."
   },
   {
-    "id": 705,
+    "id": 905,
     "category": "idioms",
     "deck": 4,
     "target_expression": "Popular Idiom #35",
@@ -8543,7 +10975,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #35 deyimini kullanır."
   },
   {
-    "id": 706,
+    "id": 906,
     "category": "idioms",
     "deck": 4,
     "target_expression": "Popular Idiom #36",
@@ -8555,7 +10987,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #36 deyimini kullanır."
   },
   {
-    "id": 707,
+    "id": 907,
     "category": "idioms",
     "deck": 4,
     "target_expression": "Popular Idiom #37",
@@ -8567,7 +10999,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #37 deyimini kullanır."
   },
   {
-    "id": 708,
+    "id": 908,
     "category": "idioms",
     "deck": 4,
     "target_expression": "Popular Idiom #38",
@@ -8579,7 +11011,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #38 deyimini kullanır."
   },
   {
-    "id": 709,
+    "id": 909,
     "category": "idioms",
     "deck": 4,
     "target_expression": "Popular Idiom #39",
@@ -8591,7 +11023,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #39 deyimini kullanır."
   },
   {
-    "id": 710,
+    "id": 910,
     "category": "idioms",
     "deck": 4,
     "target_expression": "Popular Idiom #40",
@@ -8603,7 +11035,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #40 deyimini kullanır."
   },
   {
-    "id": 711,
+    "id": 911,
     "category": "idioms",
     "deck": 5,
     "target_expression": "Popular Idiom #41",
@@ -8615,7 +11047,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #41 deyimini kullanır."
   },
   {
-    "id": 712,
+    "id": 912,
     "category": "idioms",
     "deck": 5,
     "target_expression": "Popular Idiom #42",
@@ -8627,7 +11059,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #42 deyimini kullanır."
   },
   {
-    "id": 713,
+    "id": 913,
     "category": "idioms",
     "deck": 5,
     "target_expression": "Popular Idiom #43",
@@ -8639,7 +11071,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #43 deyimini kullanır."
   },
   {
-    "id": 714,
+    "id": 914,
     "category": "idioms",
     "deck": 5,
     "target_expression": "Popular Idiom #44",
@@ -8651,7 +11083,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #44 deyimini kullanır."
   },
   {
-    "id": 715,
+    "id": 915,
     "category": "idioms",
     "deck": 5,
     "target_expression": "Popular Idiom #45",
@@ -8663,7 +11095,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #45 deyimini kullanır."
   },
   {
-    "id": 716,
+    "id": 916,
     "category": "idioms",
     "deck": 5,
     "target_expression": "Popular Idiom #46",
@@ -8675,7 +11107,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #46 deyimini kullanır."
   },
   {
-    "id": 717,
+    "id": 917,
     "category": "idioms",
     "deck": 5,
     "target_expression": "Popular Idiom #47",
@@ -8687,7 +11119,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #47 deyimini kullanır."
   },
   {
-    "id": 718,
+    "id": 918,
     "category": "idioms",
     "deck": 5,
     "target_expression": "Popular Idiom #48",
@@ -8699,7 +11131,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #48 deyimini kullanır."
   },
   {
-    "id": 719,
+    "id": 919,
     "category": "idioms",
     "deck": 5,
     "target_expression": "Popular Idiom #49",
@@ -8711,7 +11143,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #49 deyimini kullanır."
   },
   {
-    "id": 720,
+    "id": 920,
     "category": "idioms",
     "deck": 5,
     "target_expression": "Popular Idiom #50",
@@ -8723,7 +11155,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Ana dili İngilizce olanlar sıklıkla #50 deyimini kullanır."
   },
   {
-    "id": 721,
+    "id": 921,
     "category": "analytical",
     "deck": 1,
     "target_expression": "Analytical Pattern #1",
@@ -8735,7 +11167,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #1 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 722,
+    "id": 922,
     "category": "analytical",
     "deck": 1,
     "target_expression": "Analytical Pattern #2",
@@ -8747,7 +11179,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #2 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 723,
+    "id": 923,
     "category": "analytical",
     "deck": 1,
     "target_expression": "Analytical Pattern #3",
@@ -8759,7 +11191,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #3 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 724,
+    "id": 924,
     "category": "analytical",
     "deck": 1,
     "target_expression": "Analytical Pattern #4",
@@ -8771,7 +11203,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #4 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 725,
+    "id": 925,
     "category": "analytical",
     "deck": 1,
     "target_expression": "Analytical Pattern #5",
@@ -8783,7 +11215,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #5 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 726,
+    "id": 926,
     "category": "analytical",
     "deck": 1,
     "target_expression": "Analytical Pattern #6",
@@ -8795,7 +11227,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #6 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 727,
+    "id": 927,
     "category": "analytical",
     "deck": 1,
     "target_expression": "Analytical Pattern #7",
@@ -8807,7 +11239,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #7 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 728,
+    "id": 928,
     "category": "analytical",
     "deck": 1,
     "target_expression": "Analytical Pattern #8",
@@ -8819,7 +11251,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #8 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 729,
+    "id": 929,
     "category": "analytical",
     "deck": 1,
     "target_expression": "Analytical Pattern #9",
@@ -8831,7 +11263,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #9 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 730,
+    "id": 930,
     "category": "analytical",
     "deck": 1,
     "target_expression": "Analytical Pattern #10",
@@ -8843,7 +11275,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #10 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 731,
+    "id": 931,
     "category": "analytical",
     "deck": 2,
     "target_expression": "Analytical Pattern #11",
@@ -8855,7 +11287,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #11 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 732,
+    "id": 932,
     "category": "analytical",
     "deck": 2,
     "target_expression": "Analytical Pattern #12",
@@ -8867,7 +11299,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #12 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 733,
+    "id": 933,
     "category": "analytical",
     "deck": 2,
     "target_expression": "Analytical Pattern #13",
@@ -8879,7 +11311,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #13 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 734,
+    "id": 934,
     "category": "analytical",
     "deck": 2,
     "target_expression": "Analytical Pattern #14",
@@ -8891,7 +11323,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #14 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 735,
+    "id": 935,
     "category": "analytical",
     "deck": 2,
     "target_expression": "Analytical Pattern #15",
@@ -8903,7 +11335,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #15 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 736,
+    "id": 936,
     "category": "analytical",
     "deck": 2,
     "target_expression": "Analytical Pattern #16",
@@ -8915,7 +11347,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #16 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 737,
+    "id": 937,
     "category": "analytical",
     "deck": 2,
     "target_expression": "Analytical Pattern #17",
@@ -8927,7 +11359,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #17 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 738,
+    "id": 938,
     "category": "analytical",
     "deck": 2,
     "target_expression": "Analytical Pattern #18",
@@ -8939,7 +11371,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #18 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 739,
+    "id": 939,
     "category": "analytical",
     "deck": 2,
     "target_expression": "Analytical Pattern #19",
@@ -8951,7 +11383,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #19 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 740,
+    "id": 940,
     "category": "analytical",
     "deck": 2,
     "target_expression": "Analytical Pattern #20",
@@ -8963,7 +11395,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #20 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 741,
+    "id": 941,
     "category": "analytical",
     "deck": 3,
     "target_expression": "Analytical Pattern #21",
@@ -8975,7 +11407,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #21 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 742,
+    "id": 942,
     "category": "analytical",
     "deck": 3,
     "target_expression": "Analytical Pattern #22",
@@ -8987,7 +11419,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #22 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 743,
+    "id": 943,
     "category": "analytical",
     "deck": 3,
     "target_expression": "Analytical Pattern #23",
@@ -8999,7 +11431,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #23 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 744,
+    "id": 944,
     "category": "analytical",
     "deck": 3,
     "target_expression": "Analytical Pattern #24",
@@ -9011,7 +11443,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #24 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 745,
+    "id": 945,
     "category": "analytical",
     "deck": 3,
     "target_expression": "Analytical Pattern #25",
@@ -9023,7 +11455,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #25 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 746,
+    "id": 946,
     "category": "analytical",
     "deck": 3,
     "target_expression": "Analytical Pattern #26",
@@ -9035,7 +11467,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #26 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 747,
+    "id": 947,
     "category": "analytical",
     "deck": 3,
     "target_expression": "Analytical Pattern #27",
@@ -9047,7 +11479,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #27 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 748,
+    "id": 948,
     "category": "analytical",
     "deck": 3,
     "target_expression": "Analytical Pattern #28",
@@ -9059,7 +11491,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #28 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 749,
+    "id": 949,
     "category": "analytical",
     "deck": 3,
     "target_expression": "Analytical Pattern #29",
@@ -9071,7 +11503,7 @@ const FLASHCARD_DATA = [
     "example_tr": "Analitik kalıp #29 akıl yürütmeyi yapılandırır."
   },
   {
-    "id": 750,
+    "id": 950,
     "category": "analytical",
     "deck": 3,
     "target_expression": "Analytical Pattern #30",
@@ -9081,5 +11513,245 @@ const FLASHCARD_DATA = [
     "turkish_meaning": "Temel Analitik Kalıp #30",
     "example_en": "Analytical pattern #30 structures reasoning.",
     "example_tr": "Analitik kalıp #30 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 951,
+    "category": "analytical",
+    "deck": 4,
+    "target_expression": "Analytical Pattern #31",
+    "key_word": "Analytical KW #31",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 31/",
+    "turkish_meaning": "Temel Analitik Kalıp #31",
+    "example_en": "Analytical pattern #31 structures reasoning.",
+    "example_tr": "Analitik kalıp #31 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 952,
+    "category": "analytical",
+    "deck": 4,
+    "target_expression": "Analytical Pattern #32",
+    "key_word": "Analytical KW #32",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 32/",
+    "turkish_meaning": "Temel Analitik Kalıp #32",
+    "example_en": "Analytical pattern #32 structures reasoning.",
+    "example_tr": "Analitik kalıp #32 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 953,
+    "category": "analytical",
+    "deck": 4,
+    "target_expression": "Analytical Pattern #33",
+    "key_word": "Analytical KW #33",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 33/",
+    "turkish_meaning": "Temel Analitik Kalıp #33",
+    "example_en": "Analytical pattern #33 structures reasoning.",
+    "example_tr": "Analitik kalıp #33 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 954,
+    "category": "analytical",
+    "deck": 4,
+    "target_expression": "Analytical Pattern #34",
+    "key_word": "Analytical KW #34",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 34/",
+    "turkish_meaning": "Temel Analitik Kalıp #34",
+    "example_en": "Analytical pattern #34 structures reasoning.",
+    "example_tr": "Analitik kalıp #34 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 955,
+    "category": "analytical",
+    "deck": 4,
+    "target_expression": "Analytical Pattern #35",
+    "key_word": "Analytical KW #35",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 35/",
+    "turkish_meaning": "Temel Analitik Kalıp #35",
+    "example_en": "Analytical pattern #35 structures reasoning.",
+    "example_tr": "Analitik kalıp #35 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 956,
+    "category": "analytical",
+    "deck": 4,
+    "target_expression": "Analytical Pattern #36",
+    "key_word": "Analytical KW #36",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 36/",
+    "turkish_meaning": "Temel Analitik Kalıp #36",
+    "example_en": "Analytical pattern #36 structures reasoning.",
+    "example_tr": "Analitik kalıp #36 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 957,
+    "category": "analytical",
+    "deck": 4,
+    "target_expression": "Analytical Pattern #37",
+    "key_word": "Analytical KW #37",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 37/",
+    "turkish_meaning": "Temel Analitik Kalıp #37",
+    "example_en": "Analytical pattern #37 structures reasoning.",
+    "example_tr": "Analitik kalıp #37 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 958,
+    "category": "analytical",
+    "deck": 4,
+    "target_expression": "Analytical Pattern #38",
+    "key_word": "Analytical KW #38",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 38/",
+    "turkish_meaning": "Temel Analitik Kalıp #38",
+    "example_en": "Analytical pattern #38 structures reasoning.",
+    "example_tr": "Analitik kalıp #38 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 959,
+    "category": "analytical",
+    "deck": 4,
+    "target_expression": "Analytical Pattern #39",
+    "key_word": "Analytical KW #39",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 39/",
+    "turkish_meaning": "Temel Analitik Kalıp #39",
+    "example_en": "Analytical pattern #39 structures reasoning.",
+    "example_tr": "Analitik kalıp #39 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 960,
+    "category": "analytical",
+    "deck": 4,
+    "target_expression": "Analytical Pattern #40",
+    "key_word": "Analytical KW #40",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 40/",
+    "turkish_meaning": "Temel Analitik Kalıp #40",
+    "example_en": "Analytical pattern #40 structures reasoning.",
+    "example_tr": "Analitik kalıp #40 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 961,
+    "category": "analytical",
+    "deck": 5,
+    "target_expression": "Analytical Pattern #41",
+    "key_word": "Analytical KW #41",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 41/",
+    "turkish_meaning": "Temel Analitik Kalıp #41",
+    "example_en": "Analytical pattern #41 structures reasoning.",
+    "example_tr": "Analitik kalıp #41 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 962,
+    "category": "analytical",
+    "deck": 5,
+    "target_expression": "Analytical Pattern #42",
+    "key_word": "Analytical KW #42",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 42/",
+    "turkish_meaning": "Temel Analitik Kalıp #42",
+    "example_en": "Analytical pattern #42 structures reasoning.",
+    "example_tr": "Analitik kalıp #42 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 963,
+    "category": "analytical",
+    "deck": 5,
+    "target_expression": "Analytical Pattern #43",
+    "key_word": "Analytical KW #43",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 43/",
+    "turkish_meaning": "Temel Analitik Kalıp #43",
+    "example_en": "Analytical pattern #43 structures reasoning.",
+    "example_tr": "Analitik kalıp #43 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 964,
+    "category": "analytical",
+    "deck": 5,
+    "target_expression": "Analytical Pattern #44",
+    "key_word": "Analytical KW #44",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 44/",
+    "turkish_meaning": "Temel Analitik Kalıp #44",
+    "example_en": "Analytical pattern #44 structures reasoning.",
+    "example_tr": "Analitik kalıp #44 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 965,
+    "category": "analytical",
+    "deck": 5,
+    "target_expression": "Analytical Pattern #45",
+    "key_word": "Analytical KW #45",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 45/",
+    "turkish_meaning": "Temel Analitik Kalıp #45",
+    "example_en": "Analytical pattern #45 structures reasoning.",
+    "example_tr": "Analitik kalıp #45 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 966,
+    "category": "analytical",
+    "deck": 5,
+    "target_expression": "Analytical Pattern #46",
+    "key_word": "Analytical KW #46",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 46/",
+    "turkish_meaning": "Temel Analitik Kalıp #46",
+    "example_en": "Analytical pattern #46 structures reasoning.",
+    "example_tr": "Analitik kalıp #46 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 967,
+    "category": "analytical",
+    "deck": 5,
+    "target_expression": "Analytical Pattern #47",
+    "key_word": "Analytical KW #47",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 47/",
+    "turkish_meaning": "Temel Analitik Kalıp #47",
+    "example_en": "Analytical pattern #47 structures reasoning.",
+    "example_tr": "Analitik kalıp #47 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 968,
+    "category": "analytical",
+    "deck": 5,
+    "target_expression": "Analytical Pattern #48",
+    "key_word": "Analytical KW #48",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 48/",
+    "turkish_meaning": "Temel Analitik Kalıp #48",
+    "example_en": "Analytical pattern #48 structures reasoning.",
+    "example_tr": "Analitik kalıp #48 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 969,
+    "category": "analytical",
+    "deck": 5,
+    "target_expression": "Analytical Pattern #49",
+    "key_word": "Analytical KW #49",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 49/",
+    "turkish_meaning": "Temel Analitik Kalıp #49",
+    "example_en": "Analytical pattern #49 structures reasoning.",
+    "example_tr": "Analitik kalıp #49 akıl yürütmeyi yapılandırır."
+  },
+  {
+    "id": 970,
+    "category": "analytical",
+    "deck": 5,
+    "target_expression": "Analytical Pattern #50",
+    "key_word": "Analytical KW #50",
+    "type": "chunk",
+    "pronunciation": "/ˌæn.əˈlɪt.ɪ.kəl ˈpæt.ən 50/",
+    "turkish_meaning": "Temel Analitik Kalıp #50",
+    "example_en": "Analytical pattern #50 structures reasoning.",
+    "example_tr": "Analitik kalıp #50 akıl yürütmeyi yapılandırır."
   }
 ];
